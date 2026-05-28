@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS timetable
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_general_ci;
+USE timetable;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(50) NOT NULL,
+    contact_no VARCHAR(12),
+    email VARCHAR(50) UNIQUE,
+    address VARCHAR(100),
+    role VARCHAR(10) DEFAULT 'user'
+);
+

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics | AI Timetable</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; }
+        body { background:#f4f7fb; min-height:100vh; overflow-x:hidden; }
+
+        /* NAVBAR */
+        .navbar{
+            background: linear-gradient(90deg, #4a90e2, #6c5ce7);
+            padding: 15px 30px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:#fff;
+        }
+        .navbar h2{ font-weight:600; font-size:18px; }
+        .nav-links a{
+            margin-left: 12px;
+            padding: 8px 14px;
+            background: rgba(255,255,255,0.15);
+            color:#fff;
+            text-decoration:none;
+            border-radius: 8px;
+            font-size: 14px;
+            transition:0.3s;
+        }
+        .nav-links a:hover{ background:#fff; color:#4a90e2; }
+
+        .container{ max-width:1200px; margin:40px auto; padding:20px; }
+
+        .header{
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-end;
+            flex-wrap:wrap;
+            gap:10px;
+            margin-bottom:18px;
+        }
+        .header h3{ color:#1f2d3d; font-size:22px; }
+        .header p{ color:#6b7785; font-size:14px; }
+
+        .alert{
+            background:#fff;
+            border:1px solid #ffd2d2;
+            color:#b30000;
+            padding:14px 16px;
+            border-radius:14px;
+            margin-bottom:18px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap:18px;
+        }
+
+        .card{
+            background:#fff;
+            border-radius:16px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08);
+            padding:18px;
+            border:1px solid rgba(0,0,0,0.04);
+        }
+
+        .card h4{
+            color:#223;
+            font-size:16px;
+            margin-bottom:12px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            gap:10px;
+        }
+
+        .badge{
+            font-size:12px;
+            padding:6px 10px;
+            border-radius:999px;
+            background:#f2f6ff;
+            border:1px solid #d7e6ff;
+            color:#224b8f;
+            white-space:nowrap;
+        }
+
+        /* ✅ BIGGER CHART AREA (not too much) */
+        .img-wrap{
+            width:100%;
+            overflow:auto;
+            border-radius:12px;
+            border:1px solid #e6e9ef;
+            background:#fbfcff;
+            padding:6px;                 /* reduced padding = more space */
+            min-height: 360px;           /* bigger chart area */
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .img-wrap img{
+            width:100%;
+            max-width: 1100px;           /* makes charts bigger */
+            height:auto;
+            display:block;
+        }
+
+        /* Faculty chart needs a bit more height */
+        .card.span-8 .img-wrap{
+            min-height: 420px;
+        }
+
+        /* layout sizes */
+        .span-8{ grid-column: span 8; }
+        .span-4{ grid-column: span 4; }
+        .span-6{ grid-column: span 6; }
+
+        @media (max-width: 1000px){
+            .span-8,.span-4,.span-6{ grid-column: span 12; }
+            .card.span-8 .img-wrap{ min-height: 360px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <h2>AI Based Timetable Generator</h2>
+    <div class="nav-links">
+        <a href="{% url 'UploadDataset' %}">Upload</a>
+        <a href="{% url 'preprocess_dataset' %}">Preprocess</a>
+        <a href="{% url 'generate_timetable' %}">Generate</a>
+        <a href="{% url 'export_excel' %}">Download as Excel</a>
+        <a href="{% url 'export_pdf' %}">Download as PDF</a>
+        <a href="{% url 'analytics' %}">Analytics</a>
+        <a href="{% url 'index' %}">Logout</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="header">
+        <div>
+            <h3>Analytics Dashboard</h3>
+            <p>Faculty workload, subject distribution, and room utilization based on the cleaned dataset.</p>
+        </div>
+    </div>
+
+    {% if msg %}
+        <div class="alert">{{ msg }}</div>
+    {% endif %}
+
+    <div class="grid">
+        <!-- Faculty workload -->
+        <div class="card span-8">
+            <h4>
+                Faculty Workload
+                <span class="badge">KMeans: Light / Medium / Heavy</span>
+            </h4>
+            {% if faculty_chart %}
+                <div class="img-wrap">
+                    <img src="data:image/png;base64,{{ faculty_chart }}" alt="Faculty Workload Chart">
+                </div>
+            {% else %}
+                <div class="alert" style="border-color:#dbe7ff;color:#1f4b8f;background:#eef6ff;">
+                    Faculty workload chart not available.
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Room utilization -->
+        <div class="card span-4">
+            <h4>
+                Room Utilization
+                <span class="badge">Lab vs Room</span>
+            </h4>
+            {% if room_chart %}
+                <div class="img-wrap">
+                    <img src="data:image/png;base64,{{ room_chart }}" alt="Room Utilization Chart">
+                </div>
+            {% else %}
+                <div class="alert" style="border-color:#dbe7ff;color:#1f4b8f;background:#eef6ff;">
+                    Room utilization chart not available.
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Subject distribution -->
+        <div class="card span-6">
+            <h4>
+                Subject Distribution
+                <span class="badge">Top 10</span>
+            </h4>
+            {% if subject_chart %}
+                <div class="img-wrap">
+                    <img src="data:image/png;base64,{{ subject_chart }}" alt="Subject Distribution Chart">
+                </div>
+            {% else %}
+                <div class="alert" style="border-color:#dbe7ff;color:#1f4b8f;background:#eef6ff;">
+                    Subject distribution chart not available.
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Quick tips card -->
+        <div class="card span-6">
+            <h4>
+                Insights
+                <span class="badge">Auto</span>
+            </h4>
+            <div style="color:#4a5568; font-size:14px; line-height:1.7;">
+                <ul style="padding-left:18px;">
+                    <li><b>Heavy workload</b> faculty may need load balancing.</li>
+                    <li><b>Top subjects</b> indicate the most frequent periods.</li>
+                    <li><b>Room usage</b> helps you plan lab allocation and class rooms.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #4a90e2, #50e3c2);
+            overflow: hidden;
+        }
+
+        /* Floating background shapes */
+        body::before, body::after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            animation: float 6s ease-in-out infinite alternate;
+        }
+
+        body::before {
+            width: 300px;
+            height: 300px;
+            top: -50px;
+            left: -50px;
+        }
+
+        body::after {
+            width: 400px;
+            height: 400px;
+            bottom: -100px;
+            right: -100px;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(20px); }
+        }
+
+        .signup-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 10px 10px;
+            border-radius: 25px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+            width: 450px;
+            Height:600px;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 35px;
+            color: #222;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 6px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"], textarea {
+            padding: 10px 12px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            font-size: 14px;
+            transition: all 0.4s ease;
+            resize: none;
+        }
+
+        input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+            border-color: #4a90e2;
+            outline: none;
+            box-shadow: 0 0 12px rgba(74,144,226,0.6);
+        }
+
+        input[type="submit"] {
+            padding: 14px;
+            background: linear-gradient(135deg, #ff6b6b, #ff4757);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(255,107,107,0.3);
+        }
+
+        input[type="submit"]:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(255,107,107,0.5);
+        }
+
+        .message {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #ff4d4d;
+            font-weight: 600;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .login-link a {
+            color: #4a90e2;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .login-link a:hover {
+            color: #357ab7;
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media(max-width: 500px) {
+            .signup-container {
+                width: 90%;
+                padding: 35px 25px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            input[type="submit"] {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create Your Account</h2>
+
+        {% if msg %}
+            <p class="message">{{ msg }}</p>
+        {% endif %}
+
+        <form method="post">
+            {% csrf_token %}
+            <label>Username:</label>
+            <input type="text" name="t1" placeholder="Enter your username" required>
+
+            <label>Password:</label>
+            <input type="password" name="t2" placeholder="Enter your password" required>
+
+            <label>Contact No:</label>
+            <input type="text" name="t3" placeholder="Enter contact number" required>
+
+            <label>Email:</label>
+            <input type="email" name="t4" placeholder="Enter your email" required>
+
+            <label>Address:</label>
+            <textarea name="t5" rows="3" placeholder="Enter your address" required></textarea>
+
+            <input type="submit" value="Signup">
+        </form>
+
+        <div class="login-link">
+            <p>Already have an account? <a href="{% url 'login' %}">Login here</a></p>
+        </div>
+    </div>
+</body>
+</html>

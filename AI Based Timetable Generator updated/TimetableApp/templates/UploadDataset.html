@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Dataset | AI Timetable</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            min-height: 100vh;
+            overflow-x: hidden; /* 🚫 STOP PAGE SCROLL */
+        }
+
+        /* ================= NAVBAR ================= */
+        .navbar {
+            background: linear-gradient(90deg, #4a90e2, #6c5ce7);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        .navbar h2 {
+            font-weight: 600;
+        }
+
+        .nav-links a {
+            margin-left: 15px;
+            padding: 8px 14px;
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #fff;
+            color: #4a90e2;
+        }
+
+        /* ================= MAIN ================= */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        h3, h4 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* ================= UPLOAD ================= */
+        .upload-box {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px dashed #bbb;
+            border-radius: 10px;
+            background: #fafafa;
+        }
+
+        button {
+            padding: 10px 25px;
+            background: linear-gradient(45deg, #4a90e2, #6c5ce7);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(74,144,226,0.4);
+        }
+
+        .success-msg {
+            color: green;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        /* ================= SAMPLE RECORDS CARD ================= */
+        .table-card {
+            margin-top: 30px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        /* 🔥 ONLY TABLE SCROLLS */
+        .table-scroll {
+            max-width: 100%;
+            overflow-x: auto;
+            overflow-y: auto;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+        }
+
+        table {
+            min-width: 1400px; /* 🚀 Forces horizontal scroll */
+            border-collapse: collapse;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        th {
+            background: #4a90e2;
+            color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        tr:nth-child(even) {
+            background: #f5f8ff;
+        }
+
+        /* Scrollbar Styling */
+        .table-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .table-scroll::-webkit-scrollbar-thumb {
+            background: #4a90e2;
+            border-radius: 10px;
+        }
+
+        .table-scroll::-webkit-scrollbar-track {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<div class="navbar">
+    <h2>AI Based Timetable Generator</h2>
+    <div class="nav-links">
+        <a href="{% url 'UploadDataset' %}">Upload</a>
+        <a href="{% url 'preprocess_dataset' %}">Preprocess</a>
+        <a href="{% url 'generate_timetable' %}">Generate</a>
+        <a href="{% url 'export_excel' %}">Download as Excel</a>
+        <a href="{% url 'export_pdf' %}">Download as PDF</a>
+        <a href="{% url 'analytics' %}">Analytics</a>
+        <a href="{% url 'index' %}">Logout</a>
+    </div>
+</div>
+
+<!-- ================= MAIN ================= -->
+<div class="container">
+
+    <div class="card">
+        <h3>Upload Dataset</h3>
+
+        {% if msg %}
+            <p class="success-msg">{{ msg }}</p>
+        {% endif %}
+
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="upload-box">
+                <input type="file" name="dataset" accept=".csv" required>
+                <button type="submit">Upload</button>
+            </div>
+        </form>
+    </div>
+
+    {% if filename %}
+    <!-- ================= SAMPLE RECORDS ================= -->
+    <div class="table-card">
+        <h4>Sample Records</h4>
+
+        <div class="table-scroll">
+            {{ rows|safe }}
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

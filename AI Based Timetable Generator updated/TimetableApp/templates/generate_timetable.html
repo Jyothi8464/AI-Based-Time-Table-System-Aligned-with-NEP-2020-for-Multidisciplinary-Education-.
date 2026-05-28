@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generate Timetable | AI Timetable</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; }
+        body { background:#f4f7fb; min-height:100vh; overflow-x:hidden; }
+
+        .navbar{
+            background: linear-gradient(90deg, #4a90e2, #6c5ce7);
+            padding: 15px 30px; display:flex; justify-content:space-between; align-items:center; color:#fff;
+        }
+        .navbar h2{ font-weight:600; }
+        .nav-links a{
+            margin-left: 12px; padding: 8px 14px;
+            background: rgba(255,255,255,0.15); color:#fff; text-decoration:none;
+            border-radius: 8px; font-size: 14px; transition:0.3s;
+        }
+        .nav-links a:hover{ background:#fff; color:#4a90e2; }
+
+        .container{ max-width:1200px; margin:40px auto; padding:20px; }
+        .card{
+            background:#fff; padding:30px; border-radius:16px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08); margin-bottom: 20px;
+        }
+        h3{ margin-bottom: 16px; color:#333; }
+
+        .alert{
+            padding:12px 14px; border-radius:12px; margin-bottom:16px;
+            background:#ffecec; color:#b30000; border:1px solid #ffb8b8;
+        }
+
+        /* ✅ now 5 dropdowns -> 5 columns on large screens */
+        .form-grid{
+            display:grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+            align-items:end;
+        }
+        label{ font-size:14px; font-weight:500; color:#555; margin-bottom:6px; display:block; }
+        select{
+            width:100%; padding:10px 12px; border-radius:10px;
+            border:1px solid #ccc; font-size:14px; transition:0.3s;
+        }
+        select:focus{
+            outline:none; border-color:#4a90e2; box-shadow:0 0 6px rgba(74,144,226,0.4);
+        }
+
+        .btn-row{
+            display:flex; gap:12px;
+            grid-column: 1 / -1;
+            margin-top:10px;
+        }
+        .btn{
+            padding:12px; border:none; border-radius:12px; font-size:15px;
+            font-weight:500; cursor:pointer; transition:0.3s; flex:1;
+        }
+        .btn-generate{
+            background: linear-gradient(45deg, #4a90e2, #6c5ce7);
+            color:#fff;
+        }
+        .btn-clear{
+            background:#f1f3f7; color:#333; border:1px solid #d6dbe6;
+        }
+        .btn:hover{ transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+
+        .table-card{
+            background:#fff; padding:25px; border-radius:16px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08);
+        }
+        .meta{
+            margin: 6px 0 16px; color:#555; font-size:14px;
+            display:flex; gap:10px; flex-wrap:wrap;
+        }
+        .pill{
+            background:#f2f6ff; border:1px solid #d7e6ff; color:#224b8f;
+            padding:6px 10px; border-radius:999px; font-size:13px;
+        }
+
+        .table-scroll{ overflow-x:auto; border-radius:12px; border:1px solid #ddd; }
+        table{ width:100%; min-width:900px; border-collapse:collapse; font-size:14px; }
+        th, td{ padding:12px; border:1px solid #ddd; text-align:center; vertical-align:middle; white-space:nowrap; }
+        th{ background:#4a90e2; color:#fff; font-weight:500; }
+        tr:nth-child(even){ background:#f5f8ff; }
+
+        td b{ color:#333; }
+        td span{ font-size:12px; color:#666; }
+
+        td.lab{ background:#e6f7ff; border-color:#b3ecff; font-weight:600; }
+        td.lunch{ background:#fde2e2; border-color:#f5b7b7; font-weight:700; }
+
+        /* ✅ responsive */
+        @media (max-width: 1100px){
+            .form-grid{ grid-template-columns: repeat(2, 1fr); }
+            .btn-row{ flex-direction:column; }
+        }
+        @media (max-width: 600px){
+            .form-grid{ grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <h2>AI Based Timetable Generator</h2>
+    <div class="nav-links">
+        <a href="{% url 'UploadDataset' %}">Upload</a>
+        <a href="{% url 'preprocess_dataset' %}">Preprocess</a>
+        <a href="{% url 'generate_timetable' %}">Generate</a>
+        <a href="{% url 'export_excel' %}">Download as Excel</a>
+        <a href="{% url 'export_pdf' %}">Download as PDF</a>
+        <a href="{% url 'analytics' %}">Analytics</a>
+        <a href="{% url 'index' %}">Logout</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Generate Timetable</h3>
+
+        {% if error %}
+          <div class="alert">{{ error }}</div>
+        {% endif %}
+
+        <form method="post" id="ttForm">
+            {% csrf_token %}
+
+            <div class="form-grid">
+                <div>
+                    <label>Year</label>
+                    <select name="year" required>
+                        <option value="" selected disabled>Select Year</option>
+                        {% for y in years %}
+                        <option value="{{ y }}" {% if selected.year == y|stringformat:"s" %}selected{% endif %}>{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                    <label>Semester</label>
+                    <select name="semester" required>
+                        <option value="" selected disabled>Select Semester</option>
+                        {% for sem in semesters %}
+                        <option value="{{ sem }}" {% if selected.semester == sem|stringformat:"s" %}selected{% endif %}>{{ sem }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                    <label>Branch</label>
+                    <select name="branch" required>
+                        <option value="" selected disabled>Select Branch</option>
+                        {% for b in branches %}
+                        <option value="{{ b }}" {% if selected.branch == b %}selected{% endif %}>{{ b }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                    <label>Regulation</label>
+                    <select name="regulation" required>
+                        <option value="" selected disabled>Select Regulation</option>
+                        {% for r in regulations %}
+                        <option value="{{ r }}" {% if selected.regulation == r %}selected{% endif %}>{{ r }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                    <label>Section</label>
+                    <select name="section" required>
+                        <option value="" selected disabled>Select Section</option>
+                        {% for s in sections %}
+                        <option value="{{ s }}" {% if selected.section == s %}selected{% endif %}>{{ s }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="btn-row">
+                    <button type="submit" class="btn btn-generate" name="action" value="generate">
+                        Generate Timetable
+                    </button>
+                    <button type="submit" class="btn btn-clear" name="action" value="clear">
+                        Clear
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    {% if timetable %}
+    <div class="table-card">
+        <h3>Generated Timetable</h3>
+
+        <div class="meta">
+            {% if selected.year %}<span class="pill">Year: {{ selected.year }}</span>{% endif %}
+            {% if selected.semester %}<span class="pill">Semester: {{ selected.semester }}</span>{% endif %}
+            {% if selected.branch %}<span class="pill">Branch: {{ selected.branch }}</span>{% endif %}
+            {% if selected.regulation %}<span class="pill">Regulation: {{ selected.regulation }}</span>{% endif %}
+            {% if selected.section %}<span class="pill">Section: {{ selected.section }}</span>{% endif %}
+        </div>
+
+        <div class="table-scroll">
+            <table>
+                <tr>
+                    <th>Day / Period</th>
+                    {% for p in periods %}
+                    <th>{{ p }}</th>
+                    {% endfor %}
+                </tr>
+
+                {% for day, row in timetable.items %}
+                <tr>
+                    <th>{{ day }}</th>
+                    {% for cell in row %}
+                    <td class="
+                        {% if cell.Subject == 'LUNCH BREAK' %}lunch{% endif %}
+                        {% if cell.RoomType == 'Lab' %}lab{% endif %}
+                    ">
+                        <b>{{ cell.Subject }}</b><br>
+                        {{ cell.Faculty }}<br>
+                        <span>Type: {{ cell.RoomType }} | Room: {{ cell.Room }}</span>
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

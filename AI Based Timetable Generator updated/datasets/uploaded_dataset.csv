@@ -1,0 +1,957 @@
+sub_id,subject_name,semester,branch,year,regulation,sub_timing,sub_weekly_hours,sub_hours_full_week,faculty_id,faculty_name,faculty_experience_years,subject_dealing,faculty_qualification,weekly_hours_per_faculty,free_period,day,room_type,section
+SUB00001,Communicative English,1,CSE,1,R20,10:00-13:00,4,4,FAC0252,Dr. A. Anitha,21,Yes,M.Tech,12,No,Monday,Room,A
+SUB00002,Mathematics  I,1,CSE,1,R20,12:00-13:00,4,4,FAC0146,Dr. N. Narendra,9,Yes,PhD,14,No,Tuesday,Room,B
+SUB00003,Applied Physics,1,CSE,1,R20,13:00-10:00,3,3,FAC0121,Ms. P. Pavani,7,Yes,PhD,20,No,Wednesday,Room,C
+SUB00004,Programming for Problem Solving using C,1,CSE,1,R20,15:00-14:00,3,3,FAC0081,Mr. K. Kiran Kumar,14,Yes,M.Tech,12,Yes,Wednesday,Room,C
+SUB00005,English Communication Lab,1,CSE,1,R20,13:00-11:00,6,6,FAC0058,Prof. S. Srinivas,15,Yes,M.Tech,24,Yes,Thursday,Lab,B
+SUB00006,Physics Lab,1,CSE,1,R20,13:00-14:00,3,3,FAC0092,Prof. S. Srinivas,9,Yes,PhD,16,Yes,Tuesday,Lab,B
+SUB00007,C Programming Lab,1,CSE,1,R20,13:00-15:00,2,2,FAC0023,Ms. L. Lakshmi,29,Yes,PhD,15,Yes,Thursday,Lab,B
+SUB00008,Computer Engineering Workshop,1,CSE,1,R20,14:00-14:00,3,3,FAC0140,Ms. D. Divya,16,Yes,M.Tech (PhD),19,Yes,Thursday,Room,C
+SUB00009,Communicative English,1,IT,1,R20,13:00-13:00,6,6,FAC0251,Ms. S. Swathi,6,Yes,M.Tech (PhD),19,Yes,Monday,Room,A
+SUB00010,Mathematics  I,1,IT,1,R20,10:00-10:00,5,5,FAC0312,Dr. M. Mahesh,27,Yes,PhD,14,No,Friday,Room,B
+SUB00011,Applied Physics,1,IT,1,R20,14:00-14:00,3,3,FAC0268,Ms. R. Pavani,24,Yes,M.Tech,17,Yes,Saturday,Room,C
+SUB00012,Programming for Problem Solving using C,1,IT,1,R20,15:00-16:00,5,5,FAC0127,Ms. S. Swathi,10,Yes,M.Tech,12,Yes,Tuesday,Room,C
+SUB00013,English Communication Lab,1,IT,1,R20,15:00-11:00,4,4,FAC0180,Ms. P. Pavani,3,Yes,M.Tech (PhD),15,No,Monday,Lab,C
+SUB00014,Physics Lab,1,IT,1,R20,12:00-15:00,4,4,FAC0381,Ms. D. Divya,7,Yes,PhD,21,No,Saturday,Lab,C
+SUB00015,C Programming Lab,1,IT,1,R20,15:00-13:00,4,4,FAC0334,Mr. K. Kiran Kumar,3,Yes,PhD,24,Yes,Wednesday,Lab,B
+SUB00016,Computer Engineering Workshop,1,IT,1,R20,12:00-15:00,2,2,FAC0151,Ms. D. Divya,16,Yes,M.Tech (PhD),26,No,Thursday,Lab,C
+SUB00017,Communicative English,1,AIML,1,R20,15:00-13:00,6,6,FAC0301,Dr. M. Mahesh,3,Yes,M.Tech (PhD),20,No,Tuesday,Room,C
+SUB00018,Mathematics  I,1,AIML,1,R20,14:00-12:00,2,2,FAC0038,Ms. S. Swathi,13,Yes,M.Tech (PhD),17,No,Tuesday,Room,A
+SUB00019,Applied Physics,1,AIML,1,R20,13:00-15:00,3,3,FAC0038,Mr. R. Ramesh,7,Yes,M.Tech (PhD),21,No,Thursday,Room,A
+SUB00020,Programming for Problem Solving using C,1,AIML,1,R20,15:00-10:00,4,4,FAC0337,Ms. S. Swathi,19,Yes,M.Tech,12,No,Wednesday,Room,C
+SUB00021,English Communication Lab,1,AIML,1,R20,9:00-15:00,5,5,FAC0275,Ms. D. Divya,26,Yes,PhD,13,No,Friday,Lab,B
+SUB00022,Physics Lab,1,AIML,1,R20,13:00-13:00,4,4,FAC0370,Dr. M. Mahesh,20,Yes,M.Tech,17,No,Friday,Lab,C
+SUB00023,C Programming Lab,1,AIML,1,R20,14:00-11:00,3,3,FAC0022,Ms. P. Pavani,21,Yes,M.Tech (PhD),15,No,Friday,Lab,B
+SUB00024,Computer Engineering Workshop,1,AIML,1,R20,9:00-14:00,5,5,FAC0091,Prof. S. Srinivas,21,Yes,M.Tech (PhD),17,Yes,Monday,Lab,B
+SUB00025,Communicative English,1,DS,1,R20,10:00-11:00,2,2,FAC0208,Dr. M. Mahesh,25,Yes,PhD,26,Yes,Tuesday,Room,C
+SUB00026,Mathematics  I,1,DS,1,R20,15:00-10:00,3,3,FAC0121,Prof. S. Srinivas,14,Yes,M.Tech (PhD),22,No,Friday,Room,C
+SUB00027,Applied Physics,1,DS,1,R20,13:00-11:00,4,4,FAC0273,Dr. A. Anitha,1,Yes,M.Tech (PhD),14,No,Monday,Room,C
+SUB00028,Programming for Problem Solving using C,1,DS,1,R20,11:00-10:00,4,4,FAC0097,Mr. V. Venkatesh,28,Yes,M.Tech (PhD),20,Yes,Thursday,Room,A
+SUB00029,English Communication Lab,1,DS,1,R20,11:00-12:00,2,2,FAC0321,Dr. M. Mahesh,26,Yes,M.Tech,12,Yes,Wednesday,Lab,A
+SUB00030,Physics Lab,1,DS,1,R20,10:00-10:00,6,6,FAC0064,Dr. R. Ramadevi,27,Yes,M.Tech,22,Yes,Saturday,Lab,B
+SUB00031,C Programming Lab,1,DS,1,R20,9:00-14:00,4,4,FAC0087,Dr. Y. Ramadevi,23,Yes,PhD,21,No,Wednesday,Lab,A
+SUB00032,Computer Engineering Workshop,1,DS,1,R20,14:00-10:00,3,3,FAC0072,Dr. A. Anitha,9,Yes,M.Tech,13,No,Tuesday,Lab,B
+SUB00033,Communicative English,1,ECE,1,R20,11:00-15:00,3,3,FAC0317,Ms. L. Lakshmi,26,Yes,M.Tech,21,No,Friday,Room,A
+SUB00034,Mathematics  I,1,ECE,1,R20,13:00-10:00,3,3,FAC0110,Ms. P. Pavani,10,Yes,M.Tech (PhD),25,No,Monday,Room,B
+SUB00035,Applied Physics,1,ECE,1,R20,10:00-15:00,6,6,FAC0073,Dr. R. Ramadevi,13,Yes,M.Tech (PhD),14,No,Wednesday,Room,C
+SUB00036,Programming for Problem Solving using C,1,ECE,1,R20,10:00-13:00,6,6,FAC0360,Dr. A. Anitha,7,Yes,PhD,20,No,Tuesday,Room,C
+SUB00037,English Communication Lab,1,ECE,1,R20,9:00-15:00,3,3,FAC0172,Ms. D. Divya,17,Yes,M.Tech,18,Yes,Tuesday,Lab,A
+SUB00038,Physics Lab,1,ECE,1,R20,15:00-14:00,2,2,FAC0339,Ms. S. Swathi,30,Yes,M.Tech,13,Yes,Thursday,Lab,B
+SUB00039,C Programming Lab,1,ECE,1,R20,14:00-15:00,6,6,FAC0124,Ms. S. Swathi,5,Yes,PhD,15,No,Tuesday,Lab,A
+SUB00040,Computer Engineering Workshop,1,ECE,1,R20,9:00-16:00,6,6,FAC0108,Dr. R. Ramadevi,15,Yes,M.Tech,22,Yes,Thursday,Lab,C
+SUB00041,Engineering Drawing,1,ECE,1,R20,10:00-10:00,5,5,FAC0249,Mr. R. Ramesh,12,Yes,PhD,12,No,Friday,Room,C
+SUB00042,Mathematics  I,1,Civil,1,R20,15:00-16:00,6,6,FAC0060,Mr. R. Ramesh,14,Yes,M.Tech,13,No,Monday,Room,B
+SUB00043,Applied Physics,1,Civil,1,R20,15:00-10:00,5,5,FAC0216,Prof. S. Srinivas,25,Yes,PhD,25,No,Thursday,Room,A
+SUB00044,Programming for Problem Solving using C,1,Civil,1,R20,14:00-13:00,4,4,FAC0153,Ms. D. Divya,22,Yes,M.Tech,19,Yes,Thursday,Room,B
+SUB00045,Communicative English,1,Civil,1,R20,13:00-14:00,6,6,FAC0189,Dr. N. Narendra,23,Yes,PhD,16,Yes,Tuesday,Room,B
+SUB00046,Engineering Drawing,1,Civil,1,R20,10:00-13:00,3,3,FAC0390,Dr. A. Anitha,6,Yes,M.Tech,12,Yes,Wednesday,Room,A
+SUB00047,C Programming Lab,1,Civil,1,R20,12:00-16:00,4,4,FAC0181,Dr. R. Ramadevi,14,Yes,M.Tech (PhD),22,No,Monday,Lab,A
+SUB00048, Engineering Workshop,1,Civil,1,R20,13:00-15:00,4,4,FAC0243,Dr. A. Anitha,12,Yes,PhD,20,No,Friday,Lab,B
+SUB00049,English Language Communication Skills Lab,1,Civil,1,R20,12:00-15:00,6,6,FAC0224,Dr. M. Mahesh,12,Yes,M.Tech,14,Yes,Wednesday,Lab,A
+SUB00050,Applied Physics Lab,1,Civil,1,R20,15:00-13:00,4,4,FAC0185,Mr. R. Ramesh,4,Yes,PhD,15,Yes,Thursday,Lab,A
+SUB00051,Mathematics  I,1,Mechanical,1,R20,15:00-15:00,3,3,FAC0090,Ms. P. Pavani,15,Yes,PhD,26,Yes,Saturday,Room,A
+SUB00052,Applied Physics,1,Mechanical,1,R20,12:00-16:00,4,4,FAC0365,Ms. P. Pavani,25,Yes,M.Tech,24,Yes,Tuesday,Room,A
+SUB00053,Programming for Problem Solving using C,1,Mechanical,1,R20,11:00-16:00,4,4,FAC0252,Mr. V. Venkatesh,30,Yes,M.Tech (PhD),14,No,Thursday,Room,B
+SUB00054,Communicative English,1,Mechanical,1,R20,9:00-10:00,3,3,FAC0371,Prof. S. Srinivas,9,Yes,M.Tech,16,No,Friday,Room,B
+SUB00055,Engineering Drawing,1,Mechanical,1,R20,14:00-10:00,4,4,FAC0008,Dr. M. Mahesh,21,Yes,M.Tech,26,No,Tuesday,Room,C
+SUB00056,C Programming Lab,1,Mechanical,1,R20,9:00-11:00,6,6,FAC0041,Ms. L. Lakshmi,21,Yes,M.Tech (PhD),16,Yes,Thursday,Lab,C
+SUB00057, Engineering Workshop,1,Mechanical,1,R20,13:00-14:00,6,6,FAC0159,Ms. S. Swathi,20,Yes,M.Tech (PhD),22,No,Friday,Lab,A
+SUB00058,English Language Communication Skills Lab,1,Mechanical,1,R20,14:00-12:00,3,3,FAC0335,Ms. L. Lakshmi,23,Yes,M.Tech (PhD),13,No,Wednesday,Lab,B
+SUB00059,Applied Physics Lab,1,Mechanical,1,R20,10:00-14:00,5,5,FAC0317,Ms. P. Pavani,28,Yes,M.Tech,19,No,Wednesday,Lab,A
+SUB00060,Communicative English,1,EEE,1,R20,15:00-14:00,3,3,FAC0087,Mr. V. Venkatesh,18,Yes,M.Tech (PhD),14,Yes,Wednesday,Room,B
+SUB00061,Mathematics  I,1,EEE,1,R20,14:00-16:00,3,3,FAC0182,Prof. S. Bhargavi Devi,21,Yes,M.Tech,23,Yes,Friday,Room,C
+SUB00062,Applied Physics,1,EEE,1,R20,9:00-16:00,4,4,FAC0258,Mr. R. Ramesh,22,Yes,M.Tech (PhD),17,No,Wednesday,Room,B
+SUB00063,Programming for Problem Solving using C,1,EEE,1,R20,11:00-12:00,6,6,FAC0299,Mr. V. Venkatesh,21,Yes,PhD,26,Yes,Thursday,Room,B
+SUB00064,Engineering Graphics,1,EEE,1,R20,9:00-10:00,5,5,FAC0132,Mr. R. Ramesh,8,Yes,M.Tech,20,Yes,Friday,Room,C
+SUB00065,English Language Communication Skills Lab,1,EEE,1,R20,13:00-15:00,4,4,FAC0356,Prof. S. Srinivas,6,Yes,PhD,12,No,Tuesday,Lab,B
+SUB00066,Applied Physics Lab,1,EEE,1,R20,13:00-11:00,3,3,FAC0267,Mr. V. Venkatesh,4,Yes,M.Tech,19,No,Monday,Lab,B
+SUB00067,Programming for Problem Solving Lab,1,EEE,1,R20,12:00-13:00,4,4,FAC0209,Mr. V. Venkatesh,19,Yes,M.Tech (PhD),25,Yes,Friday,Lab,A
+SUB00068,Engineering Workshop,1,EEE,1,R20,10:00-12:00,6,6,FAC0277,Mr. K. Kiran Kumar,12,Yes,M.Tech (PhD),25,Yes,Tuesday,Lab,A
+SUB00069,Mathematics  II,2,CSE,1,R20,12:00-13:00,4,4,FAC0374,Dr. R. Ramadevi,27,Yes,PhD,17,Yes,Tuesday,Room,C
+SUB00070,Applied Chemistry,2,CSE,1,R20,15:00-14:00,5,5,FAC0310,Dr. M. Mahesh,13,Yes,M.Tech,25,Yes,Monday,Room,B
+SUB00071,Python Programming,2,CSE,1,R20,11:00-16:00,4,4,FAC0029,Dr. M. Mahesh,10,Yes,M.Tech,17,Yes,Wednesday,Room,C
+SUB00072,Data Structures,2,CSE,1,R20,9:00-16:00,4,4,FAC0117,Dr. N. Narendra,14,Yes,M.Tech,13,No,Thursday,Room,B
+SUB00073,Computer Organization,2,CSE,1,R20,9:00-14:00,3,3,FAC0278,Dr. R. Ramadevi,15,Yes,M.Tech,20,Yes,Friday,Room,C
+SUB00074,Applied Chemistry Lab,2,CSE,1,R20,11:00-14:00,2,2,FAC0340,Dr. M. Mahesh,10,Yes,PhD,14,Yes,Thursday,Lab,A
+SUB00075,Python Programming Lab,2,CSE,1,R20,14:00-10:00,3,3,FAC0264,Dr. A. Anitha,4,Yes,M.Tech (PhD),23,No,Tuesday,Lab,C
+SUB00076,Data Structures Lab,2,CSE,1,R20,13:00-12:00,5,5,FAC0279,Dr. N. Narendra,13,Yes,M.Tech (PhD),23,No,Wednesday,Lab,C
+SUB00077,Mathematics  II,2,IT,1,R20,11:00-15:00,4,4,FAC0257,Dr. A. Anitha,14,Yes,M.Tech (PhD),26,Yes,Tuesday,Room,A
+SUB00078,Applied Chemistry,2,IT,1,R20,10:00-14:00,4,4,FAC0351,Mr. R. Ramesh,1,Yes,M.Tech,15,No,Tuesday,Room,A
+SUB00079,Python Programming,2,IT,1,R20,14:00-15:00,3,3,FAC0307,Dr. N. Narendra,30,Yes,M.Tech,22,Yes,Thursday,Room,A
+SUB00080,Data Structures,2,IT,1,R20,9:00-14:00,5,5,FAC0053,Mr. K. Kiran Kumar,19,Yes,M.Tech (PhD),22,Yes,Saturday,Room,B
+SUB00081,Computer Organization,2,IT,1,R20,14:00-11:00,2,2,FAC0124,Dr. M. Mahesh,27,Yes,M.Tech,19,No,Tuesday,Room,B
+SUB00082,Applied Chemistry Lab,2,IT,1,R20,10:00-16:00,6,6,FAC0187,Ms. P. Pavani,19,Yes,M.Tech (PhD),24,No,Tuesday,Lab,B
+SUB00083,Python Programming Lab,2,IT,1,R20,12:00-14:00,2,2,FAC0349,Prof. S. Srinivas,5,Yes,M.Tech (PhD),23,Yes,Tuesday,Lab,A
+SUB00084,Data Structures Lab,2,IT,1,R20,14:00-14:00,6,6,FAC0360,Dr. R. Ramadevi,25,Yes,M.Tech (PhD),13,Yes,Wednesday,Lab,A
+SUB00085,Mathematics  II,2,AIML,1,R20,13:00-14:00,5,5,FAC0221,Dr. R. Ramadevi,20,Yes,M.Tech,26,Yes,Monday,Room,A
+SUB00086,Applied Chemistry,2,AIML,1,R20,13:00-14:00,3,3,FAC0177,Dr. N. Narendra,28,Yes,M.Tech,22,Yes,Thursday,Room,B
+SUB00087,Python Programming,2,AIML,1,R20,11:00-13:00,3,3,FAC0166,Ms. D. Divya,27,Yes,M.Tech,17,No,Monday,Room,C
+SUB00088,Data Structures,2,AIML,1,R20,15:00-11:00,3,3,FAC0018,Dr. M. Mahesh,19,Yes,M.Tech,13,Yes,Friday,Room,C
+SUB00089,Computer Organization,2,AIML,1,R20,14:00-16:00,3,3,FAC0025,Ms. D. Divya,15,Yes,M.Tech,14,No,Saturday,Room,A
+SUB00090,Applied Chemistry Lab,2,AIML,1,R20,10:00-14:00,4,4,FAC0121,Prof. S. Srinivas,15,Yes,M.Tech,13,Yes,Saturday,Lab,A
+SUB00091,Python Programming Lab,2,AIML,1,R20,14:00-16:00,3,3,FAC0396,Prof. S. Srinivas,7,Yes,M.Tech,22,No,Friday,Lab,B
+SUB00092,Data Structures Lab,2,AIML,1,R20,12:00-11:00,4,4,FAC0274,Dr. M. Mahesh,27,Yes,PhD,21,No,Monday,Lab,B
+SUB00093,Mathematics  II,2,DS,1,R20,13:00-13:00,3,3,FAC0211,Dr. A. Anitha,14,Yes,M.Tech,16,Yes,Tuesday,Room,A
+SUB00094,Applied Chemistry,2,DS,1,R20,10:00-10:00,3,3,FAC0176,Dr. A. Anitha,25,Yes,PhD,18,Yes,Saturday,Room,C
+SUB00095,Python Programming,2,DS,1,R20,15:00-11:00,3,3,FAC0156,Mr. K. Kiran Kumar,1,Yes,M.Tech,25,Yes,Monday,Room,A
+SUB00096,Data Structures,2,DS,1,R20,15:00-16:00,3,3,FAC0043,Mr. V. Venkatesh,22,Yes,M.Tech (PhD),23,No,Monday,Room,B
+SUB00097,Computer Organization,2,DS,1,R20,11:00-10:00,3,3,FAC0258,Mr. V. Venkatesh,27,Yes,M.Tech,18,Yes,Monday,Room,B
+SUB00098,Applied Chemistry Lab,2,DS,1,R20,9:00-11:00,2,2,FAC0359,Ms. S. Swathi,22,Yes,PhD,17,No,Saturday,Lab,A
+SUB00099,Python Programming Lab,2,DS,1,R20,9:00-14:00,4,4,FAC0222,Prof. S. Srinivas,4,Yes,PhD,19,No,Tuesday,Lab,C
+SUB00100,Data Structures Lab,2,DS,1,R20,14:00-12:00,4,4,FAC0224,Ms. S. Swathi,9,Yes,M.Tech,14,No,Monday,Lab,C
+SUB00101,Mathematics  II,2,ECE,1,R20,12:00-10:00,4,4,FAC0291,Dr. A. Anitha,5,Yes,M.Tech (PhD),25,No,Friday,Room,A
+SUB00102,Applied Chemistry,2,ECE,1,R20,11:00-12:00,3,3,FAC0388,Dr. M. Mahesh,11,Yes,M.Tech,17,Yes,Saturday,Room,C
+SUB00103,Basic Electrical & Electronics Engineering,2,ECE,1,R20,13:00-12:00,5,5,FAC0070,Dr. M. Mahesh,3,Yes,M.Tech (PhD),24,No,Thursday,Room,B
+SUB00104,Engineering Mechanics,2,ECE,1,R20,12:00-12:00,5,5,FAC0208,Dr. N. Narendra,6,Yes,PhD,21,Yes,Tuesday,Room,B
+SUB00105,Environmental Science,2,ECE,1,R20,12:00-13:00,4,4,FAC0368,Dr. R. Ramadevi,15,Yes,PhD,12,Yes,Thursday,Room,A
+SUB00106,Applied Chemistry Lab,2,ECE,1,R20,14:00-14:00,4,4,FAC0097,Ms. L. Lakshmi,27,Yes,PhD,23,No,Tuesday,Lab,C
+SUB00107,Electrical & Electronics Engineering Lab,2,ECE,1,R20,15:00-15:00,3,3,FAC0297,Dr. R. Ramadevi,28,Yes,M.Tech,24,No,Friday,Lab,C
+SUB00108,Engineering Mechanics Lab,2,ECE,1,R20,13:00-16:00,4,4,FAC0033,Ms. D. Divya,6,Yes,PhD,19,No,Thursday,Lab,B
+SUB00109,Mathematics  II,2,EEE,1,R20,10:00-11:00,5,5,FAC0016,Ms. S. Swathi,23,Yes,PhD,15,Yes,Tuesday,Room,C
+SUB00110,Applied Chemistry,2,EEE,1,R20,13:00-10:00,6,6,FAC0310,Ms. S. Swathi,16,Yes,M.Tech,13,Yes,Tuesday,Room,C
+SUB00111,Basic Electrical & Electronics Engineering,2,EEE,1,R20,10:00-16:00,6,6,FAC0354,Dr. M. Mahesh,13,Yes,M.Tech (PhD),21,No,Friday,Room,B
+SUB00112,Engineering Mechanics,2,EEE,1,R20,13:00-12:00,3,3,FAC0280,Dr. N. Narendra,3,Yes,M.Tech,14,No,Monday,Room,B
+SUB00113,Environmental Science,2,EEE,1,R20,12:00-14:00,4,4,FAC0266,Ms. D. Divya,3,Yes,PhD,19,Yes,Friday,Room,A
+SUB00114,Applied Chemistry Lab,2,EEE,1,R20,15:00-16:00,6,6,FAC0130,Ms. P. Pavani,15,Yes,PhD,19,No,Thursday,Lab,C
+SUB00115,Electrical & Electronics Engineering Lab,2,EEE,1,R20,12:00-13:00,3,3,FAC0281,Prof. S. Srinivas,6,Yes,PhD,12,No,Thursday,Lab,A
+SUB00116,Engineering Mechanics Lab,2,EEE,1,R20,9:00-15:00,2,2,FAC0351,Mr. R. Ramesh,12,Yes,PhD,20,No,Saturday,Lab,A
+SUB00117,Mathematics  II,2,Civil,1,R20,12:00-13:00,4,4,FAC0092,Dr. A. Anitha,10,Yes,PhD,16,No,Tuesday,Room,B
+SUB00118,Applied Chemistry,2,Civil,1,R20,12:00-16:00,2,2,FAC0057,Dr. M. Mahesh,4,Yes,M.Tech (PhD),15,No,Friday,Room,A
+SUB00119,Basic Electrical & Electronics Engineering,2,Civil,1,R20,10:00-14:00,2,2,FAC0144,Prof. S. Srinivas,7,Yes,M.Tech (PhD),26,No,Friday,Room,B
+SUB00120,Engineering Mechanics,2,Civil,1,R20,12:00-15:00,6,6,FAC0336,Dr. R. Ramadevi,20,Yes,M.Tech,14,No,Friday,Room,C
+SUB00121,Environmental Science,2,Civil,1,R20,12:00-16:00,2,2,FAC0013,Dr. R. Ramadevi,2,Yes,M.Tech,13,No,Thursday,Room,C
+SUB00122,Applied Chemistry Lab,2,Civil,1,R20,15:00-14:00,6,6,FAC0273,Ms. D. Divya,6,Yes,M.Tech,24,Yes,Friday,Lab,A
+SUB00123,Electrical & Electronics Engineering Lab,2,Civil,1,R20,9:00-14:00,5,5,FAC0310,Mr. R. Ramesh,21,Yes,M.Tech,26,No,Saturday,Lab,C
+SUB00124,Engineering Mechanics Lab,2,Civil,1,R20,9:00-15:00,5,5,FAC0378,Dr. M. Mahesh,23,Yes,M.Tech,22,Yes,Friday,Lab,B
+SUB00125,Mathematics  II,2,Civil,1,R20,14:00-14:00,4,4,FAC0198,Dr. M. Mahesh,29,Yes,M.Tech,22,No,Friday,Room,C
+SUB00126,Applied Chemistry,2,Mechanical,1,R20,12:00-16:00,5,5,FAC0247,Dr. M. Mahesh,15,Yes,M.Tech (PhD),26,No,Tuesday,Room,B
+SUB00127,Basic Electrical & Electronics Engineering,2,Mechanical,1,R20,13:00-14:00,3,3,FAC0322,Ms. S. Swathi,15,Yes,PhD,25,No,Monday,Room,B
+SUB00128,Engineering Mechanics,2,Mechanical,1,R20,12:00-11:00,5,5,FAC0180,Ms. P. Pavani,6,Yes,M.Tech,16,Yes,Thursday,Room,B
+SUB00129,Thermodynamics,2,Mechanical,1,R20,11:00-12:00,2,2,FAC0239,Ms. S. Swathi,10,Yes,PhD,16,No,Thursday,Room,B
+SUB00130,Applied Chemistry Lab,2,Mechanical,1,R20,11:00-13:00,4,4,FAC0335,Dr. R. Ramadevi,25,Yes,PhD,16,Yes,Friday,Lab,A
+SUB00131,Electrical & Electronics Engineering Lab,2,Mechanical,1,R20,11:00-15:00,3,3,FAC0059,Dr. R. Ramadevi,28,Yes,PhD,23,No,Tuesday,Lab,A
+SUB00132,Engineering Mechanics Lab,2,Mechanical,1,R20,12:00-11:00,4,4,FAC0183,Prof. S. Srinivas,3,Yes,M.Tech (PhD),26,Yes,Tuesday,Lab,B
+SUB00133,Mathematics III,1,CSE,2,R20,15:00-13:00,4,4,FAC0231,Dr. A. Anitha,28,Yes,PhD,14,No,Monday,Room,C
+SUB00134,Object Oriented Programming through C++,1,CSE,2,R20,11:00-15:00,5,5,FAC0102,Ms. P. Pavani,16,Yes,M.Tech,19,Yes,Saturday,Room,C
+SUB00135,Discrete Mathematics,1,CSE,2,R20,10:00-15:00,6,6,FAC0208,Dr. A. Anitha,12,Yes,M.Tech,16,Yes,Monday,Room,C
+SUB00136,Operating Systems,1,CSE,2,R20,9:00-10:00,5,5,FAC0215,Ms. S. Swathi,12,Yes,M.Tech (PhD),18,No,Saturday,Room,C
+SUB00137,Database Management Systems,1,CSE,2,R20,14:00-15:00,4,4,FAC0245,Prof. S. Srinivas,25,Yes,M.Tech (PhD),21,Yes,Friday,Room,C
+SUB00138,Object Oriented Programming through C++ Lab,1,CSE,2,R20,12:00-12:00,5,5,FAC0346,Dr. N. Narendra,27,Yes,M.Tech (PhD),26,No,Friday,Lab,C
+SUB00139,Database Management Systems Lab,1,CSE,2,R20,10:00-15:00,4,4,FAC0318,Mr. K. Kiran Kumar,11,Yes,M.Tech (PhD),21,No,Wednesday,Lab,B
+SUB00140,SOC-1 Lab,1,CSE,2,R20,14:00-14:00,5,5,FAC0397,Mr. V. Venkatesh,17,Yes,M.Tech (PhD),20,Yes,Tuesday,Lab,C
+SUB00141,Mathematics III,1,IT,2,R20,12:00-12:00,4,4,FAC0054,Dr. M. Mahesh,27,Yes,M.Tech,17,Yes,Saturday,Room,B
+SUB00142,Object Oriented Programming through C++,1,IT,2,R20,12:00-15:00,4,4,FAC0357,Mr. V. Venkatesh,23,Yes,M.Tech,15,Yes,Friday,Room,B
+SUB00143,Discrete Mathematics,1,IT,2,R20,13:00-12:00,5,5,FAC0272,Mr. V. Venkatesh,22,Yes,M.Tech (PhD),20,No,Tuesday,Room,B
+SUB00144,Operating Systems,1,IT,2,R20,10:00-11:00,4,4,FAC0237,Ms. D. Divya,4,Yes,M.Tech,21,No,Saturday,Room,B
+SUB00145,Database Management Systems,1,IT,2,R20,10:00-10:00,3,3,FAC0299,Dr. N. Narendra,23,Yes,M.Tech (PhD),18,No,Saturday,Room,A
+SUB00146,Object Oriented Programming through C++ Lab,1,IT,2,R20,14:00-11:00,5,5,FAC0363,Dr. M. Mahesh,25,Yes,PhD,12,Yes,Saturday,Lab,B
+SUB00147,Database Management Systems Lab,1,IT,2,R20,12:00-11:00,5,5,FAC0146,Dr. M. Mahesh,17,Yes,PhD,13,Yes,Monday,Lab,A
+SUB00148,SOC-1 Lab,1,IT,2,R20,13:00-13:00,5,5,FAC0314,Mr. K. Kiran Kumar,19,Yes,M.Tech,25,No,Saturday,Lab,A
+SUB00149,Mathematics III,1,DS,2,R20,9:00-15:00,2,2,FAC0360,Dr. M. Mahesh,13,Yes,M.Tech,14,No,Thursday,Room,A
+SUB00150,Object Oriented Programming through C++,1,DS,2,R20,11:00-14:00,4,4,FAC0374,Mr. K. Kiran Kumar,28,Yes,PhD,20,Yes,Tuesday,Room,B
+SUB00151,Discrete Mathematics,1,DS,2,R20,9:00-13:00,6,6,FAC0116,Mr. R. Ramesh,3,Yes,M.Tech,15,No,Tuesday,Room,A
+SUB00152,Operating Systems,1,DS,2,R20,10:00-16:00,3,3,FAC0089,Ms. D. Divya,26,Yes,PhD,23,Yes,Friday,Room,B
+SUB00153,Database Management Systems,1,DS,2,R20,10:00-15:00,3,3,FAC0071,Ms.V.Divya,9,Yes,M.Tech,18,No,Friday,Room,C
+SUB00154,Object Oriented Programming through C++ Lab,1,DS,2,R20,14:00-12:00,6,6,FAC0025,Dr. R. Ramadevi,25,Yes,M.Tech (PhD),15,Yes,Friday,Lab,C
+SUB00155,Database Management Systems Lab,1,DS,2,R20,9:00-10:00,5,5,FAC0161,Mr. K. Kiran Kumar,15,Yes,M.Tech,15,Yes,Saturday,Lab,A
+SUB00156,SOC-1 Lab,1,DS,2,R20,15:00-15:00,2,2,FAC0104,Dr. R. Ramadevi,3,Yes,M.Tech,19,No,Monday,Lab,A
+SUB00157,Mathematics III,1,AIML,2,R20,12:00-16:00,3,3,FAC0195,Ms. L. Lakshmi,9,Yes,M.Tech (PhD),20,Yes,Tuesday,Room,A
+SUB00158,Object Oriented Programming through C++,1,AIML,2,R20,13:00-15:00,2,2,FAC0196,Mr. R. Ramesh,15,Yes,M.Tech,24,Yes,Friday,Room,C
+SUB00159,Discrete Mathematics,1,AIML,2,R20,9:00-10:00,5,5,FAC0213,Dr. M. Mahesh,21,Yes,PhD,22,No,Friday,Room,C
+SUB00160,Operating Systems,1,AIML,2,R20,9:00-13:00,5,5,FAC0200,Dr. R. Ramadevi,20,Yes,M.Tech,24,No,Tuesday,Room,A
+SUB00161,Database Management Systems,1,AIML,2,R20,9:00-15:00,4,4,FAC0326,Ms. L. Lakshmi,3,Yes,M.Tech (PhD),19,No,Friday,Room,A
+SUB00162,Object Oriented Programming through C++ Lab,1,AIML,2,R20,12:00-12:00,6,6,FAC0311,Ms. D. Divya,13,Yes,M.Tech (PhD),16,No,Saturday,Lab,B
+SUB00163,Database Management Systems Lab,1,AIML,2,R20,15:00-11:00,4,4,FAC0121,Ms. P. Pavani,6,Yes,M.Tech,19,No,Saturday,Lab,B
+SUB00164,SOC-1 Lab,1,AIML,2,R20,10:00-14:00,4,4,FAC0013,Dr. M. Mahesh,17,Yes,PhD,22,No,Wednesday,Lab,C
+SUB00165,Electronic Devices and Circuits,1,ECE,2,R20,14:00-14:00,4,4,FAC0004,Ms. P. Pavani,9,Yes,M.Tech (PhD),23,Yes,Tuesday,Room,A
+SUB00166,Switching Theory & Logic Design,1,ECE,2,R20,10:00-14:00,4,4,FAC0207,Mr. V. Venkatesh,27,Yes,M.Tech (PhD),26,Yes,Saturday,Room,B
+SUB00167,Signals and Systems,1,ECE,2,R20,14:00-12:00,6,6,FAC0176,Dr. A. Anitha,6,Yes,M.Tech (PhD),14,No,Friday,Room,C
+SUB00168,Mathematics  III  ,1,ECE,2,R20,10:00-10:00,5,5,FAC0318,Ms. D. Divya,14,Yes,M.Tech (PhD),19,No,Saturday,Room,B
+SUB00169,Random Variables and Stochastic Processes,1,ECE,2,R20,10:00-15:00,2,2,FAC0129,Ms. S. Swathi,3,Yes,PhD,21,No,Tuesday,Room,A
+SUB00170,Object Oriented Programming through C++ Lab,1,ECE,2,R20,10:00-15:00,3,3,FAC0167,Mr. V. Venkatesh,18,Yes,M.Tech,15,No,Friday,Lab,B
+SUB00171,Analog ICs and Applications Lab ,1,ECE,2,R20,11:00-10:00,4,4,FAC0188,Dr. R. Ramadevi,17,Yes,PhD,24,Yes,Friday,Lab,B
+SUB00172,Digital Communications Lab,1,ECE,2,R20,9:00-12:00,5,5,FAC0392,Mr. R. Ramesh,26,Yes,M.Tech (PhD),16,No,Friday,Lab,A
+SUB00173,Data Structures using Java Lab,1,ECE,2,R20,12:00-14:00,5,5,FAC0065,Ms. S. Swathi,20,Yes,PhD,12,Yes,Tuesday,Lab,B
+SUB00174,Mathematics  III  ,1,EEE,2,R20,9:00-10:00,5,5,FAC0038,Mr. K. Kiran Kumar,30,Yes,PhD,18,Yes,Monday,Room,A
+SUB00175,Electronic Devices and Circuits,1,EEE,2,R20,11:00-14:00,3,3,FAC0237,Ms. L. Lakshmi,12,Yes,M.Tech,26,Yes,Thursday,Room,B
+SUB00176,Electrical Circuit Analysis  II,1,EEE,2,R20,13:00-13:00,3,3,FAC0350,Dr. N. Narendra,8,Yes,M.Tech,24,No,Tuesday,Room,A
+SUB00177,DC Machines and Transformers,1,EEE,2,R20,14:00-14:00,2,2,FAC0334,Ms. P. Pavani,27,Yes,PhD,20,Yes,Thursday,Room,C
+SUB00178,Electro Magnetic Fields,1,EEE,2,R20,11:00-11:00,2,2,FAC0139,Dr. N. Narendra,17,Yes,PhD,17,No,Thursday,Room,A
+SUB00179,Electrical Circuits Lab ,1,EEE,2,R20,10:00-13:00,2,2,FAC0022,Dr. R. Ramadevi,3,Yes,M.Tech (PhD),18,No,Wednesday,Lab,A
+SUB00180,DC Machines & Transformers Lab ,1,EEE,2,R20,15:00-13:00,4,4,FAC0247,Dr. N. Narendra,8,Yes,PhD,17,Yes,Wednesday,Lab,A
+SUB00181,Electronic Devices and Circuits Lab ,1,EEE,2,R20,13:00-10:00,4,4,FAC0202,Mr. R. Ramesh,19,Yes,PhD,12,No,Saturday,Lab,C
+SUB00182,Skill Oriented Course  Design of Electrical Circuits using Engineering Software Tools,1,EEE,2,R20,13:00-16:00,3,3,FAC0086,Mr. R. Ramesh,30,Yes,M.Tech (PhD),12,No,Monday,Room,A
+SUB00183,Mathematics  III,1,Civil,2,R20,10:00-14:00,3,3,FAC0106,Ms. L. Lakshmi,19,Yes,PhD,26,No,Wednesday,Room,C
+SUB00184,Strength of Materials  I,1,Civil,2,R20,15:00-12:00,3,3,FAC0187,Ms. D. Divya,20,Yes,M.Tech,18,No,Monday,Room,A
+SUB00185,Fluid Mechanics,1,Civil,2,R20,10:00-13:00,2,2,FAC0105,Dr. R. Ramadevi,7,Yes,PhD,22,Yes,Thursday,Room,A
+SUB00186,Surveying and Geometrics,1,Civil,2,R20,15:00-11:00,6,6,FAC0072,Dr. R. Ramadevi,7,Yes,M.Tech,24,Yes,Saturday,Room,C
+SUB00187,Highway Engineering,1,Civil,2,R20,15:00-12:00,5,5,FAC0400,Ms. P. Pavani,23,Yes,PhD,26,No,Thursday,Room,C
+SUB00188,Concrete Technology Lab,1,Civil,2,R20,14:00-12:00,4,4,FAC0159,Ms. P. Pavani,14,Yes,M.Tech (PhD),14,Yes,Tuesday,Lab,A
+SUB00189,Highway Engineering Lab,1,Civil,2,R20,12:00-12:00,6,6,FAC0187,Ms. L. Lakshmi,23,Yes,PhD,17,Yes,Wednesday,Lab,B
+SUB00190,Surveying Field Work  I,1,Civil,2,R20,10:00-12:00,4,4,FAC0398,Mr. K. Kiran Kumar,30,Yes,PhD,13,Yes,Wednesday,Room,C
+SUB00191,Mathematics  III,1,Mechanical,2,R20,14:00-13:00,4,4,FAC0073,Prof. S. Srinivas,12,Yes,M.Tech,22,Yes,Monday,Room,A
+SUB00192,Mechanics of Solids,1,Mechanical,2,R20,13:00-13:00,3,3,FAC0362,Dr. M. Mahesh,15,Yes,M.Tech (PhD),19,No,Monday,Room,A
+SUB00193,Fluid Mechanics & Hydraulic Machines,1,Mechanical,2,R20,15:00-15:00,3,3,FAC0216,Prof. S. Srinivas,20,Yes,M.Tech,22,Yes,Monday,Room,B
+SUB00194,Production Technology,1,Mechanical,2,R20,13:00-13:00,5,5,FAC0144,Dr. A. Anitha,27,Yes,PhD,24,No,Tuesday,Room,A
+SUB00195,Kinematics of Machinery,1,Mechanical,2,R20,9:00-13:00,3,3,FAC0284,Dr. R. Ramadevi,24,Yes,M.Tech,15,No,Tuesday,Room,B
+SUB00196,Fluid Mechanics & Hydraulic Machines Lab,1,Mechanical,2,R20,13:00-11:00,3,3,FAC0273,Dr. N. Narendra,22,Yes,PhD,15,No,Tuesday,Lab,C
+SUB00197,Production Technology Lab,1,Mechanical,2,R20,10:00-14:00,5,5,FAC0303,Dr. R. Ramadevi,9,Yes,PhD,24,No,Saturday,Lab,B
+SUB00198,Drafting and Modeling Lab / CAD Drawing Practice,1,Mechanical,2,R20,12:00-15:00,3,3,FAC0109,Dr. A. Anitha,14,Yes,M.Tech,18,Yes,Saturday,Lab,B
+SUB00199,Probability & Statistics,2,CSE,2,R20,12:00-12:00,6,6,FAC0216,Ms. P. Pavani,16,Yes,M.Tech (PhD),26,Yes,Saturday,Room,A
+SUB00200,Formal Languages & Automata Theory,2,CSE,2,R20,13:00-15:00,3,3,FAC0108,Mr. R. Ramesh,12,Yes,M.Tech (PhD),19,No,Thursday,Room,B
+SUB00201,Java Programming,2,CSE,2,R20,14:00-15:00,4,4,FAC0133,Dr. A. Anitha,29,Yes,M.Tech (PhD),21,No,Saturday,Room,B
+SUB00202,Software Engineering,2,CSE,2,R20,9:00-16:00,5,5,FAC0109,Dr. M. Mahesh,21,Yes,M.Tech,26,No,Thursday,Room,C
+SUB00203,Managerial Economics & Financial Analysis (MEFA),2,CSE,2,R20,15:00-16:00,4,4,FAC0087,Ms. P. Pavani,7,Yes,M.Tech,12,Yes,Friday,Room,A
+SUB00204,Java Programming Lab,2,CSE,2,R20,13:00-14:00,6,6,FAC0327,Ms. D. Divya,30,Yes,M.Tech (PhD),26,No,Friday,Lab,B
+SUB00205,Foss Lab,2,CSE,2,R20,9:00-16:00,6,6,FAC0297,Dr. N. Narendra,20,Yes,M.Tech (PhD),13,No,Saturday,Lab,B
+SUB00206,Skill Oriented Course  II ,2,CSE,2,R20,11:00-12:00,4,4,FAC0026,Ms. P. Pavani,18,Yes,PhD,16,Yes,Tuesday,Lab,C
+SUB00207,Probability & Statistics,2,IT,2,R20,10:00-14:00,2,2,FAC0255,Dr. R. Ramadevi,13,Yes,PhD,16,No,Thursday,Room,B
+SUB00208,Formal Languages & Automata Theory,2,IT,2,R20,10:00-14:00,4,4,FAC0361,Ms. S. Swathi,7,Yes,M.Tech,14,Yes,Tuesday,Room,B
+SUB00209,Java Programming,2,IT,2,R20,14:00-15:00,4,4,FAC0043,Ms. L. Lakshmi,11,Yes,M.Tech,12,Yes,Monday,Room,A
+SUB00210,Software Engineering,2,IT,2,R20,12:00-12:00,4,4,FAC0185,Mr. R. Ramesh,13,Yes,M.Tech,19,Yes,Tuesday,Room,A
+SUB00211,Managerial Economics & Financial Analysis (MEFA),2,IT,2,R20,10:00-13:00,6,6,FAC0198,Dr. R. Ramadevi,4,Yes,M.Tech,16,No,Friday,Room,A
+SUB00212,Java Programming Lab,2,IT,2,R20,12:00-12:00,5,5,FAC0168,Dr. A. Anitha,7,Yes,PhD,13,Yes,Wednesday,Lab,B
+SUB00213,Foss Lab,2,IT,2,R20,14:00-14:00,4,4,FAC0188,Dr. N. Narendra,13,Yes,PhD,22,Yes,Saturday,Lab,B
+SUB00214,Skill Oriented Course  II ,2,IT,2,R20,15:00-16:00,4,4,FAC0329,Dr. N. Narendra,22,Yes,M.Tech,21,Yes,Monday,Lab,A
+SUB00215,Probability & Statistics,2,AIML,2,R20,13:00-16:00,5,5,FAC0075,Ms. L. Lakshmi,19,Yes,M.Tech,18,No,Saturday,Room,C
+SUB00216,Formal Languages & Automata Theory,2,AIML,2,R20,15:00-14:00,2,2,FAC0043,Prof. S. Srinivas,25,Yes,PhD,12,Yes,Thursday,Room,A
+SUB00217,Java Programming,2,AIML,2,R20,9:00-13:00,4,4,FAC0391,Mr. R. Ramesh,23,Yes,M.Tech,20,Yes,Tuesday,Room,A
+SUB00218,Software Engineering,2,AIML,2,R20,10:00-10:00,4,4,FAC0284,Mr. V. Venkatesh,10,Yes,PhD,13,Yes,Friday,Room,B
+SUB00219,Managerial Economics & Financial Analysis (MEFA),2,AIML,2,R20,13:00-10:00,4,4,FAC0305,Dr. R. Ramadevi,25,Yes,PhD,14,No,Wednesday,Room,A
+SUB00220,Java Programming Lab,2,AIML,2,R20,15:00-15:00,4,4,FAC0173,Ms. L. Lakshmi,7,Yes,PhD,18,No,Tuesday,Lab,C
+SUB00221,Foss Lab,2,AIML,2,R20,15:00-13:00,4,4,FAC0180,Ms. P. Pavani,10,Yes,M.Tech (PhD),14,Yes,Tuesday,Lab,C
+SUB00222,Skill Oriented Course  II ,2,AIML,2,R20,13:00-13:00,3,3,FAC0087,Ms. D. Divya,4,Yes,PhD,15,No,Friday,Lab,A
+SUB00223,Probability & Statistics,2,DS,2,R20,14:00-13:00,2,2,FAC0399,Ms. S. Swathi,12,Yes,M.Tech,12,No,Wednesday,Room,A
+SUB00224,Formal Languages & Automata Theory,2,DS,2,R20,9:00-15:00,6,6,FAC0273,Dr. M. Mahesh,14,Yes,M.Tech (PhD),14,No,Friday,Room,A
+SUB00225,Java Programming,2,DS,2,R20,9:00-12:00,6,6,FAC0139,Ms. L. Lakshmi,24,Yes,M.Tech (PhD),25,No,Wednesday,Room,A
+SUB00226,Software Engineering,2,DS,2,R20,14:00-12:00,4,4,FAC0393,Ms. L. Lakshmi,1,Yes,PhD,13,No,Saturday,Room,A
+SUB00227,Managerial Economics & Financial Analysis (MEFA),2,DS,2,R20,12:00-14:00,4,4,FAC0222,Mr. K. Kiran Kumar,13,Yes,M.Tech (PhD),17,No,Wednesday,Room,A
+SUB00228,Java Programming Lab,2,DS,2,R20,13:00-16:00,3,3,FAC0300,Dr. A. Anitha,9,Yes,M.Tech,17,Yes,Friday,Lab,A
+SUB00229,Foss Lab,2,DS,2,R20,10:00-11:00,3,3,FAC0237,Mr. R. Ramesh,22,Yes,M.Tech (PhD),22,No,Thursday,Lab,B
+SUB00230,Skill Oriented Course  II ,2,DS,2,R20,14:00-14:00,5,5,FAC0330,Ms. D. Divya,25,Yes,PhD,16,Yes,Saturday,Lab,C
+SUB00231,Electronic Circuit Analysis,2,ECE,2,R20,10:00-16:00,5,5,FAC0235,Mr. V. Venkatesh,1,Yes,PhD,17,No,Wednesday,Room,C
+SUB00232,Digital IC Design,2,ECE,2,R20,9:00-11:00,4,4,FAC0151,Ms. P. Pavani,9,Yes,M.Tech (PhD),13,No,Tuesday,Room,C
+SUB00233,Analog Communications,2,ECE,2,R20,13:00-12:00,4,4,FAC0384,Dr. N. Narendra,9,Yes,PhD,13,No,Saturday,Room,C
+SUB00234,Linear Control Systems,2,ECE,2,R20,15:00-12:00,5,5,FAC0044,Dr. A. Anitha,8,Yes,M.Tech,24,No,Monday,Room,C
+SUB00235,Management & Organizational Behavior,2,ECE,2,R20,11:00-16:00,3,3,FAC0144,Ms. L. Lakshmi,28,Yes,M.Tech (PhD),24,Yes,Saturday,Room,B
+SUB00236,Electronic Circuit Analysis Lab,2,ECE,2,R20,11:00-14:00,2,2,FAC0107,Mr. V. Venkatesh,14,Yes,PhD,15,No,Monday,Lab,C
+SUB00237,Digital IC Design Lab,2,ECE,2,R20,9:00-15:00,6,6,FAC0187,Ms. L. Lakshmi,30,Yes,M.Tech,23,Yes,Saturday,Lab,C
+SUB00238,Analog Communications Lab,2,ECE,2,R20,9:00-14:00,5,5,FAC0224,Mr. K. Kiran Kumar,19,Yes,M.Tech (PhD),24,No,Friday,Lab,A
+SUB00239,Power Systems  I,2,EEE,2,R20,13:00-16:00,4,4,FAC0303,Ms. D. Divya,19,Yes,M.Tech (PhD),19,Yes,Saturday,Room,B
+SUB00240,Induction & Synchronous Machines,2,EEE,2,R20,13:00-16:00,6,6,FAC0292,Ms. S. Swathi,15,Yes,PhD,16,No,Monday,Room,B
+SUB00241,Digital Electronics,2,EEE,2,R20,12:00-16:00,4,4,FAC0300,Prof. S. Srinivas,11,Yes,M.Tech (PhD),14,No,Saturday,Room,A
+SUB00242,Python Programming,2,EEE,2,R20,14:00-12:00,3,3,FAC0260,Ms. L. Lakshmi,29,Yes,M.Tech (PhD),12,No,Wednesday,Room,C
+SUB00243,Managerial Economics & Financial Analysis,2,EEE,2,R20,9:00-13:00,4,4,FAC0239,Dr. A. Anitha,20,Yes,PhD,12,Yes,Thursday,Room,C
+SUB00244,Induction & Synchronous Machines Lab,2,EEE,2,R20,13:00-14:00,4,4,FAC0281,Ms. D. Divya,18,Yes,M.Tech (PhD),16,Yes,Monday,Lab,A
+SUB00245,Digital Electronics Lab,2,EEE,2,R20,14:00-13:00,4,4,FAC0313,Mr. R. Ramesh,29,Yes,PhD,19,Yes,Wednesday,Lab,C
+SUB00246,Python Programming Lab,2,EEE,2,R20,9:00-10:00,4,4,FAC0222,Prof. S. Srinivas,11,Yes,M.Tech (PhD),22,No,Thursday,Lab,A
+SUB00247,Skill Oriented Course (Electrical Applications),2,EEE,2,R20,13:00-14:00,4,4,FAC0182,Dr. R. Ramadevi,28,Yes,PhD,14,Yes,Friday,Lab,B
+SUB00248,Strength of Materials  II,2,Civil,2,R20,12:00-14:00,4,4,FAC0137,Mr. K. Kiran Kumar,9,Yes,M.Tech (PhD),23,Yes,Monday,Room,C
+SUB00249,Hydraulics & Hydraulic Machinery,2,Civil,2,R20,12:00-16:00,3,3,FAC0289,Dr. A. Anitha,11,Yes,PhD,23,Yes,Monday,Room,C
+SUB00250,Environmental Engineering,2,Civil,2,R20,12:00-14:00,5,5,FAC0197,Mr. R. Ramesh,13,Yes,PhD,26,No,Tuesday,Room,C
+SUB00251,Complex Variables & Statistical Methods,2,Civil,2,R20,11:00-10:00,6,6,FAC0025,Mr. R. Ramesh,23,Yes,M.Tech (PhD),12,Yes,Monday,Room,C
+SUB00252,Managerial Economics & Financial Analysis,2,Civil,2,R20,13:00-14:00,3,3,FAC0241,Dr. M. Mahesh,14,Yes,PhD,16,Yes,Tuesday,Room,B
+SUB00253,Strength of Materials Lab,2,Civil,2,R20,14:00-13:00,3,3,FAC0350,Ms. L. Lakshmi,28,Yes,M.Tech (PhD),21,No,Wednesday,Lab,B
+SUB00254,Hydraulics Lab,2,Civil,2,R20,12:00-15:00,2,2,FAC0066,Dr. M. Mahesh,24,Yes,PhD,18,Yes,Thursday,Lab,A
+SUB00255,Environmental Engineering Lab,2,Civil,2,R20,11:00-15:00,5,5,FAC0276,Ms. L. Lakshmi,13,Yes,PhD,12,No,Monday,Lab,C
+SUB00256,Thermal Engineering  I,2,Mechanical,2,R20,10:00-16:00,4,4,FAC0251,Ms. S. Swathi,27,Yes,M.Tech (PhD),13,No,Thursday,Room,A
+SUB00257,Dynamics of Machinery,2,Mechanical,2,R20,10:00-12:00,2,2,FAC0328,Dr. A. Anitha,16,Yes,M.Tech,13,No,Saturday,Room,A
+SUB00258,Material Science & Metallurgy,2,Mechanical,2,R20,9:00-12:00,4,4,FAC0142,Prof. S. Srinivas,24,Yes,M.Tech (PhD),14,No,Saturday,Room,A
+SUB00259,Complex Variables & Statistical Methods,2,Mechanical,2,R20,15:00-14:00,4,4,FAC0378,Dr. N. Narendra,10,Yes,M.Tech,16,Yes,Wednesday,Room,C
+SUB00260,Industrial Engineering & Management,2,Mechanical,2,R20,12:00-14:00,5,5,FAC0237,Ms. P. Pavani,24,Yes,M.Tech (PhD),19,Yes,Friday,Room,B
+SUB00261,Theory of Machines Lab,2,Mechanical,2,R20,14:00-14:00,2,2,FAC0099,Mr. K. Kiran Kumar,14,Yes,PhD,14,No,Saturday,Lab,A
+SUB00262,Metallurgy & Mechanics Lab,2,Mechanical,2,R20,13:00-12:00,4,4,FAC0144,Dr. M. Mahesh,8,Yes,M.Tech,14,Yes,Tuesday,Lab,C
+SUB00263,Machine Drawing / CAD Lab,2,Mechanical,2,R20,15:00-13:00,2,2,FAC0249,Dr. M. Mahesh,26,Yes,M.Tech (PhD),26,No,Thursday,Lab,C
+SUB00264,Skill Oriented Course,2,Mechanical,2,R20,14:00-11:00,4,4,FAC0167,Mr. R. Ramesh,9,Yes,M.Tech (PhD),12,No,Thursday,Lab,C
+SUB00265,Compiler Design,1,CSE,3,R20,14:00-10:00,4,4,FAC0023,Prof. S. Srinivas,11,Yes,PhD,15,Yes,Wednesday,Room,B
+SUB00266,Computer Networks,1,CSE,3,R20,10:00-16:00,2,2,FAC0151,Ms. S. Swathi,28,Yes,PhD,18,No,Saturday,Room,C
+SUB00267,Software Engineering,1,CSE,3,R20,15:00-15:00,4,4,FAC0235,Dr. A. Anitha,12,Yes,PhD,18,Yes,Friday,Room,C
+SUB00268,Machine Learning,1,CSE,3,R20,14:00-16:00,6,6,FAC0351,Mr. K. Kiran Kumar,13,Yes,M.Tech,21,No,Monday,Room,C
+SUB00269,Managerial Economics & Financial Analysis,1,CSE,3,R20,13:00-12:00,3,3,FAC0380,Mr. V. Venkatesh,30,Yes,M.Tech,16,No,Wednesday,Room,B
+SUB00270,Compiler Design Lab,1,CSE,3,R20,10:00-14:00,5,5,FAC0325,Dr. A. Anitha,10,Yes,M.Tech (PhD),23,No,Friday,Lab,C
+SUB00271,Computer Networks Lab,1,CSE,3,R20,10:00-10:00,5,5,FAC0335,Mr. V. Venkatesh,4,Yes,M.Tech (PhD),24,Yes,Thursday,Lab,B
+SUB00272,Machine Learning Lab,1,CSE,3,R20,14:00-11:00,3,3,FAC0063,Ms. D. Divya,12,Yes,M.Tech (PhD),15,Yes,Friday,Lab,B
+SUB00273,Skill Oriented Course  III,1,CSE,3,R20,12:00-13:00,2,2,FAC0213,Prof. S. Srinivas,13,Yes,M.Tech (PhD),26,No,Tuesday,Room,C
+SUB00274,Compiler Design,1,IT,3,R20,11:00-13:00,5,5,FAC0254,Mr. K. Kiran Kumar,25,Yes,M.Tech,12,No,Tuesday,Room,A
+SUB00275,Computer Networks,1,IT,3,R20,15:00-10:00,6,6,FAC0231,Dr. A. Anitha,8,Yes,M.Tech,24,No,Saturday,Room,A
+SUB00276,Software Engineering,1,IT,3,R20,15:00-16:00,4,4,FAC0017,Ms. D. Divya,8,Yes,M.Tech (PhD),25,No,Tuesday,Room,B
+SUB00277,Machine Learning,1,IT,3,R20,14:00-13:00,5,5,FAC0013,Dr. A. Anitha,29,Yes,PhD,12,No,Thursday,Room,C
+SUB00278,Managerial Economics & Financial Analysis,1,IT,3,R20,13:00-13:00,5,5,FAC0180,Dr. R. Ramadevi,23,Yes,M.Tech,12,No,Thursday,Room,C
+SUB00279,Compiler Design Lab,1,IT,3,R20,15:00-11:00,4,4,FAC0257,Ms. L. Lakshmi,9,Yes,PhD,21,No,Monday,Lab,A
+SUB00280,Computer Networks Lab,1,IT,3,R20,11:00-10:00,3,3,FAC0255,Ms. S. Swathi,23,Yes,PhD,15,Yes,Saturday,Lab,A
+SUB00281,Machine Learning Lab,1,IT,3,R20,14:00-14:00,5,5,FAC0109,Ms. P. Pavani,1,Yes,M.Tech,26,No,Thursday,Lab,C
+SUB00282,Skill Oriented Course  III,1,IT,3,R20,12:00-10:00,4,4,FAC0255,Ms. L. Lakshmi,30,Yes,M.Tech (PhD),15,Yes,Monday,Lab,A
+SUB00283,Compiler Design,1,AIML,3,R20,9:00-10:00,6,6,FAC0282,Dr. N. Narendra,11,Yes,M.Tech (PhD),18,Yes,Monday,Room,B
+SUB00284,Computer Networks,1,AIML,3,R20,10:00-11:00,4,4,FAC0234,Prof. S. Srinivas,4,Yes,PhD,13,Yes,Wednesday,Room,C
+SUB00285,Software Engineering,1,AIML,3,R20,9:00-12:00,4,4,FAC0040,Dr. A. Anitha,17,Yes,M.Tech,12,Yes,Monday,Room,A
+SUB00286,Machine Learning,1,AIML,3,R20,9:00-10:00,2,2,FAC0091,Prof. S. Srinivas,17,Yes,M.Tech,22,Yes,Saturday,Room,B
+SUB00287,Managerial Economics & Financial Analysis,1,AIML,3,R20,15:00-13:00,2,2,FAC0063,Dr. M. Mahesh,25,Yes,M.Tech (PhD),14,No,Wednesday,Room,B
+SUB00288,Compiler Design Lab,1,AIML,3,R20,11:00-15:00,4,4,FAC0292,Prof. S. Srinivas,12,Yes,M.Tech,16,No,Tuesday,Lab,A
+SUB00289,Computer Networks Lab,1,AIML,3,R20,11:00-10:00,3,3,FAC0376,Prof. S. Srinivas,24,Yes,M.Tech,25,No,Monday,Lab,B
+SUB00290,Machine Learning Lab,1,AIML,3,R20,13:00-13:00,6,6,FAC0123,Mr. V. Venkatesh,14,Yes,M.Tech (PhD),15,Yes,Friday,Lab,B
+SUB00291,Skill Oriented Course  III,1,AIML,3,R20,14:00-13:00,3,3,FAC0338,Mr. K. Kiran Kumar,8,Yes,PhD,14,Yes,Tuesday,Lab,C
+SUB00292,Compiler Design,1,DS,3,R20,13:00-12:00,5,5,FAC0209,Ms. P. Pavani,16,Yes,PhD,18,No,Saturday,Room,B
+SUB00293,Computer Networks,1,DS,3,R20,13:00-15:00,2,2,FAC0382,Mr. R. Ramesh,18,Yes,M.Tech (PhD),26,Yes,Monday,Room,C
+SUB00294,Software Engineering,1,DS,3,R20,13:00-13:00,5,5,FAC0003,Dr. R. Ramadevi,29,Yes,PhD,12,Yes,Wednesday,Room,C
+SUB00295,Machine Learning,1,DS,3,R20,9:00-16:00,6,6,FAC0207,Ms. L. Lakshmi,4,Yes,PhD,25,No,Tuesday,Room,C
+SUB00296,Managerial Economics & Financial Analysis,1,DS,3,R20,14:00-15:00,2,2,FAC0292,Mr. K. Kiran Kumar,2,Yes,PhD,15,No,Tuesday,Room,B
+SUB00297,Compiler Design Lab,1,DS,3,R20,11:00-13:00,2,2,FAC0006,Ms. S. Swathi,9,Yes,PhD,20,No,Thursday,Lab,B
+SUB00298,Computer Networks Lab,1,DS,3,R20,12:00-13:00,6,6,FAC0279,Ms. P. Pavani,11,Yes,M.Tech (PhD),17,Yes,Friday,Lab,A
+SUB00299,Machine Learning Lab,1,DS,3,R20,11:00-12:00,5,5,FAC0202,Dr. N. Narendra,5,Yes,M.Tech (PhD),16,No,Wednesday,Lab,C
+SUB00300,Skill Oriented Course  III,1,DS,3,R20,9:00-10:00,4,4,FAC0251,Dr. A. Anitha,10,Yes,M.Tech,20,No,Wednesday,Lab,C
+SUB00301,Digital Signal Processing,1,ECE,3,R20,10:00-12:00,4,4,FAC0077,Dr. A. Anitha,10,Yes,PhD,22,Yes,Thursday,Room,B
+SUB00302,Microprocessors & Microcontrollers,1,ECE,3,R20,11:00-14:00,4,4,FAC0204,Dr. A. Anitha,11,Yes,PhD,22,No,Wednesday,Room,C
+SUB00303,VLSI Design,1,ECE,3,R20,12:00-13:00,5,5,FAC0172,Mr. R. Ramesh,23,Yes,PhD,23,No,Wednesday,Room,B
+SUB00304,Antennas & Wave Propagation,1,ECE,3,R20,9:00-13:00,5,5,FAC0146,Ms. D. Divya,26,Yes,PhD,15,Yes,Thursday,Room,B
+SUB00305,Open Elective  I,1,ECE,3,R20,13:00-16:00,4,4,FAC0129,Ms. L. Lakshmi,1,Yes,M.Tech (PhD),19,Yes,Saturday,Room,B
+SUB00306,DSP Lab,1,ECE,3,R20,10:00-13:00,3,3,FAC0301,Mr. K. Kiran Kumar,25,Yes,M.Tech,19,No,Friday,Lab,A
+SUB00307,Microprocessors & Microcontrollers Lab,1,ECE,3,R20,12:00-13:00,3,3,FAC0005,Dr. M. Mahesh,10,Yes,M.Tech (PhD),21,No,Thursday,Lab,A
+SUB00308,VLSI Lab,1,ECE,3,R20,13:00-13:00,5,5,FAC0006,Ms. P. Pavani,2,Yes,M.Tech (PhD),25,Yes,Saturday,Lab,C
+SUB00309,Skill Oriented Course  III,1,ECE,3,R20,10:00-12:00,5,5,FAC0042,Ms. S. Swathi,7,Yes,PhD,22,No,Wednesday,Lab,A
+SUB00310,Power Electronics,1,EEE,3,R20,11:00-16:00,2,2,FAC0192,Mr. R. Ramesh,7,Yes,PhD,24,Yes,Friday,Room,C
+SUB00311,Control Systems,1,EEE,3,R20,10:00-13:00,3,3,FAC0037,Mr. V. Venkatesh,30,Yes,M.Tech (PhD),16,Yes,Tuesday,Room,B
+SUB00312,Power Systems  II,1,EEE,3,R20,13:00-16:00,3,3,FAC0131,Mr. K. Kiran Kumar,13,Yes,M.Tech,18,No,Saturday,Room,C
+SUB00313,Microprocessors & Microcontrollers,1,EEE,3,R20,10:00-15:00,3,3,FAC0351,Ms. P. Pavani,6,Yes,M.Tech,25,No,Friday,Room,A
+SUB00314,Open Elective  I,1,EEE,3,R20,14:00-12:00,3,3,FAC0160,Dr. A. Anitha,12,Yes,M.Tech (PhD),13,No,Tuesday,Room,A
+SUB00315,Power Electronics Lab,1,EEE,3,R20,15:00-15:00,3,3,FAC0367,Mr. V. Venkatesh,29,Yes,PhD,24,Yes,Friday,Lab,A
+SUB00316,Control Systems Lab,1,EEE,3,R20,13:00-14:00,4,4,FAC0286,Ms. L. Lakshmi,21,Yes,PhD,15,No,Wednesday,Lab,A
+SUB00317,Microprocessors & Microcontrollers Lab,1,EEE,3,R20,9:00-16:00,4,4,FAC0302,Ms. P. Pavani,3,Yes,PhD,20,Yes,Monday,Lab,C
+SUB00318,Skill Oriented Course  III,1,EEE,3,R20,12:00-11:00,4,4,FAC0182,Dr. M. Mahesh,16,Yes,PhD,20,No,Thursday,Lab,C
+SUB00319,Structural Analysis  I,1,Civil,3,R20,13:00-14:00,3,3,FAC0166,Dr. N. Narendra,4,Yes,PhD,16,Yes,Wednesday,Room,C
+SUB00320,Geotechnical Engineering  I,1,Civil,3,R20,10:00-16:00,5,5,FAC0320,Ms. P. Pavani,24,Yes,M.Tech,22,Yes,Monday,Room,C
+SUB00321,Water Resources Engineering  I,1,Civil,3,R20,9:00-15:00,3,3,FAC0296,Dr. A. Anitha,19,Yes,M.Tech (PhD),22,Yes,Wednesday,Room,C
+SUB00322,Environmental Engineering  II,1,Civil,3,R20,12:00-11:00,5,5,FAC0052,Mr. V. Venkatesh,10,Yes,M.Tech,23,Yes,Saturday,Room,C
+SUB00323,Open Elective - I,1,Civil,3,R20,13:00-16:00,4,4,FAC0335,Dr. R. Ramadevi,10,Yes,M.Tech (PhD),21,No,Tuesday,Room,B
+SUB00324,Geotechnical Engineering Lab,1,Civil,3,R20,9:00-15:00,3,3,FAC0260,Ms. L. Lakshmi,12,Yes,PhD,14,Yes,Wednesday,Lab,A
+SUB00325,Environmental Engineering Lab  II,1,Civil,3,R20,11:00-11:00,3,3,FAC0262,Mr. R. Ramesh,8,Yes,PhD,15,Yes,Wednesday,Lab,C
+SUB00326,Surveying Field Work  II,1,Civil,3,R20,11:00-13:00,2,2,FAC0331,Ms. S. Swathi,2,Yes,M.Tech,13,Yes,Tuesday,Lab,B
+SUB00327,Skill Oriented Course  III,1,Civil,3,R20,15:00-13:00,4,4,FAC0078,Dr. A. Anitha,20,Yes,PhD,25,No,Friday,Lab,C
+SUB00328,Heat Transfer,1,Mechanical,3,R20,9:00-15:00,3,3,FAC0004,Dr. M. Mahesh,30,Yes,PhD,13,Yes,Wednesday,Room,A
+SUB00329,Design of Machine Elements  I,1,Mechanical,3,R20,13:00-11:00,5,5,FAC0301,Mr. K. Kiran Kumar,21,Yes,PhD,20,Yes,Monday,Room,A
+SUB00330,Finite Element Methods,1,Mechanical,3,R20,15:00-11:00,4,4,FAC0187,Mr. R. Ramesh,1,Yes,M.Tech (PhD),12,Yes,Friday,Room,C
+SUB00331,Metrology & Mechanical Measurements,1,Mechanical,3,R20,15:00-16:00,4,4,FAC0167,Ms. S. Swathi,25,Yes,M.Tech (PhD),24,No,Monday,Room,B
+SUB00332,Open Elective  I,1,Mechanical,3,R20,10:00-11:00,2,2,FAC0285,Mr. R. Ramesh,11,Yes,PhD,16,Yes,Thursday,Room,A
+SUB00333,Heat Transfer Lab,1,Mechanical,3,R20,11:00-15:00,3,3,FAC0214,Ms. D. Divya,30,Yes,M.Tech,21,No,Wednesday,Lab,C
+SUB00334,Metrology & Measurements Lab,1,Mechanical,3,R20,15:00-13:00,2,2,FAC0093,Dr. M. Mahesh,29,Yes,M.Tech,16,Yes,Friday,Lab,A
+SUB00335,Machine Design Practice / CAD Lab,1,Mechanical,3,R20,13:00-15:00,4,4,FAC0089,Ms. D. Divya,19,Yes,PhD,21,Yes,Thursday,Lab,A
+SUB00336,Skill Oriented Course  III,1,Mechanical,3,R20,15:00-14:00,4,4,FAC0230,Ms. D. Divya,29,Yes,M.Tech,16,No,Friday,Lab,B
+SUB00337,Data Warehousing & Data Mining,2,CSE,3,R20,12:00-11:00,5,5,FAC0041,Prof. S. Srinivas,8,Yes,M.Tech (PhD),20,No,Tuesday,Room,A
+SUB00338,Artificial Intelligence,2,CSE,3,R20,15:00-14:00,3,3,FAC0280,Ms. L. Lakshmi,3,Yes,PhD,23,Yes,Friday,Room,A
+SUB00339,Cryptography & Network Security,2,CSE,3,R20,15:00-10:00,3,3,FAC0213,Ms. L. Lakshmi,19,Yes,M.Tech,26,Yes,Monday,Room,A
+SUB00340,Big Data Analytics,2,CSE,3,R20,15:00-13:00,5,5,FAC0185,Ms. P. Pavani,20,Yes,PhD,12,Yes,Monday,Room,B
+SUB00341,Open Elective  II,2,CSE,3,R20,14:00-10:00,5,5,FAC0079,Ms. S. Swathi,1,Yes,PhD,12,No,Saturday,Room,B
+SUB00342,Data Warehousing & Data Mining Lab,2,CSE,3,R20,14:00-10:00,5,5,FAC0372,Ms. D. Divya,14,Yes,M.Tech (PhD),21,No,Tuesday,Lab,A
+SUB00343,Artificial Intelligence Lab,2,CSE,3,R20,13:00-15:00,4,4,FAC0034,Ms. S. Swathi,10,Yes,PhD,22,Yes,Friday,Lab,B
+SUB00344,Cryptography & Network Security Lab,2,CSE,3,R20,14:00-16:00,3,3,FAC0319,Dr. A. Anitha,13,Yes,M.Tech,17,Yes,Monday,Lab,C
+SUB00345,Big Data Analytics,2,CSE,3,R20,13:00-11:00,6,6,FAC0198,Mr. K. Kiran Kumar,12,Yes,M.Tech,25,No,Saturday,Room,A
+SUB00346,Data Warehousing & Data Mining,2,IT,3,R20,10:00-13:00,4,4,FAC0041,Ms. P. Pavani,14,Yes,M.Tech (PhD),13,No,Monday,Room,B
+SUB00347,Artificial Intelligence,2,IT,3,R20,10:00-12:00,6,6,FAC0222,Dr. R. Ramadevi,14,Yes,M.Tech (PhD),15,No,Monday,Room,B
+SUB00348,Cryptography & Network Security,2,IT,3,R20,14:00-16:00,2,2,FAC0400,Dr. A. Anitha,9,Yes,PhD,17,Yes,Saturday,Room,A
+SUB00349,Big Data Analytics,2,IT,3,R20,10:00-11:00,5,5,FAC0310,Mr. V. Venkatesh,19,Yes,M.Tech,17,Yes,Saturday,Room,B
+SUB00350,Open Elective  II,2,IT,3,R20,10:00-12:00,4,4,FAC0061,Ms. D. Divya,9,Yes,PhD,13,No,Friday,Room,B
+SUB00351,Data Warehousing & Data Mining Lab,2,IT,3,R20,15:00-12:00,2,2,FAC0262,Prof. S. Srinivas,9,Yes,M.Tech (PhD),13,No,Saturday,Lab,B
+SUB00352,Artificial Intelligence Lab,2,IT,3,R20,12:00-12:00,3,3,FAC0110,Prof. S. Srinivas,18,Yes,PhD,15,Yes,Friday,Lab,C
+SUB00353,Cryptography & Network Security Lab,2,IT,3,R20,15:00-13:00,3,3,FAC0185,Dr. M. Mahesh,20,Yes,PhD,14,No,Saturday,Lab,B
+SUB00354,Big Data Analytics Lab ,2,IT,3,R20,13:00-16:00,4,4,FAC0065,Mr. R. Ramesh,21,Yes,M.Tech (PhD),15,Yes,Tuesday,Lab,C
+SUB00355,Data Warehousing & Data Mining,2,Aiml,3,R20,14:00-16:00,4,4,FAC0009,Ms. D. Divya,24,Yes,PhD,14,Yes,Monday,Room,C
+SUB00356,Artificial Intelligence,2,Aiml,3,R20,10:00-11:00,4,4,FAC0168,Ms. S. Swathi,3,Yes,PhD,23,Yes,Thursday,Room,C
+SUB00357,Cryptography & Network Security,2,Aiml,3,R20,11:00-16:00,3,3,FAC0140,Ms. P. Pavani,12,Yes,M.Tech,18,Yes,Friday,Room,C
+SUB00358,Big Data Analytics,2,Aiml,3,R20,15:00-11:00,3,3,FAC0326,Dr. A. Anitha,11,Yes,M.Tech,16,No,Friday,Room,A
+SUB00359,Open Elective  II,2,Aiml,3,R20,15:00-12:00,4,4,FAC0225,Dr. N. Narendra,9,Yes,M.Tech (PhD),21,Yes,Saturday,Room,B
+SUB00360,Data Warehousing & Data Mining Lab,2,Aiml,3,R20,11:00-16:00,3,3,FAC0200,Ms. S. Swathi,5,Yes,M.Tech (PhD),14,Yes,Tuesday,Lab,A
+SUB00361,Artificial Intelligence Lab,2,Aiml,3,R20,12:00-14:00,5,5,FAC0097,Dr. A. Anitha,8,Yes,M.Tech (PhD),23,Yes,Friday,Lab,C
+SUB00362,Cryptography & Network Security Lab,2,Aiml,3,R20,12:00-13:00,4,4,FAC0095,Ms. L. Lakshmi,1,Yes,M.Tech (PhD),18,No,Wednesday,Lab,B
+SUB00363,Big Data Analytics Lab ,2,Aiml,3,R20,9:00-10:00,5,5,FAC0377,Dr. A. Anitha,23,Yes,M.Tech (PhD),18,Yes,Saturday,Lab,B
+SUB00364,Data Warehousing & Data Mining,2,DS,3,R20,13:00-12:00,2,2,FAC0349,Ms. S. Swathi,13,Yes,PhD,15,Yes,Wednesday,Room,B
+SUB00365,Artificial Intelligence,2,DS,3,R20,14:00-13:00,6,6,FAC0353,Mr. K. Kiran Kumar,6,Yes,M.Tech,12,No,Wednesday,Room,B
+SUB00366,Cryptography & Network Security,2,DS,3,R20,9:00-12:00,4,4,FAC0063,Mr. R. Ramesh,14,Yes,M.Tech (PhD),25,Yes,Wednesday,Room,C
+SUB00367,Big Data Analytics,2,DS,3,R20,15:00-14:00,2,2,FAC0272,Prof. S. Srinivas,24,Yes,PhD,19,Yes,Saturday,Room,C
+SUB00368,Open Elective  II,2,DS,3,R20,9:00-13:00,4,4,FAC0341,Mr. V. Venkatesh,17,Yes,PhD,24,No,Thursday,Room,B
+SUB00369,Data Warehousing & Data Mining Lab,2,DS,3,R20,10:00-10:00,6,6,FAC0128,Mr. V. Venkatesh,28,Yes,M.Tech (PhD),15,No,Tuesday,Lab,C
+SUB00370,Artificial Intelligence Lab,2,DS,3,R20,10:00-13:00,4,4,FAC0298,Mr. V. Venkatesh,4,Yes,M.Tech (PhD),18,Yes,Monday,Lab,B
+SUB00371,Cryptography & Network Security Lab,2,DS,3,R20,13:00-12:00,6,6,FAC0063,Ms. S. Swathi,1,Yes,M.Tech,26,No,Tuesday,Lab,C
+SUB00372,Big Data Analytics Lab ,2,DS,3,R20,13:00-16:00,2,2,FAC0256,Dr. N. Narendra,30,Yes,M.Tech (PhD),14,Yes,Tuesday,Lab,B
+SUB00373,Digital Image Processing,2,ECE,3,R20,14:00-10:00,4,4,FAC0005,Mr. R. Ramesh,9,Yes,M.Tech (PhD),23,Yes,Tuesday,Room,C
+SUB00374,Embedded Systems,2,ECE,3,R20,14:00-15:00,3,3,FAC0045,Prof. S. Srinivas,22,Yes,PhD,19,No,Tuesday,Room,C
+SUB00375,Wireless Communications,2,ECE,3,R20,14:00-16:00,5,5,FAC0114,Mr. R. Ramesh,20,Yes,M.Tech,21,No,Friday,Room,A
+SUB00376,Professional Elective  I,2,ECE,3,R20,13:00-10:00,3,3,FAC0052,Dr. M. Mahesh,30,Yes,M.Tech (PhD),20,No,Tuesday,Room,A
+SUB00377,Open Elective  II,2,ECE,3,R20,12:00-12:00,4,4,FAC0068,Dr. R. Ramadevi,7,Yes,PhD,23,Yes,Thursday,Room,C
+SUB00378,Digital Image Processing Lab,2,ECE,3,R20,11:00-15:00,5,5,FAC0156,Dr. A. Anitha,21,Yes,PhD,14,No,Monday,Lab,C
+SUB00379,Embedded Systems Lab,2,ECE,3,R20,11:00-12:00,6,6,FAC0322,Ms. L. Lakshmi,9,Yes,M.Tech,13,Yes,Tuesday,Lab,C
+SUB00380,Wireless Communications Lab,2,ECE,3,R20,11:00-15:00,4,4,FAC0367,Dr. N. Narendra,6,Yes,M.Tech,22,No,Friday,Lab,C
+SUB00381,Skill Oriented Course  IV,2,ECE,3,R20,13:00-11:00,3,3,FAC0384,Mr. V. Venkatesh,6,Yes,M.Tech (PhD),16,No,Thursday,Lab,B
+SUB00382,Power System Protection,2,EEE,3,R20,15:00-15:00,6,6,FAC0185,Ms. S. Swathi,29,Yes,M.Tech,25,Yes,Thursday,Room,C
+SUB00383,Electrical Drives,2,EEE,3,R20,12:00-13:00,6,6,FAC0079,Mr. R. Ramesh,18,Yes,M.Tech (PhD),17,No,Thursday,Room,B
+SUB00384,Renewable Energy Systems,2,EEE,3,R20,11:00-16:00,4,4,FAC0043,Mr. K. Kiran Kumar,1,Yes,M.Tech (PhD),13,No,Tuesday,Room,C
+SUB00385,Professional Elective  I,2,EEE,3,R20,10:00-16:00,5,5,FAC0172,Dr. N. Narendra,12,Yes,M.Tech (PhD),13,Yes,Friday,Room,C
+SUB00386,Open Elective  II,2,EEE,3,R20,12:00-16:00,3,3,FAC0153,Dr. A. Anitha,27,Yes,M.Tech,13,Yes,Monday,Room,B
+SUB00387,Electrical Drives Lab,2,EEE,3,R20,9:00-12:00,3,3,FAC0314,Ms. L. Lakshmi,15,Yes,M.Tech (PhD),13,No,Thursday,Lab,A
+SUB00388,Power System Protection Lab,2,EEE,3,R20,10:00-12:00,3,3,FAC0272,Mr. R. Ramesh,12,Yes,M.Tech (PhD),20,No,Friday,Lab,A
+SUB00389,Renewable Energy Systems Lab,2,EEE,3,R20,13:00-15:00,5,5,FAC0332,Prof. S. Srinivas,30,Yes,M.Tech (PhD),23,No,Saturday,Lab,B
+SUB00390,Skill Oriented Course  IV,2,EEE,3,R20,15:00-13:00,4,4,FAC0148,Dr. R. Ramadevi,26,Yes,M.Tech,24,No,Saturday,Lab,B
+SUB00391,Structural Analysis  II,2,Civil,3,R20,13:00-16:00,3,3,FAC0110,Ms. D. Divya,21,Yes,M.Tech,25,No,Friday,Room,A
+SUB00392,Geotechnical Engineering  II,2,Civil,3,R20,9:00-11:00,5,5,FAC0265,Dr. N. Narendra,25,Yes,PhD,25,Yes,Monday,Room,C
+SUB00393,Transportation Engineering  II,2,Civil,3,R20,12:00-13:00,2,2,FAC0192,Ms. L. Lakshmi,10,Yes,M.Tech,24,No,Thursday,Room,C
+SUB00394,Professional Elective  I,2,Civil,3,R20,13:00-11:00,3,3,FAC0275,Ms. D. Divya,2,Yes,M.Tech,26,Yes,Tuesday,Room,B
+SUB00395,Open Elective  II,2,Civil,3,R20,13:00-10:00,3,3,FAC0144,Dr. R. Ramadevi,21,Yes,M.Tech,13,No,Friday,Room,B
+SUB00396,Geotechnical Engineering Lab  II,2,Civil,3,R20,11:00-16:00,6,6,FAC0393,Ms. P. Pavani,11,Yes,M.Tech (PhD),26,No,Monday,Lab,B
+SUB00397,Transportation Engineering Lab,2,Civil,3,R20,9:00-13:00,3,3,FAC0087,Mr. R. Ramesh,11,Yes,M.Tech (PhD),13,Yes,Saturday,Lab,C
+SUB00398,Environmental Engineering Lab  III,2,Civil,3,R20,15:00-15:00,2,2,FAC0217,Ms. P. Pavani,25,Yes,M.Tech,19,Yes,Monday,Lab,C
+SUB00399,Skill Oriented Course  IV,2,Civil,3,R20,10:00-12:00,3,3,FAC0027,Dr. R. Ramadevi,25,Yes,M.Tech (PhD),20,Yes,Thursday,Lab,A
+SUB00400,Design of Machine Elements  II,2,Mechanical,3,R20,11:00-10:00,5,5,FAC0382,Ms. D. Divya,28,Yes,M.Tech,21,Yes,Saturday,Room,B
+SUB00401,Finite Element Analysis,2,Mechanical,3,R20,9:00-15:00,6,6,FAC0133,Ms. D. Divya,10,Yes,PhD,14,No,Friday,Room,C
+SUB00402,Metrology & Mechanical Measurements,2,Mechanical,3,R20,15:00-15:00,5,5,FAC0023,Ms. P. Pavani,8,Yes,M.Tech,12,Yes,Wednesday,Room,A
+SUB00403,Professional Elective  I,2,Mechanical,3,R20,13:00-12:00,4,4,FAC0255,Dr. A. Anitha,18,Yes,PhD,18,No,Saturday,Room,C
+SUB00404,Open Elective  II,2,Mechanical,3,R20,10:00-10:00,4,4,FAC0102,Mr. K. Kiran Kumar,12,Yes,PhD,24,Yes,Wednesday,Room,A
+SUB00405,Finite Element Analysis Lab,2,Mechanical,3,R20,9:00-12:00,3,3,FAC0161,Dr. R. Ramadevi,29,Yes,M.Tech (PhD),24,No,Monday,Lab,A
+SUB00406,Metrology & Measurements Lab,2,Mechanical,3,R20,10:00-12:00,6,6,FAC0263,Dr. A. Anitha,27,Yes,PhD,16,No,Tuesday,Lab,C
+SUB00407,Machine Design Practice / CAD-CAM Lab,2,Mechanical,3,R20,11:00-13:00,2,2,FAC0343,Dr. N. Narendra,17,Yes,PhD,21,No,Thursday,Lab,A
+SUB00408,Skill Oriented Course  IV,2,Mechanical,3,R20,14:00-16:00,4,4,FAC0227,Mr. R. Ramesh,9,Yes,M.Tech,21,No,Thursday,Lab,B
+SUB00409,Deep Learning,1,CSE,4,R20,13:00-10:00,2,2,FAC0227,Mr. R. Ramesh,5,Yes,M.Tech (PhD),12,Yes,Thursday,Room,C
+SUB00410,Disaster Management,1,CSE,4,R20,13:00-14:00,2,2,FAC0384,Dr. R. Ramadevi,18,Yes,PhD,17,Yes,Tuesday,Room,B
+SUB00411,Ethical Hacking,1,CSE,4,R20,9:00-11:00,4,4,FAC0324,Dr. R. Ramadevi,26,Yes,M.Tech,25,No,Thursday,Room,A
+SUB00412,Cloud Computing,1,CSE,4,R20,10:00-15:00,2,2,FAC0030,Mr. K. Kiran Kumar,26,Yes,M.Tech,25,Yes,Tuesday,Room,C
+SUB00413,Environmental Management,1,CSE,4,R20,9:00-15:00,5,5,FAC0310,Ms. D. Divya,3,Yes,M.Tech (PhD),12,Yes,Friday,Room,C
+SUB00414,Universal Human Values  II,1,CSE,4,R20,11:00-10:00,2,2,FAC0207,Ms. P. Pavani,25,Yes,M.Tech,15,No,Saturday,Room,C
+SUB00415,Deep Learning Techniques Lab,1,CSE,4,R20,11:00-14:00,4,4,FAC0318,Mr. R. Ramesh,13,Yes,M.Tech (PhD),12,No,Thursday,Lab,A
+SUB00416,Deep Learning,1,IT,4,R20,9:00-14:00,5,5,FAC0350,Dr. M. Mahesh,8,Yes,M.Tech,12,No,Saturday,Room,C
+SUB00417,Disaster Management,1,IT,4,R20,12:00-15:00,3,3,FAC0063,Prof. S. Srinivas,25,Yes,PhD,16,No,Tuesday,Room,C
+SUB00418,Ethical Hacking,1,IT,4,R20,12:00-10:00,5,5,FAC0180,Mr. R. Ramesh,3,Yes,M.Tech (PhD),16,Yes,Thursday,Room,C
+SUB00419,Cloud Computing,1,IT,4,R20,10:00-16:00,5,5,FAC0217,Ms. L. Lakshmi,20,Yes,M.Tech (PhD),25,No,Saturday,Room,A
+SUB00420,Environmental Management,1,IT,4,R20,13:00-10:00,5,5,FAC0149,Dr. A. Anitha,13,Yes,PhD,25,Yes,Tuesday,Room,C
+SUB00421,Universal Human Values  II,1,IT,4,R20,15:00-16:00,4,4,FAC0034,Dr. N. Narendra,4,Yes,M.Tech (PhD),14,Yes,Tuesday,Room,C
+SUB00422,Deep Learning Techniques Lab,1,IT,4,R20,10:00-15:00,6,6,FAC0329,Dr. M. Mahesh,28,Yes,PhD,19,Yes,Monday,Lab,A
+SUB00423,Deep Learning,1,AIML,4,R20,15:00-14:00,5,5,FAC0091,Ms. L. Lakshmi,15,Yes,PhD,17,No,Saturday,Room,B
+SUB00424,Disaster Management,1,AIML,4,R20,9:00-16:00,4,4,FAC0236,Dr. M. Mahesh,2,Yes,PhD,15,Yes,Friday,Room,A
+SUB00425,Ethical Hacking,1,AIML,4,R20,15:00-13:00,3,3,FAC0202,Dr. R. Ramadevi,2,Yes,PhD,23,Yes,Tuesday,Room,A
+SUB00426,Cloud Computing,1,AIML,4,R20,15:00-12:00,5,5,FAC0044,Mr. K. Kiran Kumar,18,Yes,PhD,20,No,Saturday,Room,B
+SUB00427,Environmental Management,1,AIML,4,R20,11:00-12:00,4,4,FAC0154,Dr. R. Ramadevi,11,Yes,PhD,22,Yes,Thursday,Room,B
+SUB00428,Universal Human Values  II,1,AIML,4,R20,11:00-16:00,6,6,FAC0072,Ms. L. Lakshmi,24,Yes,M.Tech,19,No,Monday,Room,A
+SUB00429,Deep Learning Techniques Lab,1,AIML,4,R20,14:00-16:00,4,4,FAC0227,Ms. S. Swathi,13,Yes,PhD,19,No,Saturday,Lab,B
+SUB00430,Deep Learning,1,DS,4,R20,15:00-16:00,5,5,FAC0347,Mr. K. Kiran Kumar,27,Yes,PhD,12,No,Saturday,Room,B
+SUB00431,Disaster Management,1,DS,4,R20,14:00-11:00,3,3,FAC0170,Ms. L. Lakshmi,21,Yes,M.Tech,13,No,Wednesday,Room,C
+SUB00432,Ethical Hacking,1,DS,4,R20,9:00-14:00,4,4,FAC0055,Ms. S. Swathi,22,Yes,M.Tech (PhD),23,No,Wednesday,Room,C
+SUB00433,Cloud Computing,1,DS,4,R20,10:00-11:00,5,5,FAC0374,Dr. R. Ramadevi,13,Yes,PhD,17,Yes,Thursday,Room,B
+SUB00434,Environmental Management,1,DS,4,R20,15:00-15:00,4,4,FAC0149,Dr. A. Anitha,28,Yes,PhD,23,Yes,Friday,Room,A
+SUB00435,Universal Human Values  II,1,DS,4,R20,13:00-10:00,4,4,FAC0375,Ms. P. Pavani,7,Yes,M.Tech,17,Yes,Thursday,Room,A
+SUB00436,Deep Learning Techniques Lab,1,DS,4,R20,15:00-10:00,4,4,FAC0165,Ms. S. Swathi,19,Yes,PhD,17,No,Saturday,Lab,B
+SUB00437,Radar Systems,1,ECE,4,R20,11:00-12:00,4,4,FAC0257,Mr. K. Kiran Kumar,26,Yes,M.Tech (PhD),14,Yes,Wednesday,Room,C
+SUB00438,Digital Communication Techniques,1,ECE,4,R20,11:00-15:00,4,4,FAC0260,Mr. V. Venkatesh,30,Yes,PhD,26,Yes,Tuesday,Room,C
+SUB00439,Professional Elective  II,1,ECE,4,R20,14:00-15:00,6,6,FAC0230,Dr. N. Narendra,9,Yes,PhD,14,No,Saturday,Room,B
+SUB00440,Professional Elective  III,1,ECE,4,R20,15:00-10:00,2,2,FAC0181,Ms. L. Lakshmi,30,Yes,M.Tech,17,No,Wednesday,Room,A
+SUB00441,Open Elective  III,1,ECE,4,R20,15:00-10:00,4,4,FAC0323,Prof. S. Srinivas,20,Yes,PhD,23,No,Friday,Room,C
+SUB00442,Digital Communication Lab,1,ECE,4,R20,11:00-12:00,2,2,FAC0072,Ms. D. Divya,23,Yes,PhD,25,Yes,Thursday,Lab,B
+SUB00443,Radar Systems Lab,1,ECE,4,R20,14:00-11:00,3,3,FAC0020,Ms. S. Swathi,29,Yes,M.Tech (PhD),15,No,Wednesday,Lab,A
+SUB00444,Power System Operation & Control,1,EEE,4,R20,15:00-14:00,5,5,FAC0251,Ms. D. Divya,6,Yes,PhD,23,No,Wednesday,Room,A
+SUB00445,FACTS & HVDC Transmission,1,EEE,4,R20,15:00-15:00,5,5,FAC0009,Dr. N. Narendra,14,Yes,M.Tech,19,No,Friday,Room,B
+SUB00446,Professional Elective  II,1,EEE,4,R20,12:00-11:00,4,4,FAC0350,Prof. S. Srinivas,25,Yes,M.Tech,20,Yes,Thursday,Room,B
+SUB00447,Professional Elective  III,1,EEE,4,R20,11:00-14:00,4,4,FAC0164,Dr. R. Ramadevi,1,Yes,M.Tech,13,Yes,Friday,Room,C
+SUB00448,Open Elective  III,1,EEE,4,R20,9:00-16:00,5,5,FAC0360,Ms. L. Lakshmi,6,Yes,M.Tech (PhD),16,No,Monday,Room,A
+SUB00449,Power System Simulation Lab,1,EEE,4,R20,10:00-12:00,4,4,FAC0372,Prof. S. Srinivas,30,Yes,PhD,22,Yes,Monday,Lab,A
+SUB00450,FACTS & HVDC Lab,1,EEE,4,R20,9:00-12:00,4,4,FAC0122,Ms. P. Pavani,17,Yes,M.Tech (PhD),19,No,Friday,Lab,B
+SUB00451,Skill Oriented Course  V,1,EEE,4,R20,12:00-16:00,3,3,FAC0377,Dr. A. Anitha,23,Yes,M.Tech (PhD),20,Yes,Saturday,Lab,C
+SUB00452,Design of Reinforced Concrete Structures  I,1,Civil,4,R20,12:00-12:00,6,6,FAC0249,Prof. S. Srinivas,5,Yes,M.Tech (PhD),18,Yes,Friday,Room,B
+SUB00453,Water Resources Engineering  II,1,Civil,4,R20,13:00-16:00,6,6,FAC0299,Ms. L. Lakshmi,3,Yes,M.Tech,21,No,Monday,Room,B
+SUB00454,Professional Elective  II,1,Civil,4,R20,12:00-10:00,3,3,FAC0381,Mr. K. Kiran Kumar,28,Yes,M.Tech (PhD),15,Yes,Friday,Room,B
+SUB00455,Professional Elective  III,1,Civil,4,R20,15:00-10:00,3,3,FAC0315,Mr. K. Kiran Kumar,21,Yes,M.Tech,19,Yes,Wednesday,Room,B
+SUB00456,Open Elective  III,1,Civil,4,R20,15:00-13:00,3,3,FAC0370,Prof. S. Srinivas,26,Yes,PhD,24,Yes,Thursday,Room,C
+SUB00457,Advanced Structural Engineering Lab,1,Civil,4,R20,9:00-14:00,5,5,FAC0106,Dr. A. Anitha,26,Yes,PhD,16,Yes,Tuesday,Lab,A
+SUB00458,Water Resources Engineering Lab,1,Civil,4,R20,11:00-13:00,5,5,FAC0113,Dr. M. Mahesh,16,Yes,PhD,25,No,Thursday,Lab,A
+SUB00459,Skill Oriented Course  V,1,Civil,4,R20,15:00-16:00,4,4,FAC0148,Ms. P. Pavani,29,Yes,M.Tech (PhD),18,Yes,Wednesday,Lab,C
+SUB00460,Finite Element Analysis,1,Mechanical,4,R20,11:00-14:00,3,3,FAC0020,Ms. D. Divya,26,Yes,M.Tech (PhD),24,No,Saturday,Room,B
+SUB00461,Design of Machine Elements  II,1,Mechanical,4,R20,11:00-13:00,6,6,FAC0308,Ms. D. Divya,18,Yes,PhD,16,Yes,Thursday,Room,A
+SUB00462,Professional Elective  II,1,Mechanical,4,R20,10:00-12:00,6,6,FAC0090,Mr. R. Ramesh,7,Yes,M.Tech (PhD),16,No,Monday,Room,B
+SUB00463,Professional Elective  III,1,Mechanical,4,R20,11:00-12:00,4,4,FAC0115,Mr. R. Ramesh,6,Yes,M.Tech (PhD),18,No,Tuesday,Room,A
+SUB00464,Open Elective  III,1,Mechanical,4,R20,14:00-15:00,3,3,FAC0314,Dr. R. Ramadevi,7,Yes,PhD,17,No,Monday,Room,A
+SUB00465,Finite Element Analysis Lab,1,Mechanical,4,R20,15:00-13:00,3,3,FAC0320,Ms. L. Lakshmi,5,Yes,M.Tech,20,No,Wednesday,Lab,A
+SUB00466,Project Work / Major Project,2,CSE,4,R20,11:00-12:00,6,6,FAC0099,Prof. S. Srinivas,14,Yes,M.Tech,14,Yes,Thursday,Room,B
+SUB00467,Internship / Project Internship,2,CSE,4,R20,10:00-10:00,6,6,FAC0202,Prof. S. Srinivas,12,Yes,M.Tech (PhD),25,No,Tuesday,Lab,C
+SUB00468,Project Work / Major Project,2,IT,4,R20,9:00-11:00,4,4,FAC0063,Dr. N. Narendra,26,Yes,M.Tech (PhD),20,No,Tuesday,Room,C
+SUB00469,Internship / Project Internship,2,IT,4,R20,11:00-10:00,3,3,FAC0103,Mr. V. Venkatesh,5,Yes,PhD,24,No,Tuesday,Lab,B
+SUB00470,Project Work / Major Project,2,AIML,4,R20,15:00-13:00,6,6,FAC0390,Dr. N. Narendra,28,Yes,M.Tech,19,No,Saturday,Room,B
+SUB00471,Internship / Project Internship,2,AIML,4,R20,12:00-14:00,5,5,FAC0035,Ms. D. Divya,1,Yes,M.Tech,26,Yes,Wednesday,Lab,B
+SUB00472,Project Work / Major Project,2,DS,4,R20,13:00-13:00,3,3,FAC0012,Dr. M. Mahesh,17,Yes,M.Tech (PhD),24,Yes,Tuesday,Room,A
+SUB00473,Internship / Project Internship,2,DS,4,R20,13:00-16:00,4,4,FAC0127,Mr. V. Venkatesh,26,Yes,PhD,12,No,Thursday,Lab,B
+SUB00474,Project Work / Major Project,2,ECE,4,R20,13:00-10:00,6,6,FAC0288,Ms. P. Pavani,20,Yes,PhD,15,Yes,Wednesday,Room,B
+SUB00475,Internship / Project Internship,2,ECE,4,R20,10:00-11:00,2,2,FAC0121,Prof. S. Srinivas,15,Yes,PhD,23,No,Saturday,Lab,B
+SUB00476,Project Work / Major Project,2,EEE,4,R20,14:00-15:00,4,4,FAC0072,Prof. S. Srinivas,11,Yes,M.Tech,14,Yes,Wednesday,Room,A
+SUB00477,Internship / Project Internship,2,EEE,4,R20,11:00-16:00,6,6,FAC0004,Dr. A. Anitha,8,Yes,M.Tech (PhD),20,No,Saturday,Lab,B
+SUB00478,Project Work / Major Project,2,Civil,4,R20,15:00-15:00,4,4,FAC0129,Dr. M. Mahesh,17,Yes,PhD,19,Yes,Wednesday,Room,B
+SUB00479,Internship / Project Internship,2,Civil,4,R20,14:00-15:00,6,6,FAC0281,Ms. S. Swathi,14,Yes,PhD,19,Yes,Thursday,Lab,A
+SUB00480,Project Work / Major Project,2,Mechanical,4,R20,9:00-10:00,4,4,FAC0008,Dr. A. Anitha,20,Yes,M.Tech (PhD),13,No,Wednesday,Room,A
+SUB00481,Internship / Project Internship,2,Mechanical,4,R20,11:00-10:00,3,3,FAC0238,Dr. R. Ramadevi,2,Yes,M.Tech (PhD),26,Yes,Monday,Lab,A
+SUB00482,Communicative English,1,CSE,1,R23,13:00-13:00,3,3,FAC0327,Mr. V. Venkatesh,6,Yes,PhD,16,Yes,Saturday,Room,A
+SUB00483,Mathematics  I,1,CSE,1,R23,15:00-16:00,4,4,FAC0111,Dr. N. Narendra,2,Yes,PhD,17,No,Friday,Room,C
+SUB00484,Applied Physics,1,CSE,1,R23,14:00-14:00,3,3,FAC0330,Ms. S. Swathi,12,Yes,M.Tech (PhD),14,Yes,Friday,Room,C
+SUB00485,Programming for Problem Solving using C,1,CSE,1,R23,13:00-15:00,6,6,FAC0346,Ms. S. Swathi,19,Yes,M.Tech,13,Yes,Monday,Room,B
+SUB00486,English Communication Lab,1,CSE,1,R23,12:00-15:00,5,5,FAC0053,Dr. N. Narendra,29,Yes,PhD,12,Yes,Tuesday,Lab,A
+SUB00487,Physics Lab,1,CSE,1,R23,9:00-16:00,4,4,FAC0195,Mr. V. Venkatesh,19,Yes,M.Tech (PhD),21,Yes,Thursday,Lab,C
+SUB00488,C Programming Lab,1,CSE,1,R23,15:00-15:00,2,2,FAC0011,Dr. R. Ramadevi,8,Yes,PhD,13,No,Saturday,Lab,C
+SUB00489,Computer Engineering Workshop,1,CSE,1,R23,15:00-14:00,4,4,FAC0125,Prof. S. Srinivas,8,Yes,M.Tech,17,No,Thursday,Lab,B
+SUB00490,Engineering Drawing,1,CSE,1,R23,12:00-14:00,3,3,FAC0395,Mr. V. Venkatesh,26,Yes,M.Tech,24,No,Friday,Room,A
+SUB00491,Mathematics  I,1,IT,1,R23,14:00-15:00,4,4,FAC0371,Ms. P. Pavani,5,Yes,PhD,13,Yes,Thursday,Room,C
+SUB00492,Applied Physics,1,IT,1,R23,12:00-15:00,3,3,FAC0011,Ms. S. Swathi,20,Yes,M.Tech (PhD),18,No,Thursday,Room,B
+SUB00493,Programming for Problem Solving using C,1,IT,1,R23,13:00-11:00,4,4,FAC0338,Ms. P. Pavani,17,Yes,M.Tech (PhD),12,Yes,Wednesday,Room,C
+SUB00494,English Communication Lab,1,IT,1,R23,10:00-11:00,5,5,FAC0185,Dr. R. Ramadevi,21,Yes,M.Tech,15,No,Monday,Lab,A
+SUB00495,Physics Lab,1,IT,1,R23,13:00-11:00,5,5,FAC0325,Dr. M. Mahesh,10,Yes,PhD,15,No,Friday,Lab,A
+SUB00496,C Programming Lab,1,IT,1,R23,11:00-15:00,5,5,FAC0060,Mr. V. Venkatesh,4,Yes,PhD,20,No,Tuesday,Lab,C
+SUB00497,Computer Engineering Workshop,1,IT,1,R23,9:00-16:00,3,3,FAC0241,Dr. M. Mahesh,29,Yes,PhD,12,Yes,Thursday,Lab,C
+SUB00498,Engineering Drawing,1,IT,1,R23,12:00-15:00,5,5,FAC0245,Dr. A. Anitha,17,Yes,M.Tech (PhD),14,No,Thursday,Room,B
+SUB00499,Mathematics  I,1,AIML,1,R23,13:00-15:00,3,3,FAC0400,Ms. D. Divya,16,Yes,M.Tech,26,Yes,Wednesday,Room,C
+SUB00500,Applied Physics,1,AIML,1,R23,13:00-16:00,4,4,FAC0171,Ms. L. Lakshmi,1,Yes,M.Tech (PhD),26,No,Tuesday,Room,B
+SUB00501,Programming for Problem Solving using C,1,AIML,1,R23,9:00-10:00,5,5,FAC0150,Ms. D. Divya,14,Yes,M.Tech (PhD),21,No,Thursday,Room,C
+SUB00502,English Communication Lab,1,AIML,1,R23,12:00-12:00,3,3,FAC0030,Mr. V. Venkatesh,6,Yes,M.Tech,18,No,Thursday,Lab,A
+SUB00503,Physics Lab,1,AIML,1,R23,10:00-12:00,6,6,FAC0215,Dr. A. Anitha,29,Yes,M.Tech,26,Yes,Friday,Lab,B
+SUB00504,C Programming Lab,1,AIML,1,R23,9:00-14:00,3,3,FAC0290,Ms. D. Divya,15,Yes,M.Tech (PhD),25,Yes,Saturday,Lab,C
+SUB00505,Computer Engineering Workshop,1,AIML,1,R23,12:00-11:00,4,4,FAC0021,Mr. V. Venkatesh,4,Yes,M.Tech (PhD),23,Yes,Wednesday,Lab,B
+SUB00506,Engineering Drawing,1,AIML,1,R23,12:00-14:00,3,3,FAC0035,Dr. R. Ramadevi,7,Yes,M.Tech,20,Yes,Thursday,Room,B
+SUB00507,Mathematics  I,1,DS,1,R23,11:00-16:00,3,3,FAC0195,Ms. L. Lakshmi,13,Yes,M.Tech,18,Yes,Saturday,Room,B
+SUB00508,Applied Physics,1,DS,1,R23,14:00-10:00,5,5,FAC0232,Dr. M. Mahesh,4,Yes,M.Tech (PhD),13,Yes,Friday,Room,B
+SUB00509,Programming for Problem Solving using C,1,DS,1,R23,15:00-10:00,5,5,FAC0129,Ms. D. Divya,20,Yes,PhD,19,No,Wednesday,Room,B
+SUB00510,English Communication Lab,1,DS,1,R23,13:00-15:00,5,5,FAC0169,Dr. M. Mahesh,11,Yes,PhD,13,Yes,Friday,Lab,A
+SUB00511,Physics Lab,1,DS,1,R23,9:00-10:00,2,2,FAC0292,Ms. D. Divya,14,Yes,PhD,20,No,Thursday,Lab,A
+SUB00512,C Programming Lab,1,DS,1,R23,15:00-14:00,3,3,FAC0039,Dr. R. Ramadevi,12,Yes,PhD,23,Yes,Wednesday,Lab,A
+SUB00513,Computer Engineering Workshop,1,DS,1,R23,14:00-10:00,5,5,FAC0243,Prof. S. Srinivas,26,Yes,M.Tech,26,No,Monday,Lab,C
+SUB00514,Engineering Drawing,1,DS,1,R23,14:00-13:00,3,3,FAC0176,Ms. L. Lakshmi,11,Yes,M.Tech,13,No,Monday,Room,C
+SUB00515,Mathematics  I,1,ECE,1,R23,12:00-10:00,5,5,FAC0068,Dr. A. Anitha,19,Yes,M.Tech,12,No,Wednesday,Room,B
+SUB00516,Applied Physics,1,ECE,1,R23,13:00-12:00,5,5,FAC0121,Ms. D. Divya,20,Yes,M.Tech,18,Yes,Tuesday,Room,A
+SUB00517,Programming for Problem Solving using C,1,ECE,1,R23,11:00-14:00,3,3,FAC0102,Prof. S. Srinivas,26,Yes,M.Tech,16,Yes,Thursday,Room,B
+SUB00518,English Communication Lab,1,ECE,1,R23,13:00-13:00,3,3,FAC0341,Mr. R. Ramesh,2,Yes,M.Tech,16,No,Monday,Lab,C
+SUB00519,Physics Lab,1,ECE,1,R23,10:00-10:00,5,5,FAC0015,Dr. N. Narendra,17,Yes,M.Tech,14,No,Friday,Lab,A
+SUB00520,C Programming Lab,1,ECE,1,R23,11:00-13:00,6,6,FAC0390,Dr. N. Narendra,4,Yes,M.Tech (PhD),26,Yes,Friday,Lab,B
+SUB00521,Computer Engineering Workshop,1,ECE,1,R23,13:00-13:00,4,4,FAC0256,Ms. D. Divya,8,Yes,M.Tech,18,Yes,Monday,Lab,C
+SUB00522,Engineering Drawing,1,ECE,1,R23,12:00-11:00,4,4,FAC0038,Dr. R. Ramadevi,3,Yes,M.Tech (PhD),17,Yes,Thursday,Room,C
+SUB00523,Mathematics  I,1,EEE,1,R23,12:00-15:00,3,3,FAC0057,Ms. S. Swathi,11,Yes,M.Tech,18,Yes,Friday,Room,A
+SUB00524,Applied Physics,1,EEE,1,R23,11:00-11:00,2,2,FAC0220,Mr. V. Venkatesh,7,Yes,PhD,17,Yes,Tuesday,Room,A
+SUB00525,Programming for Problem Solving using C,1,EEE,1,R23,12:00-10:00,3,3,FAC0160,Dr. M. Mahesh,26,Yes,PhD,13,Yes,Tuesday,Room,B
+SUB00526,English Communication Lab,1,EEE,1,R23,11:00-14:00,5,5,FAC0064,Ms. L. Lakshmi,1,Yes,PhD,26,Yes,Monday,Lab,C
+SUB00527,Physics Lab,1,EEE,1,R23,15:00-15:00,3,3,FAC0224,Mr. R. Ramesh,12,Yes,M.Tech,21,Yes,Saturday,Lab,C
+SUB00528,C Programming Lab,1,EEE,1,R23,9:00-12:00,5,5,FAC0232,Mr. K. Kiran Kumar,4,Yes,M.Tech,24,No,Thursday,Lab,B
+SUB00529,Computer Engineering Workshop,1,EEE,1,R23,15:00-16:00,3,3,FAC0059,Dr. N. Narendra,30,Yes,M.Tech,25,No,Wednesday,Lab,B
+SUB00530,Engineering Drawing,1,EEE,1,R23,15:00-11:00,3,3,FAC0282,Dr. M. Mahesh,10,Yes,M.Tech (PhD),22,No,Tuesday,Room,C
+SUB00531,Mathematics  I,1,Civil,1,R23,10:00-13:00,3,3,FAC0114,Ms. P. Pavani,9,Yes,M.Tech,13,No,Monday,Room,B
+SUB00532,Applied Physics,1,Civil,1,R23,14:00-11:00,4,4,FAC0099,Dr. A. Anitha,1,Yes,M.Tech (PhD),20,No,Saturday,Room,A
+SUB00533,Programming for Problem Solving using C,1,Civil,1,R23,14:00-16:00,6,6,FAC0342,Dr. R. Ramadevi,18,Yes,PhD,20,No,Saturday,Room,B
+SUB00534,English Communication Lab,1,Civil,1,R23,14:00-16:00,4,4,FAC0278,Ms. P. Pavani,15,Yes,M.Tech (PhD),21,Yes,Monday,Room,A
+SUB00535,Physics Lab,1,Civil,1,R23,15:00-12:00,4,4,FAC0378,Dr. R. Ramadevi,1,Yes,M.Tech,18,Yes,Saturday,Lab,B
+SUB00536,C Programming Lab,1,Civil,1,R23,15:00-11:00,3,3,FAC0024,Dr. N. Narendra,13,Yes,M.Tech (PhD),26,No,Thursday,Lab,A
+SUB00537,Computer Engineering Workshop,1,Civil,1,R23,13:00-11:00,6,6,FAC0058,Ms. D. Divya,20,Yes,M.Tech (PhD),16,Yes,Wednesday,Lab,C
+SUB00538,Engineering Drawing,1,Civil,1,R23,12:00-10:00,6,6,FAC0235,Mr. V. Venkatesh,6,Yes,M.Tech,18,No,Thursday,Room,A
+SUB00539,Mathematics  I,1,Mechanical,1,R23,12:00-10:00,3,3,FAC0069,Ms. D. Divya,18,Yes,M.Tech (PhD),19,No,Saturday,Room,B
+SUB00540,Applied Physics,1,Mechanical,1,R23,15:00-13:00,6,6,FAC0213,Ms. L. Lakshmi,1,Yes,PhD,25,Yes,Thursday,Room,B
+SUB00541,Programming for Problem Solving using C,1,Mechanical,1,R23,13:00-10:00,4,4,FAC0174,Ms. S. Swathi,16,Yes,PhD,18,Yes,Wednesday,Room,B
+SUB00542,English Communication Lab,1,Mechanical,1,R23,13:00-10:00,5,5,FAC0314,Ms. D. Divya,30,Yes,M.Tech (PhD),15,Yes,Saturday,Lab,B
+SUB00543,Physics Lab,1,Mechanical,1,R23,13:00-15:00,4,4,FAC0025,Mr. K. Kiran Kumar,4,Yes,M.Tech,13,No,Friday,Lab,C
+SUB00544,C Programming Lab,1,Mechanical,1,R23,10:00-15:00,3,3,FAC0146,Mr. V. Venkatesh,21,Yes,M.Tech (PhD),24,No,Monday,Lab,C
+SUB00545,Computer Engineering Workshop,1,Mechanical,1,R23,9:00-11:00,5,5,FAC0337,Dr. M. Mahesh,22,Yes,PhD,21,No,Wednesday,Lab,C
+SUB00546,Engineering Drawing,1,Mechanical,1,R23,14:00-11:00,5,5,FAC0151,Ms. P. Pavani,10,Yes,M.Tech (PhD),21,Yes,Monday,Room,B
+SUB00547,Mathematics  II,2,CSE,1,R23,11:00-11:00,5,5,FAC0231,Dr. N. Narendra,9,Yes,PhD,18,Yes,Tuesday,Room,C
+SUB00548,Applied Chemistry,2,CSE,1,R23,11:00-11:00,4,4,FAC0165,Ms. P. Pavani,15,Yes,PhD,21,No,Friday,Room,C
+SUB00549,Data Structures,2,CSE,1,R23,12:00-10:00,3,3,FAC0293,Mr. R. Ramesh,22,Yes,PhD,17,Yes,Wednesday,Room,A
+SUB00550,Basic Electrical & Electronics Engineering,2,CSE,1,R23,12:00-12:00,2,2,FAC0201,Ms. L. Lakshmi,21,Yes,PhD,15,No,Saturday,Room,A
+SUB00551,Environmental Science & Engineering,2,CSE,1,R23,10:00-13:00,3,3,FAC0311,Ms. D. Divya,1,Yes,M.Tech,18,No,Thursday,Room,B
+SUB00552,Data Structures Lab,2,CSE,1,R23,12:00-12:00,6,6,FAC0189,Dr. N. Narendra,28,Yes,M.Tech (PhD),25,No,Friday,Lab,A
+SUB00553,Chemistry Lab,2,CSE,1,R23,14:00-10:00,5,5,FAC0376,Mr. K. Kiran Kumar,13,Yes,PhD,21,No,Tuesday,Lab,B
+SUB00554,IT Workshop Lab,2,CSE,1,R23,14:00-10:00,2,2,FAC0120,Dr. A. Anitha,13,Yes,PhD,12,Yes,Thursday,Lab,C
+SUB00555,Python Lab,2,CSE,1,R23,9:00-11:00,3,3,FAC0039,Dr. R. Ramadevi,7,Yes,M.Tech,22,No,Saturday,Lab,B
+SUB00556,Python ,2,CSE,1,R23,11:00-11:00,3,3,FAC0304,Dr. M. Mahesh,5,Yes,M.Tech,24,Yes,Friday,Room,A
+SUB00557,Mathematics  II,2,IT,1,R23,14:00-16:00,4,4,FAC0119,Dr. A. Anitha,22,Yes,PhD,25,No,Tuesday,Room,C
+SUB00558,Applied Chemistry,2,IT,1,R23,9:00-12:00,4,4,FAC0392,Ms. L. Lakshmi,26,Yes,PhD,17,Yes,Thursday,Room,C
+SUB00559,Data Structures,2,IT,1,R23,9:00-10:00,6,6,FAC0100,Prof. S. Srinivas,1,Yes,M.Tech,12,No,Saturday,Room,C
+SUB00560,Basic Electrical & Electronics Engineering,2,IT,1,R23,14:00-14:00,3,3,FAC0010,Prof. S. Srinivas,13,Yes,M.Tech,16,Yes,Monday,Room,A
+SUB00561,Environmental Science & Engineering,2,IT,1,R23,10:00-13:00,5,5,FAC0063,Dr. N. Narendra,1,Yes,PhD,12,No,Friday,Room,C
+SUB00562,Data Structures Lab,2,IT,1,R23,12:00-13:00,2,2,FAC0232,Dr. M. Mahesh,17,Yes,M.Tech (PhD),25,Yes,Monday,Lab,C
+SUB00563,Chemistry Lab,2,IT,1,R23,14:00-11:00,6,6,FAC0020,Mr. V. Venkatesh,23,Yes,M.Tech (PhD),26,Yes,Tuesday,Lab,B
+SUB00564,IT Workshop Lab,2,IT,1,R23,14:00-14:00,4,4,FAC0253,Ms. S. Swathi,11,Yes,PhD,22,No,Saturday,Lab,B
+SUB00565,Python Lab,2,IT,1,R23,15:00-10:00,3,3,FAC0234,Ms. S. Swathi,1,Yes,M.Tech,14,No,Monday,Lab,C
+SUB00566,Python ,2,IT,1,R23,11:00-13:00,4,4,FAC0102,Ms. D. Divya,18,Yes,PhD,25,Yes,Saturday,Room,B
+SUB00567,Mathematics  II,2,AIML,1,R23,9:00-13:00,5,5,FAC0387,Ms. L. Lakshmi,21,Yes,M.Tech (PhD),26,No,Thursday,Room,A
+SUB00568,Applied Chemistry,2,AIML,1,R23,15:00-14:00,4,4,FAC0338,Dr. M. Mahesh,19,Yes,M.Tech,16,No,Wednesday,Room,C
+SUB00569,Data Structures,2,AIML,1,R23,12:00-11:00,2,2,FAC0051,Dr. A. Anitha,25,Yes,PhD,18,No,Wednesday,Room,A
+SUB00570,Basic Electrical & Electronics Engineering,2,AIML,1,R23,10:00-14:00,3,3,FAC0348,Mr. R. Ramesh,20,Yes,M.Tech,22,Yes,Saturday,Room,B
+SUB00571,Environmental Science & Engineering,2,AIML,1,R23,9:00-15:00,4,4,FAC0302,Prof. S. Srinivas,14,Yes,M.Tech (PhD),13,No,Friday,Room,A
+SUB00572,Data Structures Lab,2,AIML,1,R23,9:00-10:00,3,3,FAC0289,Dr. A. Anitha,9,Yes,M.Tech,19,Yes,Saturday,Lab,A
+SUB00573,Chemistry Lab,2,AIML,1,R23,15:00-15:00,3,3,FAC0095,Mr. R. Ramesh,24,Yes,M.Tech (PhD),18,No,Wednesday,Lab,B
+SUB00574,IT Workshop Lab,2,AIML,1,R23,9:00-13:00,5,5,FAC0218,Ms. P. Pavani,13,Yes,M.Tech,25,Yes,Monday,Lab,A
+SUB00575,Python Lab,2,AIML,1,R23,11:00-10:00,4,4,FAC0112,Dr. A. Anitha,26,Yes,M.Tech,25,No,Monday,Lab,A
+SUB00576,Python ,2,AIML,1,R23,9:00-12:00,3,3,FAC0342,Dr. N. Narendra,13,Yes,PhD,22,No,Monday,Room,C
+SUB00577,Mathematics  II,2,DS,1,R23,13:00-15:00,4,4,FAC0102,Mr. R. Ramesh,2,Yes,M.Tech (PhD),22,Yes,Thursday,Room,A
+SUB00578,Applied Chemistry,2,DS,1,R23,10:00-11:00,5,5,FAC0369,Ms. P. Pavani,10,Yes,M.Tech,19,Yes,Monday,Room,C
+SUB00579,Data Structures,2,DS,1,R23,10:00-16:00,5,5,FAC0346,Prof. S. Srinivas,6,Yes,M.Tech,24,No,Thursday,Room,C
+SUB00580,Basic Electrical & Electronics Engineering,2,DS,1,R23,9:00-13:00,6,6,FAC0206,Mr. R. Ramesh,5,Yes,M.Tech,25,Yes,Monday,Room,A
+SUB00581,Environmental Science & Engineering,2,DS,1,R23,15:00-12:00,2,2,FAC0163,Ms. S. Swathi,4,Yes,M.Tech,13,Yes,Saturday,Room,A
+SUB00582,Data Structures Lab,2,DS,1,R23,15:00-14:00,2,2,FAC0046,Ms. S. Swathi,17,Yes,M.Tech (PhD),13,Yes,Tuesday,Lab,B
+SUB00583,Chemistry Lab,2,DS,1,R23,11:00-16:00,5,5,FAC0037,Ms. L. Lakshmi,6,Yes,M.Tech (PhD),22,No,Wednesday,Lab,C
+SUB00584,IT Workshop Lab,2,DS,1,R23,14:00-11:00,2,2,FAC0320,Dr. R. Ramadevi,23,Yes,M.Tech,17,No,Monday,Lab,C
+SUB00585,Python Lab,2,DS,1,R23,15:00-12:00,5,5,FAC0126,Mr. V. Venkatesh,19,Yes,M.Tech,19,No,Monday,Lab,A
+SUB00586,Python ,2,DS,1,R23,13:00-16:00,4,4,FAC0400,Mr. K. Kiran Kumar,1,Yes,M.Tech (PhD),17,Yes,Wednesday,Room,C
+SUB00587,Mathematics  II,2,ECE,1,R23,9:00-10:00,4,4,FAC0126,Mr. R. Ramesh,20,Yes,M.Tech,25,Yes,Thursday,Room,C
+SUB00588,Applied Chemistry,2,ECE,1,R23,12:00-14:00,3,3,FAC0297,Prof. S. Srinivas,5,Yes,PhD,25,No,Friday,Room,B
+SUB00589,Digital Logic Fundamentals,2,ECE,1,R23,10:00-11:00,2,2,FAC0102,Ms. S. Swathi,22,Yes,M.Tech,18,No,Thursday,Room,A
+SUB00590,Basic Electrical & Electronics Engineering,2,ECE,1,R23,12:00-12:00,6,6,FAC0035,Ms. P. Pavani,23,Yes,PhD,13,No,Saturday,Room,C
+SUB00591,Environmental Science & Engineering,2,ECE,1,R23,9:00-14:00,3,3,FAC0030,Mr. K. Kiran Kumar,11,Yes,PhD,14,No,Thursday,Room,C
+SUB00592,Digital Logic / Electronics Lab,2,ECE,1,R23,13:00-16:00,4,4,FAC0105,Ms. S. Swathi,7,Yes,M.Tech,19,No,Tuesday,Lab,A
+SUB00593,Chemistry Lab,2,ECE,1,R23,10:00-14:00,5,5,FAC0193,Dr. A. Anitha,6,Yes,PhD,16,Yes,Wednesday,Lab,C
+SUB00594,IT / Electronics Workshop Lab,2,ECE,1,R23,12:00-14:00,4,4,FAC0172,Dr. M. Mahesh,21,Yes,M.Tech (PhD),14,No,Monday,Lab,B
+SUB00595,Python Lab,2,ECE,1,R23,12:00-13:00,4,4,FAC0026,Mr. R. Ramesh,4,Yes,M.Tech (PhD),20,Yes,Saturday,Lab,C
+SUB00596,Python ,2,ECE,1,R23,14:00-12:00,3,3,FAC0357,Mr. K. Kiran Kumar,22,Yes,M.Tech,22,Yes,Wednesday,Room,A
+SUB00597,Mathematics  II,2,EEE,1,R23,12:00-15:00,3,3,FAC0061,Dr. M. Mahesh,5,Yes,M.Tech (PhD),19,Yes,Friday,Room,B
+SUB00598,Applied Chemistry,2,EEE,1,R23,9:00-16:00,4,4,FAC0100,Ms. L. Lakshmi,21,Yes,M.Tech (PhD),18,Yes,Wednesday,Room,A
+SUB00599,Circuit Theory / Electrical Networks,2,EEE,1,R23,15:00-14:00,6,6,FAC0392,Mr. K. Kiran Kumar,1,Yes,PhD,20,Yes,Saturday,Room,B
+SUB00600,Basic Electrical & Electronics Engineering,2,EEE,1,R23,11:00-11:00,4,4,FAC0400,Prof. S. Srinivas,24,Yes,PhD,23,No,Tuesday,Room,A
+SUB00601,Environmental Science & Engineering,2,EEE,1,R23,13:00-16:00,4,4,FAC0354,Ms. D. Divya,26,Yes,M.Tech,15,Yes,Saturday,Room,B
+SUB00602,Electrical Machines / Circuits Lab,2,EEE,1,R23,12:00-15:00,4,4,FAC0134,Mr. V. Venkatesh,13,Yes,PhD,24,No,Thursday,Lab,C
+SUB00603,Chemistry Lab,2,EEE,1,R23,12:00-16:00,6,6,FAC0046,Ms. S. Swathi,16,Yes,PhD,18,No,Monday,Lab,C
+SUB00604,Electrical & Electronics Workshop Lab,2,EEE,1,R23,13:00-12:00,3,3,FAC0362,Ms. L. Lakshmi,26,Yes,M.Tech (PhD),24,Yes,Thursday,Lab,C
+SUB00605,Programming / IT Workshop Lab,2,EEE,1,R23,10:00-13:00,6,6,FAC0075,Ms. P. Pavani,6,Yes,PhD,18,No,Saturday,Lab,C
+SUB00606,Mathematics  II,2,Civil,1,R23,11:00-11:00,4,4,FAC0166,Ms. P. Pavani,8,Yes,PhD,24,Yes,Thursday,Room,C
+SUB00607,Applied Chemistry,2,Civil,1,R23,10:00-11:00,6,6,FAC0228,Mr. V. Venkatesh,13,Yes,M.Tech (PhD),13,Yes,Friday,Room,B
+SUB00608,Engineering Drawing & Graphics,2,Civil,1,R23,9:00-14:00,6,6,FAC0264,Mr. R. Ramesh,16,Yes,PhD,15,No,Monday,Room,C
+SUB00609,Basic Civil & Mechanical Engineering,2,Civil,1,R23,14:00-11:00,4,4,FAC0084,Mr. R. Ramesh,10,Yes,M.Tech (PhD),15,No,Tuesday,Room,A
+SUB00610,Environmental Science & Engineering,2,Civil,1,R23,15:00-11:00,3,3,FAC0042,Mr. K. Kiran Kumar,25,Yes,M.Tech,12,Yes,Tuesday,Room,C
+SUB00611,Chemistry Lab,2,Civil,1,R23,9:00-11:00,6,6,FAC0205,Ms. P. Pavani,1,Yes,M.Tech,13,Yes,Wednesday,Lab,B
+SUB00612,Surveying / Civil Engineering Workshop Lab,2,Civil,1,R23,11:00-14:00,6,6,FAC0029,Ms. L. Lakshmi,12,Yes,M.Tech (PhD),25,Yes,Friday,Lab,C
+SUB00613,Computer / Programming Lab,2,Civil,1,R23,15:00-15:00,5,5,FAC0051,Dr. M. Mahesh,5,Yes,M.Tech,14,No,Thursday,Lab,C
+SUB00614,Engineering Graphics / CAD Lab,2,Civil,1,R23,14:00-13:00,6,6,FAC0102,Dr. A. Anitha,14,Yes,M.Tech (PhD),20,No,Thursday,Lab,C
+SUB00615,Mathematics  II,2,Mechanical,1,R23,11:00-13:00,4,4,FAC0236,Mr. V. Venkatesh,25,Yes,M.Tech (PhD),22,Yes,Thursday,Room,C
+SUB00616,Applied Chemistry,2,Mechanical,1,R23,13:00-15:00,3,3,FAC0380,Dr. A. Anitha,11,Yes,M.Tech (PhD),21,No,Wednesday,Room,C
+SUB00617,Mechanics of Materials / Engineering Mechanics,2,Mechanical,1,R23,13:00-15:00,2,2,FAC0337,Mr. K. Kiran Kumar,20,Yes,PhD,17,Yes,Monday,Room,A
+SUB00618,Basic Civil & Mechanical Engineering,2,Mechanical,1,R23,12:00-13:00,3,3,FAC0179,Dr. A. Anitha,12,Yes,PhD,15,No,Tuesday,Room,A
+SUB00619,Environmental Science & Engineering,2,Mechanical,1,R23,11:00-16:00,4,4,FAC0276,Dr. N. Narendra,4,Yes,M.Tech,18,Yes,Friday,Room,B
+SUB00620,Chemistry Lab,2,Mechanical,1,R23,12:00-12:00,2,2,FAC0067,Ms. L. Lakshmi,14,Yes,M.Tech,25,No,Monday,Lab,A
+SUB00621,Production / Workshop Lab,2,Mechanical,1,R23,13:00-16:00,2,2,FAC0274,Ms. D. Divya,2,Yes,PhD,18,No,Wednesday,Lab,B
+SUB00622,Computer / Programming Lab,2,Mechanical,1,R23,15:00-16:00,2,2,FAC0129,Ms. P. Pavani,1,Yes,M.Tech,21,Yes,Friday,Lab,A
+SUB00623,Engineering Graphics / CAD Lab,2,Mechanical,1,R23,9:00-11:00,4,4,FAC0055,Dr. R. Ramadevi,18,Yes,M.Tech (PhD),20,Yes,Thursday,Lab,C
+SUB00624,Discrete Mathematics & Graph Theory,1,CSE,2,R23,12:00-13:00,3,3,FAC0083,Ms. D. Divya,12,Yes,M.Tech (PhD),17,Yes,Friday,Room,C
+SUB00625,Universal Human Values ,1,CSE,2,R23,14:00-16:00,4,4,FAC0061,Dr. R. Ramadevi,27,Yes,M.Tech (PhD),15,No,Thursday,Room,C
+SUB00626,Digital Logic & Computer Organization,1,CSE,2,R23,11:00-14:00,4,4,FAC0321,Dr. A. Anitha,10,Yes,M.Tech,21,No,Thursday,Room,A
+SUB00627,Advanced Data Structures & Algorithm Analysis,1,CSE,2,R23,12:00-13:00,6,6,FAC0326,Dr. A. Anitha,13,Yes,PhD,17,Yes,Monday,Room,B
+SUB00628,Object Oriented Programming Through JAVA,1,CSE,2,R23,12:00-15:00,4,4,FAC0379,Mr. V. Venkatesh,6,Yes,M.Tech (PhD),12,Yes,Thursday,Room,C
+SUB00629,Advanced Data Structures & Algorithms Analysis Lab,1,CSE,2,R23,10:00-11:00,5,5,FAC0022,Dr. R. Ramadevi,9,Yes,M.Tech,21,Yes,Thursday,Lab,C
+SUB00630,Object Oriented Programming Through JAVA Lab,1,CSE,2,R23,10:00-15:00,4,4,FAC0185,Mr. V. Venkatesh,19,Yes,M.Tech (PhD),13,Yes,Saturday,Lab,B
+SUB00631,Mathematics-III,1,CSE,2,R23,11:00-16:00,4,4,FAC0076,Ms. L. Lakshmi,30,Yes,PhD,12,Yes,Wednesday,Room,C
+SUB00632,Discrete Mathematics & Graph Theory,1,IT,2,R23,10:00-15:00,6,6,FAC0300,Dr. M. Mahesh,15,Yes,PhD,12,Yes,Friday,Room,A
+SUB00633,Universal Human Values ,1,IT,2,R23,12:00-14:00,3,3,FAC0258,Dr. N. Narendra,2,Yes,M.Tech (PhD),17,No,Monday,Room,A
+SUB00634,Digital Logic & Computer Organization,1,IT,2,R23,14:00-10:00,3,3,FAC0180,Ms. L. Lakshmi,15,Yes,PhD,25,Yes,Tuesday,Room,B
+SUB00635,Advanced Data Structures & Algorithm Analysis,1,IT,2,R23,11:00-13:00,2,2,FAC0314,Ms. S. Swathi,18,Yes,M.Tech (PhD),18,No,Thursday,Room,C
+SUB00636,Object Oriented Programming Through JAVA,1,IT,2,R23,9:00-13:00,2,2,FAC0229,Dr. R. Ramadevi,1,Yes,PhD,20,No,Saturday,Room,C
+SUB00637,Advanced Data Structures & Algorithms Analysis Lab,1,IT,2,R23,15:00-10:00,2,2,FAC0227,Dr. R. Ramadevi,17,Yes,M.Tech (PhD),18,Yes,Monday,Lab,C
+SUB00638,Object Oriented Programming Through JAVA Lab,1,IT,2,R23,9:00-16:00,5,5,FAC0380,Prof. S. Srinivas,12,Yes,M.Tech (PhD),25,No,Wednesday,Lab,C
+SUB00639,Mathematics-III,1,IT,2,R23,15:00-10:00,3,3,FAC0041,Ms. P. Pavani,12,Yes,M.Tech,19,Yes,Wednesday,Room,C
+SUB00640,Discrete Mathematics & Graph Theory,1,AIML,2,R23,10:00-12:00,5,5,FAC0138,Ms. P. Pavani,17,Yes,M.Tech,17,Yes,Wednesday,Room,C
+SUB00641,Universal Human Values ,1,AIML,2,R23,11:00-16:00,4,4,FAC0086,Mr. V. Venkatesh,16,Yes,M.Tech (PhD),17,Yes,Friday,Room,B
+SUB00642,Digital Logic & Computer Organization,1,AIML,2,R23,12:00-11:00,6,6,FAC0100,Prof. S. Srinivas,29,Yes,PhD,12,No,Friday,Room,B
+SUB00643,Advanced Data Structures & Algorithm Analysis,1,AIML,2,R23,11:00-16:00,3,3,FAC0306,Ms. L. Lakshmi,7,Yes,M.Tech (PhD),23,No,Monday,Room,A
+SUB00644,Object Oriented Programming Through JAVA,1,AIML,2,R23,12:00-12:00,3,3,FAC0116,Mr. R. Ramesh,2,Yes,PhD,18,No,Thursday,Room,C
+SUB00645,Advanced Data Structures & Algorithms Analysis Lab,1,AIML,2,R23,10:00-14:00,6,6,FAC0281,Prof. S. Srinivas,25,Yes,PhD,16,Yes,Saturday,Lab,C
+SUB00646,Object Oriented Programming Through JAVA Lab,1,AIML,2,R23,14:00-14:00,4,4,FAC0250,Mr. V. Venkatesh,21,Yes,M.Tech (PhD),24,Yes,Tuesday,Lab,B
+SUB00647,Mathematics-III,1,AIML,2,R23,11:00-11:00,3,3,FAC0084,Ms. P. Pavani,16,Yes,M.Tech,15,No,Monday,Room,C
+SUB00648,Discrete Mathematics & Graph Theory,1,DS,2,R23,9:00-11:00,3,3,FAC0331,Ms. L. Lakshmi,6,Yes,M.Tech (PhD),13,Yes,Monday,Room,C
+SUB00649,Universal Human Values ,1,DS,2,R23,12:00-12:00,3,3,FAC0199,Ms. S. Swathi,2,Yes,M.Tech,18,No,Monday,Room,A
+SUB00650,Digital Logic & Computer Organization,1,DS,2,R23,14:00-14:00,6,6,FAC0274,Dr. A. Anitha,16,Yes,M.Tech (PhD),24,No,Friday,Room,C
+SUB00651,Advanced Data Structures & Algorithm Analysis,1,DS,2,R23,12:00-14:00,6,6,FAC0263,Dr. A. Anitha,29,Yes,PhD,26,Yes,Thursday,Room,C
+SUB00652,Object Oriented Programming Through JAVA,1,DS,2,R23,12:00-12:00,2,2,FAC0234,Ms. D. Divya,4,Yes,M.Tech,20,No,Wednesday,Room,A
+SUB00653,Advanced Data Structures & Algorithms Analysis Lab,1,DS,2,R23,13:00-12:00,4,4,FAC0216,Ms. S. Swathi,12,Yes,M.Tech,17,Yes,Tuesday,Lab,A
+SUB00654,Object Oriented Programming Through JAVA Lab,1,DS,2,R23,12:00-15:00,4,4,FAC0058,Dr. N. Narendra,30,Yes,M.Tech,16,No,Monday,Lab,A
+SUB00655,Mathematics-III,1,DS,2,R23,9:00-14:00,3,3,FAC0067,Ms. D. Divya,3,Yes,M.Tech (PhD),16,Yes,Saturday,Room,B
+SUB00656,Probability Theory and Stochastic Processes,1,ECE,2,R23,13:00-16:00,5,5,FAC0382,Ms. D. Divya,26,Yes,PhD,14,Yes,Thursday,Room,B
+SUB00657,Universal Human Values ,1,ECE,2,R23,9:00-12:00,4,4,FAC0307,Ms. S. Swathi,1,Yes,M.Tech,22,Yes,Wednesday,Room,C
+SUB00658,Signals and Systems,1,ECE,2,R23,13:00-10:00,3,3,FAC0026,Dr. N. Narendra,30,Yes,M.Tech,14,Yes,Saturday,Room,A
+SUB00659,Electronic Devices and Circuits,1,ECE,2,R23,14:00-10:00,3,3,FAC0071,Dr. R. Ramadevi,17,Yes,M.Tech (PhD),12,No,Friday,Room,B
+SUB00660,Switching Theory and Logic Design,1,ECE,2,R23,11:00-10:00,6,6,FAC0231,Mr. V. Venkatesh,23,Yes,M.Tech,14,No,Wednesday,Room,A
+SUB00661,Electronic Devices and Circuits Lab,1,ECE,2,R23,14:00-11:00,5,5,FAC0250,Mr. R. Ramesh,8,Yes,M.Tech (PhD),24,No,Monday,Lab,C
+SUB00662,Switching Theory / Digital Logic Lab,1,ECE,2,R23,13:00-12:00,2,2,FAC0359,Mr. R. Ramesh,18,Yes,PhD,17,Yes,Tuesday,Lab,C
+SUB00663,Mathematics-III,1,ECE,2,R23,11:00-13:00,3,3,FAC0156,Dr. R. Ramadevi,27,Yes,M.Tech,23,Yes,Thursday,Room,C
+SUB00664,Switching Theory and Logic Design,1,EEE,2,R23,13:00-14:00,6,6,FAC0122,Mr. K. Kiran Kumar,13,Yes,PhD,16,No,Monday,Room,A
+SUB00665,Complex Variables & Numerical Methods,1,EEE,2,R23,11:00-10:00,6,6,FAC0082,Ms. P. Pavani,1,Yes,PhD,14,No,Monday,Room,A
+SUB00666,Universal Human Values ,1,EEE,2,R23,13:00-12:00,3,3,FAC0219,Mr. V. Venkatesh,25,Yes,PhD,13,No,Monday,Room,A
+SUB00667,Electromagnetic Field Theory,1,EEE,2,R23,12:00-14:00,4,4,FAC0184,Ms. D. Divya,19,Yes,M.Tech,17,Yes,Tuesday,Room,C
+SUB00668,Electrical Circuit Analysis-II,1,EEE,2,R23,13:00-13:00,3,3,FAC0176,Dr. M. Mahesh,23,Yes,M.Tech (PhD),12,No,Tuesday,Room,B
+SUB00669,DC Machines & Transformers,1,EEE,2,R23,11:00-12:00,4,4,FAC0352,Mr. V. Venkatesh,23,Yes,M.Tech,14,No,Wednesday,Room,C
+SUB00670,Electrical Circuit Analysis Lab,1,EEE,2,R23,12:00-13:00,3,3,FAC0021,Mr. K. Kiran Kumar,8,Yes,PhD,24,Yes,Wednesday,Lab,B
+SUB00671,DC Machines & Transformers Lab,1,EEE,2,R23,11:00-16:00,5,5,FAC0363,Prof. S. Srinivas,1,Yes,PhD,17,Yes,Saturday,Lab,A
+SUB00672,Electromagnetic / Field Theory Related Lab,1,EEE,2,R23,10:00-13:00,3,3,FAC0072,Mr. R. Ramesh,18,Yes,PhD,24,No,Monday,Lab,B
+SUB00673,Mathematics-III,1,EEE,2,R23,14:00-10:00,4,4,FAC0087,Ms. L. Lakshmi,10,Yes,M.Tech (PhD),18,Yes,Friday,Room,C
+SUB00674,Numerical Techniques and Statistical Methods,1,Civil,2,R23,14:00-13:00,2,2,FAC0315,Mr. R. Ramesh,8,Yes,PhD,22,No,Friday,Room,B
+SUB00675,Universal Human Values ,1,Civil,2,R23,13:00-13:00,3,3,FAC0114,Ms. P. Pavani,13,Yes,M.Tech,24,Yes,Thursday,Room,B
+SUB00676,Surveying,1,Civil,2,R23,13:00-13:00,2,2,FAC0233,Mr. V. Venkatesh,1,Yes,M.Tech (PhD),19,Yes,Thursday,Room,B
+SUB00677,Strength of Materials,1,Civil,2,R23,14:00-13:00,3,3,FAC0235,Dr. M. Mahesh,14,Yes,PhD,16,No,Saturday,Room,B
+SUB00678,Fluid Mechanics,1,Civil,2,R23,14:00-15:00,6,6,FAC0221,Ms. S. Swathi,12,Yes,M.Tech,22,No,Thursday,Room,A
+SUB00679,Surveying Lab (Field / Instrumentation),1,Civil,2,R23,15:00-12:00,3,3,FAC0377,Dr. R. Ramadevi,17,Yes,M.Tech (PhD),17,No,Saturday,Room,B
+SUB00680,Strength of Materials Lab,1,Civil,2,R23,10:00-10:00,4,4,FAC0268,Ms. D. Divya,6,Yes,PhD,14,No,Tuesday,Lab,C
+SUB00681,Fluid Mechanics / Hydraulic Machines Lab,1,Civil,2,R23,12:00-10:00,3,3,FAC0384,Ms. P. Pavani,18,Yes,M.Tech (PhD),13,Yes,Wednesday,Lab,B
+SUB00682,Mathematics-III,1,Civil,2,R23,11:00-10:00,6,6,FAC0029,Ms. L. Lakshmi,22,Yes,M.Tech (PhD),24,Yes,Monday,Room,A
+SUB00683,Numerical Methods and Transform Techniques,1,Mechanical,2,R23,11:00-14:00,6,6,FAC0076,Dr. A. Anitha,15,Yes,PhD,24,Yes,Wednesday,Room,A
+SUB00684,Universal Human Values,1,Mechanical,2,R23,11:00-15:00,6,6,FAC0323,Prof. S. Srinivas,11,Yes,M.Tech (PhD),12,No,Thursday,Room,C
+SUB00685,Thermodynamics,1,Mechanical,2,R23,11:00-16:00,3,3,FAC0220,Prof. S. Srinivas,22,Yes,PhD,17,Yes,Friday,Room,C
+SUB00686,Mechanics of Solids,1,Mechanical,2,R23,10:00-12:00,5,5,FAC0268,Ms. P. Pavani,1,Yes,PhD,22,No,Friday,Room,B
+SUB00687,Material Science & Metallurgy,1,Mechanical,2,R23,15:00-16:00,4,4,FAC0299,Ms. S. Swathi,7,Yes,M.Tech,19,No,Monday,Room,A
+SUB00688,Thermodynamics Lab,1,Mechanical,2,R23,10:00-10:00,4,4,FAC0297,Dr. A. Anitha,8,Yes,M.Tech (PhD),18,Yes,Saturday,Lab,C
+SUB00689,Mechanics of Solids / Materials Lab,1,Mechanical,2,R23,11:00-13:00,3,3,FAC0014,Dr. N. Narendra,3,Yes,M.Tech,19,Yes,Thursday,Lab,B
+SUB00690,Production / Machine Shop Lab,1,Mechanical,2,R23,12:00-14:00,3,3,FAC0318,Ms. P. Pavani,4,Yes,M.Tech,25,No,Wednesday,Lab,C
+SUB00691,Mathematics-III,1,Mechanical,2,R23,10:00-12:00,6,6,FAC0349,Mr. V. Venkatesh,24,Yes,PhD,23,No,Saturday,Room,C
+SUB00692,Probability & Statistics ,2,CSE,2,R23,9:00-15:00,4,4,FAC0222,Mr. K. Kiran Kumar,22,Yes,PhD,12,No,Monday,Room,C
+SUB00693,Operating Systems ,2,CSE,2,R23,14:00-10:00,3,3,FAC0098,Mr. K. Kiran Kumar,16,Yes,M.Tech,21,Yes,Thursday,Room,B
+SUB00694,Database Management Systems ,2,CSE,2,R23,12:00-13:00,5,5,FAC0381,Mr. K. Kiran Kumar,20,Yes,PhD,18,Yes,Friday,Room,B
+SUB00695,Software Engineering ,2,CSE,2,R23,12:00-16:00,2,2,FAC0031,Mr. K. Kiran Kumar,20,Yes,M.Tech,26,No,Thursday,Room,A
+SUB00696,Managerial Economics & Financial Analysis ,2,CSE,2,R23,10:00-16:00,4,4,FAC0073,Dr. R. Ramadevi,11,Yes,M.Tech,20,No,Thursday,Room,A
+SUB00697,Operating Systems Lab,2,CSE,2,R23,12:00-12:00,5,5,FAC0085,Dr. A. Anitha,13,Yes,PhD,17,Yes,Tuesday,Lab,B
+SUB00698,DBMS Lab,2,CSE,2,R23,12:00-12:00,3,3,FAC0213,Dr. A. Anitha,14,Yes,PhD,22,Yes,Saturday,Lab,A
+SUB00699,Probability & Statistics ,2,IT,2,R23,12:00-12:00,4,4,FAC0277,Mr. R. Ramesh,20,Yes,M.Tech (PhD),19,Yes,Monday,Room,A
+SUB00700,Operating Systems ,2,IT,2,R23,14:00-14:00,5,5,FAC0114,Mr. R. Ramesh,1,Yes,M.Tech (PhD),17,No,Wednesday,Room,C
+SUB00701,Database Management Systems ,2,IT,2,R23,13:00-13:00,3,3,FAC0184,Dr. N. Narendra,18,Yes,PhD,21,No,Monday,Room,A
+SUB00702,Software Engineering ,2,IT,2,R23,15:00-16:00,6,6,FAC0343,Dr. M. Mahesh,22,Yes,M.Tech,21,Yes,Thursday,Room,A
+SUB00703,Managerial Economics & Financial Analysis ,2,IT,2,R23,15:00-15:00,4,4,FAC0159,Ms. L. Lakshmi,30,Yes,M.Tech (PhD),13,No,Tuesday,Room,A
+SUB00704,Operating Systems Lab,2,IT,2,R23,12:00-13:00,4,4,FAC0137,Mr. R. Ramesh,22,Yes,PhD,18,Yes,Thursday,Lab,B
+SUB00705,DBMS Lab,2,IT,2,R23,13:00-12:00,3,3,FAC0238,Mr. R. Ramesh,11,Yes,PhD,12,Yes,Thursday,Lab,A
+SUB00706,Probability & Statistics,2,AIML,2,R23,11:00-10:00,3,3,FAC0212,Mr. V. Venkatesh,7,Yes,M.Tech (PhD),13,Yes,Thursday,Room,C
+SUB00707,Operating Systems,2,AIML,2,R23,11:00-11:00,4,4,FAC0008,Ms. P. Pavani,4,Yes,M.Tech,16,Yes,Thursday,Room,C
+SUB00708,Database Management Systems,2,AIML,2,R23,12:00-14:00,6,6,FAC0158,Ms. S. Swathi,4,Yes,M.Tech,26,No,Monday,Room,B
+SUB00709,Machine Learning ,2,AIML,2,R23,13:00-11:00,4,4,FAC0349,Prof. S. Srinivas,24,Yes,M.Tech (PhD),18,Yes,Friday,Room,C
+SUB00710,Software Engineering,2,AIML,2,R23,10:00-13:00,3,3,FAC0187,Mr. V. Venkatesh,23,Yes,M.Tech,23,No,Tuesday,Room,B
+SUB00711,Operating Systems Lab,2,AIML,2,R23,11:00-10:00,3,3,FAC0306,Dr. A. Anitha,6,Yes,M.Tech (PhD),14,No,Monday,Lab,B
+SUB00712,Machine Learning Lab,2,AIML,2,R23,10:00-10:00,4,4,FAC0331,Mr. K. Kiran Kumar,6,Yes,M.Tech (PhD),12,No,Thursday,Lab,A
+SUB00713,DBMS Lab,2,AIML,2,R23,9:00-11:00,4,4,FAC0348,Mr. R. Ramesh,12,Yes,M.Tech (PhD),22,No,Friday,Lab,B
+SUB00714,Probability & Statistics,2,DS,2,R23,14:00-10:00,5,5,FAC0374,Ms. D. Divya,8,Yes,PhD,16,Yes,Monday,Room,A
+SUB00715,Introduction to Data Science,2,DS,2,R23,14:00-10:00,6,6,FAC0223,Mr. K. Kiran Kumar,20,Yes,M.Tech,23,No,Friday,Room,B
+SUB00716,Operating Systems,2,DS,2,R23,12:00-11:00,2,2,FAC0212,Dr. N. Narendra,30,Yes,PhD,17,Yes,Thursday,Room,B
+SUB00717,Database Management Systems,2,DS,2,R23,12:00-15:00,4,4,FAC0322,Dr. A. Anitha,18,Yes,PhD,26,No,Friday,Room,B
+SUB00718,Software Engineering,2,DS,2,R23,9:00-13:00,5,5,FAC0027,Ms. P. Pavani,24,Yes,PhD,24,No,Friday,Room,C
+SUB00719,Data Science  Lab,2,DS,2,R23,15:00-12:00,3,3,FAC0260,Dr. M. Mahesh,25,Yes,PhD,18,No,Thursday,Lab,B
+SUB00720,Operating Systems Lab,2,DS,2,R23,10:00-16:00,3,3,FAC0224,Mr. R. Ramesh,2,Yes,M.Tech (PhD),18,No,Thursday,Lab,B
+SUB00721,DBMS Lab,2,DS,2,R23,12:00-16:00,3,3,FAC0263,Ms. P. Pavani,1,Yes,PhD,12,No,Thursday,Lab,B
+SUB00722,Probability & Statistics / Transforms,2,ECE,2,R23,12:00-11:00,5,5,FAC0373,Mr. R. Ramesh,28,Yes,M.Tech (PhD),15,No,Friday,Room,A
+SUB00723,Electronic Devices & Circuits-II,2,ECE,2,R23,13:00-14:00,4,4,FAC0351,Ms. L. Lakshmi,26,Yes,M.Tech,16,Yes,Monday,Room,B
+SUB00724,Analog Communications,2,ECE,2,R23,12:00-11:00,4,4,FAC0295,Dr. A. Anitha,20,Yes,PhD,21,Yes,Tuesday,Room,C
+SUB00725,Signals & Systems,2,ECE,2,R23,10:00-11:00,2,2,FAC0173,Ms. P. Pavani,21,Yes,PhD,16,Yes,Tuesday,Room,A
+SUB00726,Network Analysis / Electromagnetics,2,ECE,2,R23,12:00-13:00,4,4,FAC0357,Ms. S. Swathi,21,Yes,PhD,12,No,Friday,Room,A
+SUB00727,Electronic Circuits Lab,2,ECE,2,R23,13:00-15:00,5,5,FAC0008,Mr. R. Ramesh,1,Yes,PhD,21,No,Saturday,Lab,A
+SUB00728,Analog Communication Lab,2,ECE,2,R23,9:00-15:00,4,4,FAC0191,Prof. S. Srinivas,11,Yes,M.Tech,23,Yes,Friday,Lab,B
+SUB00729,Signals & Systems Lab,2,ECE,2,R23,11:00-13:00,2,2,FAC0395,Mr. R. Ramesh,13,Yes,M.Tech,12,Yes,Saturday,Lab,C
+SUB00730,Probability & Statistics / Numerical Methods,2,EEE,2,R23,15:00-15:00,4,4,FAC0068,Dr. R. Ramadevi,30,Yes,PhD,24,Yes,Thursday,Room,C
+SUB00731,Power Systems-I,2,EEE,2,R23,15:00-11:00,6,6,FAC0192,Ms. D. Divya,9,Yes,M.Tech (PhD),26,Yes,Monday,Room,C
+SUB00732,Electrical Machines-I ,2,EEE,2,R23,10:00-15:00,4,4,FAC0234,Prof. S. Srinivas,3,Yes,PhD,24,No,Wednesday,Room,C
+SUB00733,Power Electronics,2,EEE,2,R23,14:00-12:00,5,5,FAC0084,Dr. N. Narendra,7,Yes,M.Tech,26,Yes,Friday,Room,A
+SUB00734,Electrical Measurements,2,EEE,2,R23,13:00-16:00,5,5,FAC0052,Dr. M. Mahesh,16,Yes,M.Tech,16,Yes,Wednesday,Room,C
+SUB00735,Electrical Machines Lab,2,EEE,2,R23,9:00-13:00,4,4,FAC0214,Ms. P. Pavani,26,Yes,M.Tech,12,No,Wednesday,Lab,C
+SUB00736,Power Electronics Lab,2,EEE,2,R23,12:00-14:00,4,4,FAC0274,Dr. A. Anitha,19,Yes,M.Tech (PhD),24,No,Saturday,Lab,B
+SUB00737,Electrical Measurements Lab,2,EEE,2,R23,15:00-14:00,5,5,FAC0396,Ms. L. Lakshmi,11,Yes,M.Tech (PhD),17,No,Monday,Lab,C
+SUB00738,Strength of Materials  II,2,Civil,2,R23,15:00-16:00,6,6,FAC0037,Ms. D. Divya,24,Yes,M.Tech,12,No,Thursday,Room,C
+SUB00739,Fluid Mechanics  II,2,Civil,2,R23,14:00-12:00,4,4,FAC0270,Dr. A. Anitha,30,Yes,PhD,15,Yes,Wednesday,Room,B
+SUB00740,Soil Mechanics,2,Civil,2,R23,13:00-11:00,4,4,FAC0391,Ms. S. Swathi,24,Yes,PhD,20,Yes,Saturday,Room,A
+SUB00741,Structural Analysis  I,2,Civil,2,R23,14:00-15:00,5,5,FAC0132,Ms. S. Swathi,8,Yes,M.Tech,20,No,Friday,Room,B
+SUB00742,Building Materials & Construction,2,Civil,2,R23,11:00-12:00,6,6,FAC0272,Dr. R. Ramadevi,27,Yes,M.Tech,24,Yes,Tuesday,Room,C
+SUB00743,Concrete Technology Lab,2,Civil,2,R23,13:00-16:00,3,3,FAC0035,Ms. D. Divya,20,Yes,M.Tech (PhD),26,Yes,Thursday,Lab,B
+SUB00744,Soil Mechanics Lab,2,Civil,2,R23,9:00-12:00,4,4,FAC0206,Dr. R. Ramadevi,20,Yes,PhD,15,Yes,Friday,Lab,A
+SUB00745,Material Testing / Civil Engineering Workshop Lab,2,Civil,2,R23,12:00-10:00,3,3,FAC0045,Dr. R. Ramadevi,25,Yes,PhD,12,Yes,Wednesday,Lab,B
+SUB00746,Strength of Materials  II,2,Mechanical,2,R23,14:00-15:00,5,5,FAC0337,Mr. V. Venkatesh,16,Yes,M.Tech (PhD),19,Yes,Friday,Room,B
+SUB00747,Thermodynamics  II ,2,Mechanical,2,R23,10:00-13:00,6,6,FAC0302,Ms. D. Divya,24,Yes,M.Tech (PhD),12,No,Saturday,Room,B
+SUB00748,Machine Design  I,2,Mechanical,2,R23,9:00-11:00,5,5,FAC0326,Mr. V. Venkatesh,25,Yes,M.Tech (PhD),23,No,Saturday,Room,A
+SUB00749,Manufacturing Processes / Production Engineering,2,Mechanical,2,R23,15:00-13:00,3,3,FAC0036,Mr. R. Ramesh,28,Yes,PhD,12,No,Friday,Room,B
+SUB00750,Dynamics of Machines,2,Mechanical,2,R23,9:00-10:00,6,6,FAC0219,Dr. A. Anitha,8,Yes,M.Tech,13,No,Friday,Room,A
+SUB00751,Machine Design Lab,2,Mechanical,2,R23,9:00-15:00,5,5,FAC0255,Ms. D. Divya,18,Yes,M.Tech,26,Yes,Saturday,Lab,A
+SUB00752,Manufacturing / Production Lab,2,Mechanical,2,R23,10:00-15:00,4,4,FAC0117,Dr. A. Anitha,18,Yes,PhD,15,Yes,Saturday,Lab,C
+SUB00753,Thermal Lab,2,Mechanical,2,R23,12:00-14:00,3,3,FAC0194,Mr. R. Ramesh,20,Yes,M.Tech,25,Yes,Wednesday,Lab,C
+SUB00754,Data Warehousing and Data Mining,1,CSE,3,R23,12:00-14:00,3,3,FAC0389,Ms. S. Swathi,6,Yes,M.Tech,26,No,Friday,Room,C
+SUB00755,Computer Networks,1,CSE,3,R23,13:00-11:00,5,5,FAC0358,Mr. R. Ramesh,9,Yes,M.Tech,23,Yes,Friday,Room,A
+SUB00756,Formal Languages and Automata Theory,1,CSE,3,R23,14:00-15:00,3,3,FAC0250,Mr. K. Kiran Kumar,11,Yes,M.Tech,20,Yes,Tuesday,Room,C
+SUB00757,Professional Elective  I ,1,CSE,3,R23,11:00-11:00,5,5,FAC0007,Dr. A. Anitha,5,Yes,M.Tech,15,No,Thursday,Room,B
+SUB00758,Open Elective  I ,1,CSE,3,R23,10:00-13:00,2,2,FAC0153,Ms. P. Pavani,6,Yes,M.Tech,21,No,Friday,Room,B
+SUB00759,Data Mining and Computer Networks Lab,1,CSE,3,R23,14:00-10:00,3,3,FAC0072,Mr. V. Venkatesh,1,Yes,PhD,15,No,Wednesday,Lab,A
+SUB00760,Full Stack Development-II ,1,CSE,3,R23,9:00-13:00,2,2,FAC0337,Ms. L. Lakshmi,8,Yes,M.Tech,26,Yes,Tuesday,Lab,A
+SUB00761,User Interface Design using Flutter,1,CSE,3,R23,9:00-15:00,6,6,FAC0388,Dr. R. Ramadevi,28,Yes,PhD,15,Yes,Tuesday,Lab,A
+SUB00762,Data Warehousing and Data Mining,1,IT,3,R23,13:00-16:00,4,4,FAC0253,Dr. M. Mahesh,16,Yes,M.Tech (PhD),25,Yes,Friday,Room,C
+SUB00763,Computer Networks,1,IT,3,R23,15:00-14:00,3,3,FAC0124,Mr. V. Venkatesh,3,Yes,PhD,16,No,Saturday,Room,C
+SUB00764,Formal Languages and Automata Theory,1,IT,3,R23,9:00-16:00,6,6,FAC0157,Ms. S. Swathi,5,Yes,PhD,19,No,Wednesday,Room,B
+SUB00765,Professional Elective  I ,1,IT,3,R23,11:00-15:00,4,4,FAC0113,Ms. P. Pavani,17,Yes,PhD,17,Yes,Thursday,Room,B
+SUB00766,Open Elective  I ,1,IT,3,R23,10:00-15:00,4,4,FAC0320,Dr. R. Ramadevi,2,Yes,M.Tech (PhD),24,Yes,Monday,Room,C
+SUB00767,Data Mining and Computer Networks Lab,1,IT,3,R23,10:00-16:00,3,3,FAC0110,Mr. R. Ramesh,24,Yes,M.Tech,12,No,Wednesday,Lab,B
+SUB00768,Full Stack Development-II ,1,IT,3,R23,11:00-13:00,3,3,FAC0304,Dr. M. Mahesh,14,Yes,M.Tech (PhD),17,No,Tuesday,Lab,A
+SUB00769,UI / Front-end Development Lab,1,IT,3,R23,13:00-12:00,2,2,FAC0154,Ms. D. Divya,3,Yes,M.Tech (PhD),13,No,Friday,Lab,C
+SUB00770,Data Warehousing and Data Mining,1,AIML,3,R23,14:00-16:00,6,6,FAC0125,Prof. S. Srinivas,2,Yes,M.Tech,26,No,Wednesday,Room,A
+SUB00771,Computer Networks,1,AIML,3,R23,9:00-16:00,4,4,FAC0333,Dr. N. Narendra,15,Yes,M.Tech,25,No,Tuesday,Room,A
+SUB00772,Formal Languages and Automata Theory,1,AIML,3,R23,12:00-12:00,6,6,FAC0375,Mr. K. Kiran Kumar,30,Yes,M.Tech,20,Yes,Saturday,Room,C
+SUB00773,Professional Elective  I ,1,AIML,3,R23,13:00-12:00,5,5,FAC0282,Ms. L. Lakshmi,9,Yes,PhD,17,Yes,Tuesday,Room,A
+SUB00774,Open Elective  I ,1,AIML,3,R23,14:00-16:00,4,4,FAC0023,Mr. V. Venkatesh,27,Yes,M.Tech,12,Yes,Tuesday,Room,B
+SUB00775,Data Mining and Computer Networks Lab,1,AIML,3,R23,12:00-13:00,5,5,FAC0133,Dr. R. Ramadevi,23,Yes,PhD,26,No,Friday,Lab,B
+SUB00776,Full Stack / AI Tools Lab,1,AIML,3,R23,13:00-14:00,6,6,FAC0253,Dr. A. Anitha,5,Yes,PhD,16,No,Wednesday,Lab,C
+SUB00777,UI/Design Labs,1,AIML,3,R23,9:00-10:00,6,6,FAC0090,Dr. N. Narendra,3,Yes,M.Tech,17,No,Friday,Lab,B
+SUB00778,Data Warehousing and Data Mining,1,DS,3,R23,11:00-10:00,5,5,FAC0302,Mr. R. Ramesh,22,Yes,PhD,12,Yes,Monday,Room,A
+SUB00779,Computer Networks,1,DS,3,R23,9:00-16:00,3,3,FAC0141,Mr. R. Ramesh,4,Yes,M.Tech,15,Yes,Saturday,Room,B
+SUB00780,Formal Languages and Automata Theory,1,DS,3,R23,14:00-12:00,6,6,FAC0365,Ms. P. Pavani,9,Yes,M.Tech (PhD),17,Yes,Thursday,Room,A
+SUB00781,Professional Elective  I ,1,DS,3,R23,9:00-12:00,5,5,FAC0115,Dr. R. Ramadevi,26,Yes,M.Tech,25,Yes,Tuesday,Room,B
+SUB00782,Open Elective  I ,1,DS,3,R23,15:00-16:00,4,4,FAC0184,Dr. A. Anitha,28,Yes,M.Tech,18,Yes,Saturday,Room,A
+SUB00783,Data Mining and Computer Networks Lab,1,DS,3,R23,15:00-15:00,4,4,FAC0154,Dr. A. Anitha,15,Yes,M.Tech (PhD),15,No,Thursday,Lab,B
+SUB00784,Full Stack Development-II ,1,DS,3,R23,13:00-16:00,5,5,FAC0162,Dr. A. Anitha,1,Yes,M.Tech,17,Yes,Wednesday,Lab,C
+SUB00785, UI Design Lab,1,DS,3,R23,14:00-14:00,4,4,FAC0340,Ms. P. Pavani,15,Yes,PhD,21,Yes,Wednesday,Lab,B
+SUB00786,Analog & Digital IC Applications,1,ECE,3,R23,15:00-12:00,3,3,FAC0189,Prof. S. Srinivas,15,Yes,M.Tech,18,No,Wednesday,Room,A
+SUB00787,Microprocessors & Microcontrollers ,1,ECE,3,R23,15:00-13:00,3,3,FAC0036,Mr. V. Venkatesh,17,Yes,PhD,21,No,Thursday,Room,B
+SUB00788,Antennas & Wave Propagation,1,ECE,3,R23,13:00-10:00,2,2,FAC0204,Mr. K. Kiran Kumar,27,Yes,M.Tech (PhD),12,No,Tuesday,Room,A
+SUB00789,Professional Elective  I,1,ECE,3,R23,14:00-10:00,5,5,FAC0245,Mr. K. Kiran Kumar,3,Yes,M.Tech,16,Yes,Thursday,Room,C
+SUB00790,Open Elective - I,1,ECE,3,R23,14:00-10:00,3,3,FAC0005,Ms. D. Divya,6,Yes,M.Tech,26,No,Friday,Room,C
+SUB00791,Analog & Digital IC Applications Lab,1,ECE,3,R23,13:00-13:00,4,4,FAC0158,Dr. M. Mahesh,18,Yes,PhD,21,No,Saturday,Lab,A
+SUB00792,Microprocessors & Embedded Systems Lab,1,ECE,3,R23,9:00-11:00,4,4,FAC0030,Mr. K. Kiran Kumar,27,Yes,M.Tech (PhD),12,No,Tuesday,Lab,C
+SUB00793,Communication Systems / RF Lab,1,ECE,3,R23,14:00-13:00,2,2,FAC0331,Mr. V. Venkatesh,20,Yes,M.Tech (PhD),21,Yes,Tuesday,Lab,C
+SUB00794,Power Electronics,1,EEE,3,R23,14:00-16:00,6,6,FAC0217,Ms. D. Divya,17,Yes,M.Tech,13,Yes,Wednesday,Room,B
+SUB00795,Digital Circuits,1,EEE,3,R23,12:00-10:00,5,5,FAC0143,Ms. D. Divya,6,Yes,M.Tech (PhD),14,No,Wednesday,Room,B
+SUB00796,Power Systems-II,1,EEE,3,R23,11:00-12:00,4,4,FAC0304,Prof. S. Srinivas,22,Yes,M.Tech,19,No,Friday,Room,C
+SUB00797,Professional Elective  I,1,EEE,3,R23,13:00-15:00,5,5,FAC0382,Dr. M. Mahesh,6,Yes,PhD,21,No,Wednesday,Room,B
+SUB00798,Open Elective  I,1,EEE,3,R23,14:00-12:00,4,4,FAC0153,Dr. A. Anitha,24,Yes,PhD,18,Yes,Thursday,Room,A
+SUB00799,Power Electronics Lab,1,EEE,3,R23,13:00-10:00,5,5,FAC0198,Dr. N. Narendra,24,Yes,PhD,20,No,Saturday,Lab,A
+SUB00800,Electrical Machines / Circuits Lab,1,EEE,3,R23,11:00-13:00,3,3,FAC0220,Dr. A. Anitha,23,Yes,PhD,20,No,Friday,Lab,A
+SUB00801,Power Systems / Simulation Lab,1,EEE,3,R23,10:00-15:00,6,6,FAC0186,Dr. R. Ramadevi,11,Yes,M.Tech,24,No,Friday,Lab,A
+SUB00802,Water Resources Engineering,1,Civil,3,R23,11:00-16:00,2,2,FAC0221,Ms. D. Divya,19,Yes,M.Tech,13,Yes,Saturday,Room,B
+SUB00803,Design of Reinforced Concrete Structures,1,Civil,3,R23,10:00-13:00,4,4,FAC0377,Dr. M. Mahesh,25,Yes,PhD,17,Yes,Friday,Room,A
+SUB00804,Geotechnical Engineering,1,Civil,3,R23,13:00-14:00,4,4,FAC0358,Dr. R. Ramadevi,14,Yes,M.Tech (PhD),16,Yes,Friday,Room,A
+SUB00805,Introduction to Quantum Technologies and Applications ,1,Civil,3,R23,15:00-16:00,4,4,FAC0279,Mr. V. Venkatesh,6,Yes,M.Tech,21,No,Thursday,Room,A
+SUB00806,Environmental Impact Assessment ,1,Civil,3,R23,9:00-11:00,5,5,FAC0049,Mr. R. Ramesh,6,Yes,M.Tech,14,Yes,Saturday,Room,B
+SUB00807,Concrete Structures Lab,1,Civil,3,R23,14:00-11:00,3,3,FAC0236,Ms. S. Swathi,13,Yes,M.Tech,23,No,Wednesday,Lab,A
+SUB00808,Soil Mechanics / Geotech Lab,1,Civil,3,R23,13:00-15:00,3,3,FAC0243,Prof. S. Srinivas,12,Yes,M.Tech,14,Yes,Tuesday,Lab,C
+SUB00809,Transportation / Hydraulic Structures Lab,1,Civil,3,R23,9:00-12:00,2,2,FAC0186,Mr. V. Venkatesh,28,Yes,PhD,16,Yes,Saturday,Lab,A
+SUB00810,Machining Process,1,Mechanical,3,R23,12:00-16:00,6,6,FAC0163,Mr. V. Venkatesh,28,Yes,PhD,17,Yes,Wednesday,Room,B
+SUB00811,Thermal Engineering,1,Mechanical,3,R23,15:00-10:00,4,4,FAC0088,Dr. N. Narendra,14,Yes,M.Tech,17,Yes,Monday,Room,C
+SUB00812,Metrology & Measurements,1,Mechanical,3,R23,12:00-12:00,3,3,FAC0085,Mr. K. Kiran Kumar,5,Yes,M.Tech,15,Yes,Wednesday,Room,A
+SUB00813,Introduction to Quantum Technologies and Applications ,1,Mechanical,3,R23,14:00-15:00,3,3,FAC0363,Prof. S. Srinivas,29,Yes,M.Tech (PhD),19,Yes,Tuesday,Room,A
+SUB00814,Automobile Engineering ,1,Mechanical,3,R23,9:00-13:00,3,3,FAC0367,Dr. N. Narendra,10,Yes,PhD,18,Yes,Friday,Room,A
+SUB00815,Machining / Manufacturing Lab,1,Mechanical,3,R23,11:00-11:00,3,3,FAC0340,Prof. S. Srinivas,1,Yes,M.Tech,15,Yes,Saturday,Lab,C
+SUB00816,Metrology & Measurements Lab,1,Mechanical,3,R23,12:00-11:00,6,6,FAC0173,Ms. L. Lakshmi,27,Yes,PhD,25,Yes,Thursday,Lab,C
+SUB00817,Thermal Engineering / Heat Transfer Lab,1,Mechanical,3,R23,10:00-12:00,5,5,FAC0314,Dr. R. Ramadevi,5,Yes,M.Tech (PhD),25,No,Monday,Lab,A
+SUB00818,Compiler Design,2,CSE,3,R23,9:00-13:00,3,3,FAC0209,Dr. M. Mahesh,5,Yes,M.Tech (PhD),17,No,Saturday,Room,B
+SUB00819,Machine Learning ,2,CSE,3,R23,10:00-16:00,5,5,FAC0091,Mr. V. Venkatesh,4,Yes,M.Tech,17,Yes,Saturday,Room,B
+SUB00820,Professional Elective  II,2,CSE,3,R23,15:00-15:00,4,4,FAC0244,Dr. A. Anitha,10,Yes,PhD,15,Yes,Tuesday,Room,C
+SUB00821,Open Elective  I/II ,2,CSE,3,R23,13:00-15:00,5,5,FAC0121,Dr. A. Anitha,22,Yes,PhD,25,No,Saturday,Room,A
+SUB00822,Professional Core ,2,CSE,3,R23,14:00-10:00,2,2,FAC0178,Dr. M. Mahesh,27,Yes,M.Tech,15,Yes,Monday,Room,C
+SUB00823,Compiler Design Lab,2,CSE,3,R23,13:00-10:00,5,5,FAC0342,Ms. L. Lakshmi,4,Yes,M.Tech,21,Yes,Saturday,Lab,C
+SUB00824,Machine Learning Lab,2,CSE,3,R23,15:00-10:00,6,6,FAC0176,Prof. S. Srinivas,30,Yes,M.Tech,20,No,Thursday,Lab,A
+SUB00825,Elective-linked Lab,2,CSE,3,R23,9:00-10:00,4,4,FAC0332,Ms. S. Swathi,5,Yes,M.Tech (PhD),15,No,Wednesday,Lab,A
+SUB00826,Compiler Design ,2,IT,3,R23,12:00-10:00,6,6,FAC0170,Ms. L. Lakshmi,6,Yes,M.Tech (PhD),18,No,Monday,Room,C
+SUB00827,Web & Mobile Computing ,2,IT,3,R23,9:00-13:00,6,6,FAC0099,Mr. V. Venkatesh,26,Yes,M.Tech,19,Yes,Wednesday,Room,A
+SUB00828,Big Data Analytics,2,IT,3,R23,12:00-14:00,3,3,FAC0383,Mr. V. Venkatesh,7,Yes,M.Tech (PhD),26,No,Monday,Room,C
+SUB00829,Open Elective  I/II,2,IT,3,R23,15:00-12:00,4,4,FAC0240,Dr. A. Anitha,15,Yes,M.Tech (PhD),15,Yes,Monday,Room,A
+SUB00830,Big Data Analytics Lab,2,IT,3,R23,12:00-14:00,3,3,FAC0198,Prof. S. Srinivas,21,Yes,PhD,12,No,Friday,Lab,A
+SUB00831,IT Systems Lab,2,IT,3,R23,13:00-15:00,3,3,FAC0375,Ms. D. Divya,8,Yes,PhD,24,Yes,Friday,Lab,A
+SUB00832,Web & Mobile App Development Lab,2,IT,3,R23,15:00-15:00,3,3,FAC0267,Dr. M. Mahesh,16,Yes,M.Tech (PhD),13,No,Tuesday,Lab,C
+SUB00833,Compiler or Security Lab,2,IT,3,R23,10:00-14:00,5,5,FAC0384,Ms. L. Lakshmi,3,Yes,M.Tech,22,No,Tuesday,Lab,C
+SUB00834,Advanced Machine Learning,2,AIML,3,R23,10:00-10:00,5,5,FAC0343,Ms. D. Divya,17,Yes,M.Tech (PhD),14,Yes,Saturday,Room,B
+SUB00835,Compiler Design ,2,AIML,3,R23,14:00-15:00,3,3,FAC0117,Mr. V. Venkatesh,13,Yes,PhD,14,No,Saturday,Room,B
+SUB00836,Professional Elective  II,2,AIML,3,R23,10:00-16:00,5,5,FAC0031,Dr. A. Anitha,11,Yes,M.Tech (PhD),14,No,Friday,Room,C
+SUB00837,Open Elective  I/II,2,AIML,3,R23,9:00-13:00,3,3,FAC0390,Mr. K. Kiran Kumar,7,Yes,M.Tech (PhD),12,Yes,Monday,Room,A
+SUB00838,AI Tools and Platforms ,2,AIML,3,R23,11:00-14:00,5,5,FAC0335,Ms. P. Pavani,8,Yes,M.Tech (PhD),14,Yes,Thursday,Room,B
+SUB00839,ML/AI Lab ,2,AIML,3,R23,9:00-14:00,3,3,FAC0101,Mr. R. Ramesh,6,Yes,M.Tech,19,No,Monday,Lab,C
+SUB00840,Compiler/Optimization Lab,2,AIML,3,R23,13:00-14:00,5,5,FAC0145,Ms. S. Swathi,16,Yes,PhD,14,Yes,Saturday,Lab,B
+SUB00841,Elective-linked Lab,2,AIML,3,R23,12:00-11:00,4,4,FAC0040,Ms. L. Lakshmi,14,Yes,PhD,20,Yes,Monday,Lab,C
+SUB00842,Data Mining,2,DS,3,R23,11:00-16:00,2,2,FAC0053,Ms. S. Swathi,19,Yes,PhD,23,No,Tuesday,Room,A
+SUB00843,Big Data Analytics,2,DS,3,R23,13:00-13:00,4,4,FAC0260,Ms. P. Pavani,14,Yes,M.Tech,25,Yes,Friday,Room,B
+SUB00844,Compiler Design ,2,DS,3,R23,12:00-16:00,6,6,FAC0198,Ms. S. Swathi,12,Yes,PhD,15,Yes,Wednesday,Room,C
+SUB00845,Professional Elective  II ,2,DS,3,R23,14:00-13:00,3,3,FAC0152,Mr. R. Ramesh,27,Yes,PhD,13,No,Monday,Room,A
+SUB00846,Open Elective  I/II,2,DS,3,R23,11:00-12:00,5,5,FAC0301,Ms. D. Divya,13,Yes,PhD,14,Yes,Wednesday,Room,C
+SUB00847,Statistical/Optimization Methods for DS,2,DS,3,R23,12:00-11:00,4,4,FAC0299,Ms. D. Divya,24,Yes,PhD,14,No,Thursday,Room,C
+SUB00848,Big Data Lab,2,DS,3,R23,13:00-11:00,2,2,FAC0144,Ms. S. Swathi,12,Yes,PhD,13,No,Thursday,Lab,C
+SUB00849,Data Mining Lab ,2,DS,3,R23,10:00-10:00,2,2,FAC0053,Dr. M. Mahesh,1,Yes,M.Tech (PhD),23,No,Wednesday,Lab,B
+SUB00850,Stats / Python Lab,2,DS,3,R23,10:00-14:00,4,4,FAC0279,Mr. K. Kiran Kumar,1,Yes,M.Tech,17,Yes,Thursday,Lab,B
+SUB00851,Elective-linked DS Lab,2,DS,3,R23,13:00-11:00,3,3,FAC0020,Mr. R. Ramesh,20,Yes,M.Tech,22,No,Friday,Lab,B
+SUB00852,Microwave Engineering,2,ECE,3,R23,11:00-10:00,3,3,FAC0103,Mr. K. Kiran Kumar,19,Yes,PhD,13,No,Friday,Room,B
+SUB00853,Digital Signal Processing (DSP),2,ECE,3,R23,12:00-10:00,5,5,FAC0235,Mr. V. Venkatesh,8,Yes,M.Tech,15,No,Wednesday,Room,C
+SUB00854,Embedded Systems ,2,ECE,3,R23,14:00-15:00,5,5,FAC0232,Mr. V. Venkatesh,19,Yes,M.Tech (PhD),22,Yes,Wednesday,Room,A
+SUB00855,Open Elective  I/II,2,ECE,3,R23,9:00-13:00,2,2,FAC0143,Prof. S. Srinivas,1,Yes,PhD,18,No,Monday,Room,C
+SUB00856,Communication Systems ,2,ECE,3,R23,13:00-10:00,3,3,FAC0017,Dr. R. Ramadevi,16,Yes,M.Tech,13,No,Saturday,Room,A
+SUB00857,Microwave / RF Lab,2,ECE,3,R23,9:00-14:00,4,4,FAC0089,Dr. A. Anitha,7,Yes,M.Tech (PhD),17,Yes,Saturday,Lab,A
+SUB00858,DSP Lab,2,ECE,3,R23,13:00-10:00,5,5,FAC0234,Mr. K. Kiran Kumar,21,Yes,PhD,23,No,Monday,Lab,B
+SUB00859,Embedded Systems Lab,2,ECE,3,R23,14:00-16:00,6,6,FAC0314,Mr. K. Kiran Kumar,7,Yes,M.Tech,24,Yes,Monday,Lab,C
+SUB00860,Power Systems  II,2,EEE,3,R23,10:00-16:00,6,6,FAC0001,Mr. V. Venkatesh,3,Yes,PhD,26,Yes,Monday,Room,C
+SUB00861,Control Systems ,2,EEE,3,R23,10:00-12:00,3,3,FAC0173,Dr. N. Narendra,24,Yes,PhD,21,Yes,Wednesday,Room,A
+SUB00862,Professional Elective  II,2,EEE,3,R23,11:00-12:00,5,5,FAC0288,Ms. S. Swathi,13,Yes,M.Tech (PhD),25,Yes,Wednesday,Room,B
+SUB00863,Open Elective  I/II,2,EEE,3,R23,9:00-15:00,5,5,FAC0193,Dr. N. Narendra,18,Yes,M.Tech (PhD),22,No,Wednesday,Room,C
+SUB00864,Electrical Engineering Analytics / Optimization ,2,EEE,3,R23,9:00-13:00,6,6,FAC0361,Ms. L. Lakshmi,12,Yes,PhD,20,Yes,Wednesday,Room,A
+SUB00865,Power Systems Simulation / Hardware Lab,2,EEE,3,R23,12:00-13:00,4,4,FAC0178,Dr. R. Ramadevi,23,Yes,M.Tech,21,No,Tuesday,Lab,A
+SUB00866,Control Systems / Drives Lab,2,EEE,3,R23,14:00-10:00,3,3,FAC0302,Mr. V. Venkatesh,16,Yes,PhD,23,Yes,Monday,Lab,B
+SUB00867,Electrical Machines Advanced Lab,2,EEE,3,R23,10:00-11:00,2,2,FAC0307,Mr. V. Venkatesh,11,Yes,M.Tech,24,No,Friday,Lab,C
+SUB00868,Transportation Engineering  II,2,Civil,3,R23,14:00-12:00,4,4,FAC0058,Mr. V. Venkatesh,27,Yes,M.Tech (PhD),16,No,Thursday,Room,C
+SUB00869,Environmental Engineering ,2,Civil,3,R23,10:00-15:00,3,3,FAC0372,Mr. R. Ramesh,26,Yes,M.Tech (PhD),26,Yes,Tuesday,Room,B
+SUB00870,Professional Elective  II ,2,Civil,3,R23,10:00-14:00,3,3,FAC0350,Ms. L. Lakshmi,28,Yes,M.Tech (PhD),20,Yes,Saturday,Room,C
+SUB00871,Open Elective  I/II,2,Civil,3,R23,10:00-14:00,5,5,FAC0077,Ms. S. Swathi,10,Yes,PhD,15,Yes,Thursday,Room,C
+SUB00872,Structural Analysis  II ,2,Civil,3,R23,12:00-12:00,4,4,FAC0338,Ms. P. Pavani,18,Yes,M.Tech (PhD),18,Yes,Monday,Room,A
+SUB00873,Transportation / Highway Lab,2,Civil,3,R23,10:00-16:00,5,5,FAC0128,Mr. V. Venkatesh,21,Yes,PhD,12,Yes,Monday,Lab,C
+SUB00874,Env Engg Lab,2,Civil,3,R23,15:00-11:00,4,4,FAC0373,Ms. P. Pavani,28,Yes,M.Tech,12,Yes,Tuesday,Lab,C
+SUB00875,Structural Quality Testing Lab,2,Civil,3,R23,14:00-11:00,2,2,FAC0293,Ms. S. Swathi,9,Yes,M.Tech,18,Yes,Friday,Lab,B
+SUB00876,Heat Transfer ,2,Mechanical,3,R23,15:00-10:00,5,5,FAC0218,Dr. M. Mahesh,14,Yes,M.Tech,15,Yes,Monday,Room,B
+SUB00877,Industrial Engineering / Operations Research,2,Mechanical,3,R23,10:00-15:00,3,3,FAC0348,Ms. L. Lakshmi,6,Yes,M.Tech (PhD),18,Yes,Monday,Room,B
+SUB00878,Professional Elective  II,2,Mechanical,3,R23,10:00-16:00,4,4,FAC0348,Mr. R. Ramesh,15,Yes,M.Tech (PhD),18,Yes,Tuesday,Room,A
+SUB00879,Open Elective  I/II,2,Mechanical,3,R23,14:00-10:00,5,5,FAC0046,Ms. P. Pavani,21,Yes,M.Tech,25,No,Wednesday,Room,C
+SUB00880,Dynamics & Control ,2,Mechanical,3,R23,15:00-16:00,3,3,FAC0104,Prof. S. Srinivas,6,Yes,M.Tech,16,Yes,Wednesday,Room,B
+SUB00881,Heat Transfer / Thermal Lab,2,Mechanical,3,R23,10:00-14:00,3,3,FAC0400,Ms. S. Swathi,13,Yes,PhD,23,No,Tuesday,Lab,A
+SUB00882,Manufacturing / Production Lab,2,Mechanical,3,R23,13:00-14:00,3,3,FAC0105,Dr. M. Mahesh,5,Yes,M.Tech,15,No,Wednesday,Lab,C
+SUB00883,Industrial Engg Tools / CAD Lab,2,Mechanical,3,R23,14:00-12:00,6,6,FAC0040,Ms. S. Swathi,18,Yes,M.Tech (PhD),16,Yes,Monday,Lab,B
+SUB00884,Deep Learning,1,CSE,4,R23,12:00-13:00,2,2,FAC0223,Ms. P. Pavani,26,Yes,PhD,23,Yes,Tuesday,Room,A
+SUB00885,Disaster Management,1,CSE,4,R23,13:00-12:00,3,3,FAC0246,Mr. V. Venkatesh,11,Yes,M.Tech (PhD),19,No,Thursday,Room,B
+SUB00886,Ethical Hacking,1,CSE,4,R23,15:00-11:00,5,5,FAC0254,Mr. K. Kiran Kumar,23,Yes,M.Tech,17,No,Saturday,Room,B
+SUB00887,Cloud Computing,1,CSE,4,R23,12:00-12:00,4,4,FAC0343,Ms. S. Swathi,8,Yes,PhD,26,No,Friday,Room,B
+SUB00888,Environmental Management,1,CSE,4,R23,15:00-12:00,4,4,FAC0326,Mr. K. Kiran Kumar,18,Yes,M.Tech,13,No,Monday,Room,B
+SUB00889,Universal Human Values  II,1,CSE,4,R23,12:00-11:00,3,3,FAC0236,Dr. A. Anitha,20,Yes,M.Tech,17,Yes,Friday,Room,A
+SUB00890,Deep Learning Techniques Lab,1,CSE,4,R23,11:00-12:00,3,3,FAC0067,Ms. P. Pavani,19,Yes,M.Tech (PhD),23,Yes,Tuesday,Lab,B
+SUB00891,Deep Learning,1,IT,4,R23,13:00-16:00,2,2,FAC0055,Dr. A. Anitha,30,Yes,PhD,24,No,Friday,Room,B
+SUB00892,Disaster Management,1,IT,4,R23,11:00-16:00,6,6,FAC0032,Dr. M. Mahesh,28,Yes,M.Tech,19,No,Wednesday,Room,B
+SUB00893,Ethical Hacking,1,IT,4,R23,10:00-12:00,2,2,FAC0350,Dr. R. Ramadevi,25,Yes,M.Tech (PhD),23,Yes,Friday,Room,B
+SUB00894,Cloud Computing,1,IT,4,R23,13:00-12:00,2,2,FAC0058,Dr. M. Mahesh,29,Yes,M.Tech,24,No,Thursday,Room,B
+SUB00895,Environmental Management,1,IT,4,R23,9:00-16:00,4,4,FAC0246,Ms. P. Pavani,2,Yes,M.Tech (PhD),13,Yes,Thursday,Room,B
+SUB00896,Universal Human Values  II,1,IT,4,R23,13:00-14:00,6,6,FAC0142,Dr. R. Ramadevi,29,Yes,M.Tech,22,No,Friday,Room,A
+SUB00897,Deep Learning Techniques Lab,1,IT,4,R23,14:00-12:00,3,3,FAC0391,Ms. L. Lakshmi,24,Yes,M.Tech,18,Yes,Wednesday,Lab,C
+SUB00898,Deep Learning,1,AIML,4,R23,13:00-13:00,5,5,FAC0113,Ms. D. Divya,9,Yes,M.Tech,20,Yes,Thursday,Room,C
+SUB00899,Disaster Management,1,AIML,4,R23,9:00-16:00,6,6,FAC0097,Dr. A. Anitha,16,Yes,PhD,13,Yes,Tuesday,Room,A
+SUB00900,Ethical Hacking,1,AIML,4,R23,10:00-10:00,2,2,FAC0046,Ms. L. Lakshmi,16,Yes,PhD,12,No,Tuesday,Room,B
+SUB00901,Cloud Computing,1,AIML,4,R23,11:00-13:00,3,3,FAC0025,Ms. S. Swathi,30,Yes,M.Tech (PhD),14,No,Tuesday,Room,A
+SUB00902,Environmental Management,1,AIML,4,R23,14:00-14:00,2,2,FAC0141,Dr. M. Mahesh,28,Yes,M.Tech (PhD),17,Yes,Tuesday,Room,B
+SUB00903,Universal Human Values  II,1,AIML,4,R23,14:00-16:00,4,4,FAC0287,Mr. V. Venkatesh,8,Yes,M.Tech,24,Yes,Tuesday,Room,B
+SUB00904,Deep Learning Techniques Lab,1,AIML,4,R23,11:00-16:00,4,4,FAC0076,Dr. M. Mahesh,15,Yes,PhD,26,No,Tuesday,Lab,B
+SUB00905,Deep Learning,1,DS,4,R23,12:00-10:00,4,4,FAC0085,Ms. D. Divya,25,Yes,M.Tech,17,No,Thursday,Room,C
+SUB00906,Disaster Management,1,DS,4,R23,10:00-10:00,4,4,FAC0238,Dr. N. Narendra,18,Yes,PhD,15,Yes,Wednesday,Room,B
+SUB00907,Ethical Hacking,1,DS,4,R23,9:00-12:00,4,4,FAC0352,Prof. S. Srinivas,5,Yes,PhD,15,No,Friday,Room,B
+SUB00908,Cloud Computing,1,DS,4,R23,10:00-16:00,6,6,FAC0154,Prof. S. Srinivas,14,Yes,M.Tech,14,No,Wednesday,Room,A
+SUB00909,Environmental Management,1,DS,4,R23,15:00-16:00,6,6,FAC0199,Mr. V. Venkatesh,25,Yes,M.Tech,25,No,Thursday,Room,B
+SUB00910,Universal Human Values  II,1,DS,4,R23,13:00-10:00,3,3,FAC0183,Dr. M. Mahesh,14,Yes,M.Tech,18,No,Saturday,Room,C
+SUB00911,Deep Learning Techniques Lab,1,DS,4,R23,13:00-13:00,4,4,FAC0256,Ms. D. Divya,10,Yes,PhD,18,Yes,Wednesday,Lab,C
+SUB00912,Radar Systems,1,ECE,4,R23,10:00-11:00,4,4,FAC0018,Prof. S. Srinivas,28,Yes,PhD,19,Yes,Thursday,Room,A
+SUB00913,Digital Communication Techniques,1,ECE,4,R23,10:00-14:00,5,5,FAC0308,Ms. P. Pavani,20,Yes,PhD,17,No,Thursday,Room,B
+SUB00914,Professional Elective  II,1,ECE,4,R23,14:00-13:00,3,3,FAC0339,Ms. D. Divya,4,Yes,M.Tech,12,Yes,Tuesday,Room,C
+SUB00915,Professional Elective  III,1,ECE,4,R23,14:00-16:00,3,3,FAC0061,Dr. R. Ramadevi,10,Yes,PhD,15,No,Wednesday,Room,B
+SUB00916,Open Elective  III,1,ECE,4,R23,14:00-10:00,4,4,FAC0374,Ms. P. Pavani,20,Yes,PhD,25,Yes,Monday,Room,A
+SUB00917,Digital Communication Lab,1,ECE,4,R23,15:00-12:00,3,3,FAC0352,Mr. R. Ramesh,21,Yes,M.Tech,15,Yes,Monday,Lab,C
+SUB00918,Radar Systems Lab,1,ECE,4,R23,12:00-12:00,5,5,FAC0325,Ms. P. Pavani,7,Yes,M.Tech (PhD),20,No,Monday,Lab,C
+SUB00919,Power System Operation & Control,1,EEE,4,R23,15:00-16:00,3,3,FAC0194,Dr. M. Mahesh,18,Yes,M.Tech,25,Yes,Monday,Room,C
+SUB00920,FACTS & HVDC Transmission,1,EEE,4,R23,12:00-10:00,2,2,FAC0126,Ms. P. Pavani,29,Yes,M.Tech (PhD),19,No,Tuesday,Room,A
+SUB00921,Professional Elective  II,1,EEE,4,R23,10:00-14:00,3,3,FAC0104,Mr. R. Ramesh,13,Yes,PhD,16,No,Tuesday,Room,B
+SUB00922,Professional Elective  III,1,EEE,4,R23,9:00-14:00,4,4,FAC0286,Dr. R. Ramadevi,5,Yes,M.Tech,25,No,Wednesday,Room,A
+SUB00923,Open Elective  III,1,EEE,4,R23,12:00-12:00,2,2,FAC0112,Ms. L. Lakshmi,28,Yes,PhD,25,No,Saturday,Room,B
+SUB00924,Power System Simulation Lab,1,EEE,4,R23,11:00-11:00,3,3,FAC0345,Dr. N. Narendra,1,Yes,M.Tech,14,No,Monday,Lab,C
+SUB00925,FACTS & HVDC Lab,1,EEE,4,R23,12:00-15:00,4,4,FAC0143,Dr. A. Anitha,9,Yes,M.Tech,17,Yes,Thursday,Lab,A
+SUB00926,Skill Oriented Course  V,1,EEE,4,R23,9:00-13:00,6,6,FAC0324,Ms. L. Lakshmi,1,Yes,M.Tech (PhD),21,No,Saturday,Lab,B
+SUB00927,Design of Reinforced Concrete Structures  I,1,Civil,4,R23,13:00-12:00,2,2,FAC0200,Dr. A. Anitha,28,Yes,M.Tech (PhD),25,No,Saturday,Room,C
+SUB00928,Water Resources Engineering  II,1,Civil,4,R23,15:00-14:00,4,4,FAC0270,Ms. P. Pavani,20,Yes,M.Tech (PhD),18,No,Monday,Room,A
+SUB00929,Professional Elective  II,1,Civil,4,R23,13:00-15:00,2,2,FAC0123,Mr. V. Venkatesh,13,Yes,M.Tech (PhD),15,Yes,Thursday,Room,A
+SUB00930,Professional Elective  III,1,Civil,4,R23,15:00-15:00,3,3,FAC0061,Mr. K. Kiran Kumar,16,Yes,M.Tech (PhD),15,No,Friday,Room,B
+SUB00931,Open Elective  III,1,Civil,4,R23,9:00-13:00,6,6,FAC0208,Dr. N. Narendra,16,Yes,M.Tech,14,No,Monday,Room,C
+SUB00932,Advanced Structural Engineering Lab,1,Civil,4,R23,11:00-11:00,5,5,FAC0271,Mr. R. Ramesh,23,Yes,PhD,23,Yes,Friday,Lab,C
+SUB00933,Water Resources Engineering Lab,1,Civil,4,R23,12:00-15:00,6,6,FAC0094,Dr. N. Narendra,4,Yes,M.Tech (PhD),19,No,Thursday,Lab,C
+SUB00934,Skill Oriented Course  V,1,Civil,4,R23,13:00-11:00,6,6,FAC0061,Dr. R. Ramadevi,26,Yes,PhD,18,Yes,Monday,Lab,C
+SUB00935,Finite Element Analysis,1,Mechanical,4,R23,10:00-11:00,4,4,FAC0158,Mr. K. Kiran Kumar,24,Yes,PhD,23,No,Friday,Room,A
+SUB00936,Design of Machine Elements  II,1,Mechanical,4,R23,9:00-13:00,3,3,FAC0262,Dr. R. Ramadevi,22,Yes,M.Tech,21,No,Wednesday,Room,B
+SUB00937,Professional Elective  II,1,Mechanical,4,R23,12:00-14:00,3,3,FAC0203,Ms. D. Divya,26,Yes,M.Tech,23,Yes,Tuesday,Room,C
+SUB00938,Professional Elective  III,1,Mechanical,4,R23,13:00-14:00,6,6,FAC0361,Mr. V. Venkatesh,11,Yes,M.Tech (PhD),17,Yes,Saturday,Room,A
+SUB00939,Open Elective  III,1,Mechanical,4,R23,13:00-10:00,4,4,FAC0020,Ms. D. Divya,1,Yes,PhD,20,Yes,Saturday,Room,B
+SUB00940,Finite Element Analysis Lab,1,Mechanical,4,R23,10:00-14:00,3,3,FAC0133,Mr. K. Kiran Kumar,20,Yes,M.Tech (PhD),18,No,Thursday,Lab,A
+SUB00941,Project Work / Major Project,2,CSE,4,R23,12:00-11:00,4,4,FAC0001,Ms. S. Swathi,14,Yes,M.Tech (PhD),19,No,Friday,Room,C
+SUB00942,Internship / Project Internship,2,CSE,4,R23,14:00-12:00,4,4,FAC0140,Mr. R. Ramesh,30,Yes,PhD,26,Yes,Tuesday,Lab,B
+SUB00943,Project Work / Major Project,2,IT,4,R23,14:00-11:00,2,2,FAC0243,Ms. S. Swathi,7,Yes,M.Tech,12,No,Friday,Room,A
+SUB00944,Internship / Project Internship,2,IT,4,R23,9:00-10:00,4,4,FAC0301,Mr. R. Ramesh,17,Yes,M.Tech (PhD),20,Yes,Wednesday,Lab,B
+SUB00945,Project Work / Major Project,2,AIML,4,R23,12:00-13:00,3,3,FAC0129,Mr. K. Kiran Kumar,1,Yes,PhD,17,No,Tuesday,Room,B
+SUB00946,Internship / Project Internship,2,AIML,4,R23,10:00-14:00,3,3,FAC0093,Ms. P. Pavani,2,Yes,PhD,14,No,Tuesday,Lab,A
+SUB00947,Project Work / Major Project,2,DS,4,R23,9:00-11:00,3,3,FAC0205,Ms. L. Lakshmi,14,Yes,M.Tech (PhD),16,Yes,Friday,Room,A
+SUB00948,Internship / Project Internship,2,DS,4,R23,14:00-11:00,6,6,FAC0030,Ms. D. Divya,30,Yes,PhD,12,No,Friday,Lab,A
+SUB00949,Project Work / Major Project,2,ECE,4,R23,9:00-14:00,4,4,FAC0135,Ms. P. Pavani,10,Yes,M.Tech (PhD),18,Yes,Tuesday,Room,B
+SUB00950,Internship / Project Internship,2,ECE,4,R23,14:00-11:00,4,4,FAC0085,Prof. S. Srinivas,12,Yes,M.Tech,16,No,Friday,Lab,A
+SUB00951,Project Work / Major Project,2,EEE,4,R23,9:00-13:00,5,5,FAC0172,Dr. M. Mahesh,3,Yes,PhD,16,Yes,Friday,Room,A
+SUB00952,Internship / Project Internship,2,EEE,4,R23,15:00-11:00,5,5,FAC0229,Mr. K. Kiran Kumar,12,Yes,PhD,23,Yes,Saturday,Lab,C
+SUB00953,Project Work / Major Project,2,Civil,4,R23,10:00-11:00,3,3,FAC0153,Ms. L. Lakshmi,19,Yes,M.Tech,13,Yes,Monday,Room,A
+SUB00954,Internship / Project Internship,2,Civil,4,R23,15:00-14:00,5,5,FAC0312,Ms. S. Swathi,4,Yes,M.Tech (PhD),15,No,Wednesday,Lab,C
+SUB00955,Project Work / Major Project,2,Mechanical,4,R23,15:00-12:00,4,4,FAC0269,Dr. A. Anitha,13,Yes,PhD,26,Yes,Wednesday,Room,B
+SUB00956,Internship / Project Internship,2,Mechanical,4,R23,13:00-15:00,4,4,FAC0047,Prof. S. Srinivas,19,Yes,M.Tech (PhD),20,Yes,Wednesday,Lab,B

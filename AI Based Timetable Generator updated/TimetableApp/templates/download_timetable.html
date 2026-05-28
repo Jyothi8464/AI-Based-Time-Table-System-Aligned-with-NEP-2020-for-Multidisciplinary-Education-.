@@ -1,0 +1,130 @@
+<!-- templates/download_timetable.html (UPDATED FINAL) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Download Timetable</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <style>
+    body{ background:#f6f8fc; }
+    .nav-card{
+      background:#fff;
+      border:1px solid rgba(0,0,0,.06);
+      border-radius:14px;
+      box-shadow:0 10px 30px rgba(0,0,0,.06);
+      padding:18px;
+    }
+    .btn-download{ margin: 6px 6px 6px 0; }
+    .pill{
+      display:inline-block;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eef6ff;
+      border:1px solid #cfe3ff;
+      color:#1f4b8f;
+      font-size:12px;
+      margin-right:8px;
+      margin-top:6px;
+    }
+    .table-wrap{
+      background:#fff;
+      border-radius:14px;
+      border:1px solid rgba(0,0,0,.06);
+      box-shadow:0 10px 30px rgba(0,0,0,.06);
+      padding:14px;
+    }
+    .small-muted{ font-size:13px; color:#6b7785; }
+  </style>
+</head>
+
+<body class="container py-4">
+
+  <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-3">
+    <div>
+      <h3 class="mb-1">Download Generated Timetable</h3>
+      <div class="small-muted">Export your latest generated timetable to Excel or PDF.</div>
+
+      {% if selected %}
+        <div class="mt-2">
+          {% if selected.year %}<span class="pill">Year: {{ selected.year }}</span>{% endif %}
+          {% if selected.semester %}<span class="pill">Semester: {{ selected.semester }}</span>{% endif %}
+          {% if selected.branch %}<span class="pill">Branch: {{ selected.branch }}</span>{% endif %}
+          {% if selected.regulation %}<span class="pill">Regulation: {{ selected.regulation }}</span>{% endif %}
+          {% if selected.section %}<span class="pill">Section: {{ selected.section }}</span>{% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="nav-card mb-3">
+    <div class="d-flex flex-wrap gap-2">
+      <a href="{% url 'UploadDataset' %}" class="btn btn-outline-secondary">Upload Dataset</a>
+      <a href="{% url 'preprocess_dataset' %}" class="btn btn-outline-secondary">Preprocess</a>
+      <a href="{% url 'generate_timetable' %}" class="btn btn-success">Generate Timetable</a>
+      <a href="{% url 'export_excel' %}" class="btn btn-success btn-download">Download as Excel</a>
+      <a href="{% url 'export_pdf' %}" class="btn btn-primary btn-download">Download as PDF</a>
+      <a href="{% url 'analytics' %}" class="btn btn-primary">Analytics</a>
+      <a href="{% url 'index' %}" class="btn btn-outline-danger">Logout</a>
+    </div>
+  </div>
+
+  {% if timetable %}
+    <div class="alert alert-success">
+      Timetable is ready to download.
+    </div>
+
+    <div class="table-wrap">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+        <h5 class="mb-0">Preview (first 15 rows)</h5>
+        <span class="small-muted">Showing latest generated session timetable.</span>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle mb-0">
+          <thead class="table-light">
+            <tr>
+              <th>Year</th>
+              <th>Sem</th>
+              <th>Branch</th>
+              <th>Reg</th>
+              <th>Sec</th>
+              <th>Day</th>
+              <th>Period</th>
+              <th>Subject</th>
+              <th>Faculty</th>
+              <th>Room Type</th>
+              <th>Room</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for cell in timetable|slice:":15" %}
+              <tr>
+                <td>{{ cell.Year }}</td>
+                <td>{{ cell.Semester }}</td>
+                <td>{{ cell.Branch }}</td>
+                <td>{{ cell.Regulation }}</td>
+                <td>{{ cell.Section }}</td>
+                <td>{{ cell.Day }}</td>
+                <td>{{ cell.Period }}</td>
+                <td>{{ cell.Subject }}</td>
+                <td>{{ cell.Faculty }}</td>
+                <td>{{ cell.RoomType }}</td>
+                <td>{{ cell.Room }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  {% else %}
+    <div class="alert alert-warning">
+      No timetable generated yet. Please generate a timetable first.
+    </div>
+  {% endif %}
+
+</body>
+</html>
